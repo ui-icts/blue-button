@@ -1,0 +1,32 @@
+{
+  "name": "blue-button",
+  "version": "1.0.0",
+  "authors": [
+    "rmjames <robert-james-miller@uiowa.edu>",
+    "cbhudson <cassio-hudson@uiowa.edu>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "examples",
+    "docs"
+  ],
+  "dependencies": {
+    "jquery": "1.11.3",
+    "bootstrap": "~3.3.5",
+    "bootstrapaccessibilityplugin": "~1.0.4",
+    "bootstrap-datepicker": "~1.4.0",
+    "datatables": "~1.10.7",
+    "datatables-responsive": "~1.0.6",
+    "angular-ui-grid": "~3.0.0-rc.21",
+    "d3": "~3.5.5",
+    "qtip2": "~2.2.1",
+    "nouislider": "~7.0.10",
+    "angular": "~1.4.1",
+    "angular-advanced-searchbox": "~1.1.1"
+  }
+}

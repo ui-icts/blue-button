@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9 http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+
+	<preConditions>
+		<dbms type="postgresql" />
+	</preConditions>
+
+	<changeSet author="rrlorent" id="change-set-1">
+		
+		<addColumn schemaName="bluebutton" tableName="credentials">
+			<column name="uuid" type="TEXT" />
+			<column name="enabled" type="BOOLEAN" defaultValueBoolean="true" />
+			<column name="locked" type="BOOLEAN" defaultValueBoolean="false" />
+			<column name="expired" type="BOOLEAN" defaultValueBoolean="false" />
+			<column name="temporary_username" type="BOOLEAN" defaultValueBoolean="false" />
+			<column name="temporary_password" type="BOOLEAN" defaultValueBoolean="false" />
+			<column name="password_reset_key" type="TEXT" />
+			<column name="password_reset_date" type="TIMESTAMP" />
+		</addColumn>
+		
+		<addColumn schemaName="bluebutton" tableName="person">
+			<column name="registration_date" type="TIMESTAMP" />
+		</addColumn>
+		
+		<addUniqueConstraint schemaName="bluebutton" tableName="credentials" columnNames="username" constraintName="UNQ_credentials_1" />
+		<addUniqueConstraint schemaName="bluebutton" tableName="credentials" columnNames="uuid" constraintName="UNQ_credentials_2" />
+		
+		<addUniqueConstraint schemaName="bluebutton" tableName="message" columnNames="message_name,version" constraintName="UNQ_message_name_version_1" />
+
+	</changeSet>
+</databaseChangeLog>

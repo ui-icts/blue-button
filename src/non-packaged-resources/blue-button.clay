@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clay-model clay-version="1.4.2">
+<database-model alias="" author="" begin-script="" end-script="" name="blue-button" remarks="" sql-dialect-id="jp.azzurri.clay.dialect.Postgre_7_3_Dialect" uid="6756e574:14788cabb41:-8000" version="1.0">
+<database-model-description/>
+<schema-list>
+<schema alias="" name="bluebutton" remarks="" uid="6756e574:14788cabb41:-7ffd">
+<schema-description/>
+<domain-list/>
+<table-list>
+<table alias="" name="person" remarks="" uid="7ccd2c3c:1478c9b86f2:-7fa1">
+<table-description/>
+<table-figure-bounds height="257" width="167" x="424" y="228"/>
+<column-list>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="person_id" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f9f">
+<column-description/>
+<data-type jdbc-type="4" name="INT" selected-variant-pattern="INT">
+<variant type-name-pattern="INT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="uuid" remarks="" uid="112208b7:147b08ee5eb:-7fec">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="2147483647" decimal-digits="0" default-value="" mandatory="false" name="first_name" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f9e">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="2147483647" decimal-digits="0" default-value="" mandatory="false" name="middle_name" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f9d">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="2147483647" decimal-digits="0" default-value="" mandatory="false" name="last_name" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f9c">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="date_of_birth" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f9b">
+<column-description/>
+<data-type jdbc-type="91" name="DATE" selected-variant-pattern="DATE">
+<variant type-name-pattern="DATE"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="2147483647" decimal-digits="0" default-value="" mandatory="false" name="address_line_one" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f9a">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="2147483647" decimal-digits="0" default-value="" mandatory="false" name="address_line_two" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f99">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="2147483647" decimal-digits="0" default-value="" mandatory="false" name="city" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f98">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="2147483647" decimal-digits="0" default-value="" mandatory="false" name="state" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f97">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="10" decimal-digits="0" default-value="" mandatory="false" name="zipcode" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f96">
+<column-description/>
+<data-type jdbc-type="4" name="INT4" selected-variant-pattern="INT4">
+<variant type-name-pattern="INT4"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="2147483647" decimal-digits="0" default-value="" mandatory="false" name="country" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f95">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="2147483647" decimal-digits="0" default-value="" mandatory="false" name="email" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f94">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="registration_date" remarks="" uid="5f2b1aaf:147ab851e17:-7e49">
+<column-description/>
+<data-type jdbc-type="93" name="TIMESTAMP" selected-variant-pattern="TIMESTAMP">
+<variant type-name-pattern="TIMESTAMP"/>
+<variant precision-max="9" precision-min="1" precision-variable="%p" type-name-pattern="TIMESTAMP(%p)"/>
+<variant type-name-pattern="TIMESTAMP WITH TIME ZONE"/>
+<variant precision-max="9" precision-min="1" precision-variable="%p" type-name-pattern="TIMESTAMP(%p) WITH TIME ZONE"/>
+<variant precision-max="9" precision-min="1" precision-variable="%p" type-name-pattern="TIMESTAMP(%p) WITHOUT TIME ZONE"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="13" decimal-digits="0" default-value="" mandatory="false" name="first_login" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f93">
+<column-description/>
+<data-type jdbc-type="91" name="DATE" selected-variant-pattern="DATE">
+<variant type-name-pattern="DATE"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="13" decimal-digits="0" default-value="" mandatory="false" name="last_login" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f92">
+<column-description/>
+<data-type jdbc-type="91" name="DATE" selected-variant-pattern="DATE">
+<variant type-name-pattern="DATE"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="13" decimal-digits="0" default-value="" mandatory="false" name="last_updated" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f91">
+<column-description/>
+<data-type jdbc-type="91" name="DATE" selected-variant-pattern="DATE">
+<variant type-name-pattern="DATE"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="2147483647" decimal-digits="0" default-value="" mandatory="false" name="signature" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f89">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+</column-list>
+<primary-key alias="" name="person_pkey" remarks="" uid="7ccd2c3c:1478c9b86f2:-7f87">
+<primary-key-description/>
+<primary-key-column name="person_id"/>
+</primary-key>
+<unique-key-list/>
+<foreign-key-list/>
+<index-list/>
+</table>
+<table alias="" name="clinical_document" remarks="" uid="7ccd2c3c:1478c9b86f2:-7ec5">
+<table-description/>
+<table-figure-bounds height="168" width="185" x="35" y="290"/>
+<column-list>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="clinical_document_id" remarks="" uid="7ccd2c3c:1478c9b86f2:-7ec1">
+<column-description/>
+<data-type jdbc-type="4" name="INT" selected-variant-pattern="INT">
+<variant type-name-pattern="INT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="person_id" remarks="" uid="7ccd2c3c:1478c9b86f2:-7eb1">
+<column-description/>
+<data-type jdbc-type="4" name="INT" selected-variant-pattern="INT">
+<variant type-name-pattern="INT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="document" remarks="" uid="7ccd2c3c:1478c9b86f2:-7ec0">
+<column-description/>
+<data-type jdbc-type="-2" name="BYTEA" selected-variant-pattern="BYTEA">
+<variant type-name-pattern="BYTEA"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="name" remarks="" uid="7ccd2c3c:1478c9b86f2:-7e5f">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="description" remarks="" uid="7ccd2c3c:1478c9b86f2:-7e5e">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="date_uploaded" remarks="" uid="7ccd2c3c:1478c9b86f2:-7e62">
+<column-description/>
+<data-type jdbc-type="93" name="TIMESTAMP" selected-variant-pattern="TIMESTAMP">
+<variant type-name-pattern="TIMESTAMP"/>
+<variant precision-max="9" precision-min="1" precision-variable="%p" type-name-pattern="TIMESTAMP(%p)"/>
+<variant type-name-pattern="TIMESTAMP WITH TIME ZONE"/>
+<variant precision-max="9" precision-min="1" precision-variable="%p" type-name-pattern="TIMESTAMP(%p) WITH TIME ZONE"/>
+<variant precision-max="9" precision-min="1" precision-variable="%p" type-name-pattern="TIMESTAMP(%p) WITHOUT TIME ZONE"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="source" remarks="" uid="18ded16b:14e452c088c:-7ff7">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="parsed_json" remarks="" uid="18ded16b:14e452c088c:-7fee">
+<column-description/>
+<data-type jdbc-type="-2" name="BYTEA" selected-variant-pattern="BYTEA">
+<variant type-name-pattern="BYTEA"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="json_parser_version" remarks="" uid="4b0704a6:14e64cae183:-7ff8">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+</column-list>
+<primary-key alias="" name="PK_CLINICAL_DOCUMENT" remarks="" uid="7ccd2c3c:1478c9b86f2:-7ec4">
+<primary-key-description/>
+<primary-key-column name="clinical_document_id"/>
+</primary-key>
+<unique-key-list/>
+<foreign-key-list>
+<foreign-key alias="" name="FK_clinical_data_file_1" on-delete="" on-update="" referenced-key="person_pkey" referenced-table="person" referenced-table-schema="bluebutton" remarks="" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="" uid="7ccd2c3c:1478c9b86f2:-7eb2">
+<foreign-key-description/>
+<foreign-key-figure>
+<fk-fig-bendpoint-list/>
+</foreign-key-figure>
+<foreign-key-column column-name="person_id" referenced-key-column-name="person_id"/>
+</foreign-key>
+</foreign-key-list>
+<index-list/>
+</table>
+<table alias="" name="lab_test" remarks="" uid="7e495fe5:1495873db21:-7ff7">
+<table-description/>
+<table-figure-bounds height="114" width="170" x="34" y="144"/>
+<column-list>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="lab_test_id" remarks="" uid="7e495fe5:1495873db21:-7ff1">
+<column-description/>
+<data-type jdbc-type="4" name="INT" selected-variant-pattern="INT">
+<variant type-name-pattern="INT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="name" remarks="" uid="7e495fe5:1495873db21:-7ff0">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="description" remarks="" uid="7e495fe5:1495873db21:-7fef">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="units" remarks="" uid="7e495fe5:1495873db21:-7fee">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="loinc_code" remarks="" uid="7e495fe5:1495873db21:-7fed">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="date_created" remarks="" uid="7e495fe5:1495873db21:-7fe8">
+<column-description/>
+<data-type jdbc-type="91" name="DATE" selected-variant-pattern="DATE">
+<variant type-name-pattern="DATE"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="date_updated" remarks="" uid="7e495fe5:1495873db21:-7fe7">
+<column-description/>
+<data-type jdbc-type="91" name="DATE" selected-variant-pattern="DATE">
+<variant type-name-pattern="DATE"/>
+</data-type>
+</column>
+</column-list>
+<primary-key alias="" name="PK_LAB_TEST" remarks="" uid="7e495fe5:1495873db21:-7ff6">
+<primary-key-description/>
+<primary-key-column name="lab_test_id"/>
+</primary-key>
+<unique-key-list/>
+<foreign-key-list/>
+<index-list/>
+</table>
+<table alias="" name="lab_test_range" remarks="" uid="7e495fe5:1495873db21:-7fe6">
+<table-description/>
+<table-figure-bounds height="147" width="222" x="343" y="10"/>
+<column-list>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="lab_test_range_id" remarks="" uid="7e495fe5:1495873db21:-7fe0">
+<column-description/>
+<data-type jdbc-type="4" name="INT" selected-variant-pattern="INT">
+<variant type-name-pattern="INT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="lab_test_id" remarks="" uid="7e495fe5:1495873db21:-7f3e">
+<column-description/>
+<data-type jdbc-type="4" name="INT" selected-variant-pattern="INT">
+<variant type-name-pattern="INT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="sex" remarks="" uid="7e495fe5:1495873db21:-7fdf">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="min_age_years" remarks="" uid="7e495fe5:1495873db21:-7fde">
+<column-description/>
+<data-type jdbc-type="8" name="DOUBLE PRECISION" selected-variant-pattern="DOUBLE PRECISION">
+<variant type-name-pattern="DOUBLE PRECISION"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="max_age_years" remarks="" uid="7e495fe5:1495873db21:-7fdb">
+<column-description/>
+<data-type jdbc-type="8" name="DOUBLE PRECISION" selected-variant-pattern="DOUBLE PRECISION">
+<variant type-name-pattern="DOUBLE PRECISION"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="min_normal" remarks="" uid="7e495fe5:1495873db21:-7fda">
+<column-description/>
+<data-type jdbc-type="8" name="DOUBLE PRECISION" selected-variant-pattern="DOUBLE PRECISION">
+<variant type-name-pattern="DOUBLE PRECISION"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="max_normal" remarks="" uid="7e495fe5:1495873db21:-7fd9">
+<column-description/>
+<data-type jdbc-type="8" name="DOUBLE PRECISION" selected-variant-pattern="DOUBLE PRECISION">
+<variant type-name-pattern="DOUBLE PRECISION"/>
+</data-type>
+</column>
+</column-list>
+<primary-key alias="" name="PK_LAB_TEST_RANGE" remarks="" uid="7e495fe5:1495873db21:-7fe5">
+<primary-key-description/>
+<primary-key-column name="lab_test_range_id"/>
+</primary-key>
+<unique-key-list/>
+<foreign-key-list>
+<foreign-key alias="" name="FK_lab_test_range_1" on-delete="" on-update="" referenced-key="PK_LAB_TEST" referenced-table="lab_test" referenced-table-schema="bluebutton" remarks="" source-entity-role="" source-multiplicity="0..*" source-relationship-type="" target-entity-role="" target-multiplicity="1" target-relationship-type="" uid="7e495fe5:1495873db21:-7f3f">
+<foreign-key-description/>
+<foreign-key-figure>
+<fk-fig-bendpoint-list/>
+</foreign-key-figure>
+<foreign-key-column column-name="lab_test_id" referenced-key-column-name="lab_test_id"/>
+</foreign-key>
+</foreign-key-list>
+<index-list/>
+</table>
+<table alias="" name="loinc_code_category" remarks="" uid="57f258c:14b2c3cf55b:-7ff5">
+<table-description/>
+<table-figure-bounds height="-1" width="-1" x="679" y="52"/>
+<column-list>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="id" remarks="" uid="57f258c:14b2c3cf55b:-7ff0">
+<column-description/>
+<data-type jdbc-type="4" name="INT" selected-variant-pattern="INT">
+<variant type-name-pattern="INT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="loinc_code" remarks="" uid="57f258c:14b2c3cf55b:-7fef">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="name" remarks="" uid="57f258c:14b2c3cf55b:-7fee">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="root_category_name" remarks="" uid="57f258c:14b2c3cf55b:-7fed">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="subroot_category_name" remarks="" uid="57f258c:14b2c3cf55b:-7fec">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+</column-list>
+<primary-key alias="" name="PK_LOINC_CODE_CATEGORY" remarks="" uid="57f258c:14b2c3cf55b:-7ff4">
+<primary-key-description/>
+<primary-key-column name="id"/>
+</primary-key>
+<unique-key-list/>
+<foreign-key-list/>
+<index-list/>
+</table>
+<table alias="" name="lab_result_synonym" remarks="" uid="35f1e00d:14cb8bcf489:-7ff4">
+<table-description/>
+<table-figure-bounds height="-1" width="-1" x="691" y="186"/>
+<column-list>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="lab_result_synonym_id" remarks="" uid="35f1e00d:14cb8bcf489:-7ff0">
+<column-description/>
+<data-type jdbc-type="4" name="INT" selected-variant-pattern="INT">
+<variant type-name-pattern="INT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="official_name" remarks="" uid="35f1e00d:14cb8bcf489:-7fef">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="true" name="unofficial_name" remarks="" uid="35f1e00d:14cb8bcf489:-7fec">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+<column alias="" auto-increment="false" column-size="0" decimal-digits="0" default-value="" mandatory="false" name="panel" remarks="" uid="35f1e00d:14cb8bcf489:-7feb">
+<column-description/>
+<data-type jdbc-type="-1" literal-prefix="'" literal-suffix="'" name="TEXT" selected-variant-pattern="TEXT">
+<variant type-name-pattern="TEXT"/>
+</data-type>
+</column>
+</column-list>
+<primary-key alias="" name="PK_LAB_RESULT_SYNONYM" remarks="" uid="35f1e00d:14cb8bcf489:-7ff3">
+<primary-key-description/>
+<primary-key-column name="lab_result_synonym_id"/>
+</primary-key>
+<unique-key-list/>
+<foreign-key-list/>
+<index-list/>
+</table>
+</table-list>
+</schema>
+</schema-list>
+</database-model>
+</clay-model>

@@ -1,0 +1,1096 @@
+{"records" : [{
+  "document": {
+    "date": "2014-10-21T05:00:00.000Z",
+    "author": {
+      "name": {
+        "prefix": null,
+        "given": [
+          "Henry"
+        ],
+        "family": "Seven"
+      },
+      "address": {
+        "street": [
+          "1002 Healthcare Drive "
+        ],
+        "city": "Portland",
+        "state": "OR",
+        "zip": "99123",
+        "country": "US"
+      },
+      "phone": {
+        "work": "tel:555-555-1002"
+      }
+    },
+    "documentation_of": [
+      {
+        "name": {
+          "prefix": null,
+          "given": [
+            "Henry"
+          ],
+          "family": "Seven"
+        },
+        "phone": {
+          "work": "tel:+1-555-555-5000"
+        },
+        "address": {
+          "street": [
+            "1001 Village Avenue"
+          ],
+          "city": "Portland",
+          "state": "OR",
+          "zip": "99123",
+          "country": "US"
+        }
+      }
+    ],
+    "location": {
+      "name": null,
+      "address": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null
+      },
+      "encounter_date": null
+    }
+  },
+  "allergies": [
+    {
+      "date_range": {
+        "start": "2010-03-31T05:00:00.000Z",
+        "end": null
+      },
+      "name": null,
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": null,
+      "status": null,
+      "severity": "Mild",
+      "reaction": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reaction_type": {
+        "name": "Food allergy (disorder)",
+        "code": "414285001",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED-CT"
+      },
+      "allergen": {
+        "name": "Eggs",
+        "code": "291P45F896",
+        "code_system": "2.16.840.1.113883.4.9",
+        "code_system_name": "UNII"
+      }
+    },
+    {
+      "date_range": {
+        "start": "2010-03-31T05:00:00.000Z",
+        "end": null
+      },
+      "name": null,
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": null,
+      "status": null,
+      "severity": "Fatal",
+      "reaction": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reaction_type": {
+        "name": "Drug allergy (disorder)",
+        "code": "416098002",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED-CT"
+      },
+      "allergen": {
+        "name": "Baker's yeast allergenic extract 100 MG/ML Injectable Solution",
+        "code": "892677",
+        "code_system": "2.16.840.1.113883.6.88",
+        "code_system_name": "RxNorm"
+      }
+    },
+    {
+      "date_range": {
+        "start": "2010-03-31T05:00:00.000Z",
+        "end": null
+      },
+      "name": null,
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": null,
+      "status": null,
+      "severity": "Moderate to severe",
+      "reaction": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reaction_type": {
+        "name": "Drug allergy (disorder)",
+        "code": "416098002",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED-CT"
+      },
+      "allergen": {
+        "name": "Penicillin V",
+        "code": "N0000011298",
+        "code_system": "2.16.840.1.113883.3.26.1.5",
+        "code_system_name": "NDF-RT"
+      }
+    }
+  ],
+  "care_plan": [],
+  "chief_complaint": {
+    "text": null
+  },
+  "demographics": {
+    "name": {
+      "prefix": null,
+      "given": [
+        "Frances"
+      ],
+      "family": "Dixon"
+    },
+    "dob": "1989-05-02T05:00:00.000Z",
+    "gender": "female",
+    "marital_status": "married",
+    "address": {
+      "street": [
+        "4182 Turnpike Drive"
+      ],
+      "city": "Delta",
+      "state": "AL",
+      "zip": "36258",
+      "country": "US"
+    },
+    "phone": {
+      "home": "tel:(256)402-3769",
+      "work": null,
+      "mobile": null
+    },
+    "email": null,
+    "language": "spa",
+    "race": "Native Hawaiian or Other Pacific Islander",
+    "ethnicity": "Not Hispanic or Latino",
+    "religion": "Zen Buddhism",
+    "birthplace": {
+      "state": "MI",
+      "zip": "48084",
+      "country": "US"
+    },
+    "guardian": {
+      "name": {
+        "given": [
+          "Hulda"
+        ],
+        "family": "Vigue"
+      },
+      "relationship": "friend",
+      "address": {
+        "street": [
+          "3476 Illinois Avenue"
+        ],
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97205",
+        "country": "US"
+      },
+      "phone": {
+        "home": "tel:(503)725-3209"
+      }
+    },
+    "provider": {
+      "organization": "Community Health and Hospitals",
+      "phone": "tel: 555-555-5000",
+      "address": {
+        "street": [
+          "1001 Village Avenue"
+        ],
+        "city": "Portland",
+        "state": "OR",
+        "zip": "99123",
+        "country": "US"
+      }
+    }
+  },
+  "encounters": [
+    {
+      "date": "2010-03-31T05:00:00.000Z",
+      "name": "Office/outpatient visit, est",
+      "code": "99213",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT",
+      "code_system_version": null,
+      "findings": [
+        {
+          "name": "Asthma",
+          "code": "195979001",
+          "code_system": "2.16.840.1.113883.6.96"
+        },
+        {
+          "name": "Asthma Daytime Symptoms",
+          "code": "373899003",
+          "code_system": "2.16.840.1.113883.6.96"
+        },
+        {
+          "name": "Asthma Nighttime Symptoms",
+          "code": "395022009",
+          "code_system": "2.16.840.1.113883.6.96"
+        }
+      ],
+      "translation": {
+        "name": "Routine general medical examination at a health care facility",
+        "code": "V70.0",
+        "code_system": "2.16.840.1.113883.6.103",
+        "code_system_name": "ICD-9-CM"
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-06-15T05:00:00.000Z",
+      "name": "Office/outpatient visit, est",
+      "code": "99213",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT",
+      "code_system_version": null,
+      "findings": [
+        {
+          "name": "Pregnancy",
+          "code": "315903005",
+          "code_system": "2.16.840.1.113883.6.96"
+        }
+      ],
+      "translation": {
+        "name": "Routine general medical examination at a health care facility",
+        "code": "V70.0",
+        "code_system": "2.16.840.1.113883.6.103",
+        "code_system_name": "ICD-9-CM"
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-07-09T05:00:00.000Z",
+      "name": "Prenatal visit",
+      "code": "424619006",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": "Encounter for supervision of normal pregnancy, unspecified",
+        "code": "Z34.9",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-10-01T05:00:00.000Z",
+      "name": "Prenatal visit",
+      "code": "424619006",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": "Encounter for supervision of normal pregnancy, unspecified",
+        "code": "Z34.9",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-11-01T05:00:00.000Z",
+      "name": "Prenatal visit",
+      "code": "424619006",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": "Encounter for supervision of normal pregnancy, unspecified",
+        "code": "Z34.9",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-11-25T06:00:00.000Z",
+      "name": "Prenatal visit",
+      "code": "424619006",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": "Encounter for supervision of normal pregnancy, unspecified",
+        "code": "Z34.9",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-12-06T06:00:00.000Z",
+      "name": "Prenatal visit",
+      "code": "424619006",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": "Encounter for supervision of normal pregnancy, unspecified",
+        "code": "Z34.9",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-12-16T06:00:00.000Z",
+      "name": "Prenatal visit",
+      "code": "424619006",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": "Encounter for supervision of normal pregnancy, unspecified",
+        "code": "Z34.9",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-12-27T06:00:00.000Z",
+      "name": "Initial inpatient consult",
+      "code": "99251",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT",
+      "code_system_version": null,
+      "findings": [
+        {
+          "name": "Pregnancy-related diagnosis",
+          "code": "199305006",
+          "code_system": "2.16.840.1.113883.6.96"
+        }
+      ],
+      "translation": {
+        "name": "Multiple gestation",
+        "code": "O30",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    }
+  ],
+  "functional_statuses": [],
+  "immunizations": [
+    {
+      "date": "2010-03-31T05:00:00.000Z",
+      "product": {
+        "name": "zoster",
+        "code": "121",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    }
+  ],
+  "instructions": [],
+  "labs": [
+    {
+      "name": "Microbiology",
+      "code": "269934003",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "results": [
+        {
+          "date": "2010-03-31T05:00:00.000Z",
+          "name": "C trach Ag XXX Ql",
+          "value": null,
+          "unit": null,
+          "code": "31777-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "NA",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cytology",
+      "code": "116147009",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "results": [
+        {
+          "date": "2010-03-31T05:00:00.000Z",
+          "name": "Cyto Cervix",
+          "value": null,
+          "unit": null,
+          "code": "10524-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "NA",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Serology",
+      "code": "275711006",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "results": [
+        {
+          "date": "2010-06-15T05:00:00.000Z",
+          "name": "HCG SerPl-sCnc",
+          "value": null,
+          "unit": null,
+          "code": "2119-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "NA",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Serology",
+      "code": "275711006",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "results": [
+        {
+          "date": "2010-10-01T05:00:00.000Z",
+          "name": "HIV1+2 IgG Bld Ql EIA.rapid",
+          "value": null,
+          "unit": null,
+          "code": "73906-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "NA",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2010-10-01T05:00:00.000Z",
+          "name": "Rh Ig Scn Bld-Imp",
+          "value": null,
+          "unit": null,
+          "code": "1314-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "NA",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    }
+  ],
+  "medications": [
+    {
+      "date_range": {
+        "start": "2010-03-31T05:00:00.000Z",
+        "end": null
+      },
+      "text": null,
+      "product": {
+        "name": "salmeterol 0.05 MG/ACTUAT Inhalant Powder",
+        "code": "318142",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2010-03-31T05:00:00.000Z",
+        "end": null
+      },
+      "text": null,
+      "product": {
+        "name": "Albuterol 0.83 MG/ML Inhalant Solution",
+        "code": "630208",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    }
+  ],
+  "problems": [
+    {
+      "date_range": {
+        "start": "2010-03-31T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Asthma unspecified",
+      "status": "Active",
+      "age": null,
+      "code": "195979001",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "translation": {
+        "name": "Asthma",
+        "code": "J45",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2010-03-31T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Asthma daytime symptoms",
+      "status": "Active",
+      "age": null,
+      "code": "373899003",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2010-03-31T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Asthma night-time symptoms",
+      "status": "Active",
+      "age": null,
+      "code": "395022009",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2010-04-15T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Estimated date of conception",
+      "status": "Active",
+      "age": null,
+      "code": "248986005",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2010-06-15T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Pregnant state, incidental",
+      "status": "Active",
+      "age": null,
+      "code": "315903005",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "translation": {
+        "name": "Pregnant state, incidental",
+        "code": "Z33.1",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2010-12-27T06:00:00.000Z",
+        "end": null
+      },
+      "name": "Complications specific to multiple gestation",
+      "status": "Active",
+      "age": null,
+      "code": "199305006",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "translation": {
+        "name": "Multiple gestation",
+        "code": "O30",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "comment": null
+    }
+  ],
+  "procedures": [
+    {
+      "date": "2010-03-31T05:00:00.000Z",
+      "name": "Peak expiratory flow rate monitoring using diary",
+      "code": "401011001",
+      "code_system": "2.16.840.1.113883.6.96",
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2010-12-27T06:00:00.000Z",
+      "name": "Obstetrical care",
+      "code": "59410",
+      "code_system": "2.16.840.1.113883.6.12",
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    }
+  ],
+  "smoking_status": {
+    "date": null,
+    "name": "Never smoker (Never Smoked)",
+    "code": "266919005",
+    "code_system": "2.16.840.1.113883.6.96",
+    "code_system_name": "SNOMED-CT"
+  },
+  "vitals": [
+    {
+      "date": "2010-07-09T05:00:00.000Z",
+      "results": [
+        {
+          "name": "BP Diastolic",
+          "code": "8462-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 66,
+          "unit": "mm[Hg]"
+        },
+        {
+          "name": "BP Systolic",
+          "code": "8480-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 114,
+          "unit": "mm[Hg]"
+        }
+      ]
+    },
+    {
+      "date": "2010-10-01T05:00:00.000Z",
+      "results": [
+        {
+          "name": "BP Diastolic",
+          "code": "8462-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 66,
+          "unit": "mm[Hg]"
+        },
+        {
+          "name": "BP Systolic",
+          "code": "8480-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 116,
+          "unit": "mm[Hg]"
+        }
+      ]
+    },
+    {
+      "date": "2010-11-01T05:00:00.000Z",
+      "results": [
+        {
+          "name": "BP Diastolic",
+          "code": "8462-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 68,
+          "unit": "mm[Hg]"
+        },
+        {
+          "name": "BP Systolic",
+          "code": "8480-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 118,
+          "unit": "mm[Hg]"
+        }
+      ]
+    },
+    {
+      "date": "2010-11-25T06:00:00.000Z",
+      "results": [
+        {
+          "name": "BP Diastolic",
+          "code": "8462-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 70,
+          "unit": "mm[Hg]"
+        },
+        {
+          "name": "BP Systolic",
+          "code": "8480-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 120,
+          "unit": "mm[Hg]"
+        }
+      ]
+    },
+    {
+      "date": "2010-12-06T06:00:00.000Z",
+      "results": [
+        {
+          "name": "BP Diastolic",
+          "code": "8462-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 70,
+          "unit": "mm[Hg]"
+        },
+        {
+          "name": "BP Systolic",
+          "code": "8480-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 118,
+          "unit": "mm[Hg]"
+        }
+      ]
+    },
+    {
+      "date": "2010-12-16T06:00:00.000Z",
+      "results": [
+        {
+          "name": "BP Diastolic",
+          "code": "8462-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 68,
+          "unit": "mm[Hg]"
+        },
+        {
+          "name": "BP Systolic",
+          "code": "8480-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 116,
+          "unit": "mm[Hg]"
+        }
+      ]
+    }
+  ]
+}]}

@@ -1,0 +1,206 @@
+Official Name for Database,Possible Synonyms,Units,Potential Panel Inclusion
+Hemoglobin A1C,A1C,%,A1C
+ALT,Alanine aminotransferase,U/L,Hepatic Function Panel
+ALT,Alanine aminotransferase [Enzymatic activity/volume] in serum or plasma,U/L,Complete Metabolic Profile
+Albumin,Albumin,g/dl,Complete Metabolic Profile
+Albumin,Albumin [Mass/volume] in Serum or Plasma,g/dl,Basic Metabolic Panel
+Albumin,Albumin Fraction,g/dl,Hepatic Function Panel
+Alkaline Phosphatase,Alk Phos,U/L,Complete Metabolic Profile
+Alkaline Phosphatase,Alkaline Phosphatase,U/L,Hepatic Function Panel
+Alkaline Phosphatase,Alkaline Phosphatase [Enzymatic activity/volume] in Serum or Plasma,U/L,Basic Metabolic Panel
+ALT,ALT,U/L,Liver Panel
+Anion Gap,Anion Gap,mmol/L,Basic Metabolic Panel
+Anion Gap,Anion Gap in Serum or Plasma,mmol/L,Electrolyte
+Anion Gap,Anion Gap,Calculated,mmol/L,Complete Metabolic Profile
+Appearance-Urine,Appearance of Urine,K/ul,Urinalysis
+Appearance-Urine,Appearance-Urine,K/ul,Urinalysis
+AST,Asparate aminotransferase [Enzymatic activity/volume] in serum or plasma,U/L,Hepatic Function Panel
+AST,Aspartate transaminase,U/L,Complete Metabolic Profile
+AST,AST,U/L,Liver Panel
+Basophil Percent,Basophil %,%,CBC with DIFF
+Basophil Count,Basophils,K/ul,CBC with DIFF
+Basophil Count,Basophils [#/volume] in Blood by Automated Count,K/ul,Complete Blood Count
+Basophil Count,Basophils [#/volume] in Blood by Manual Count,K/ul,CBC with DIFF
+Basophil Percent,Basophils/100 Leukocycles in Blood by Automated Count,%,Complete Blood Count
+Bilirubin,Total,Bilirubin,mg/dl,Hepatic Function Panel
+Bilirubin-Urine,Bilirubin [Presence] in Urine by Test Strip,mg/dl,Urinalysis
+Bilirubin,Direct,Bilirubin Glucuronide,mg/dl,Hepatic Function Panel
+Bilirubin-Urine,Bilirubin-Urine,mg/dl,Urinalysis
+Bilirubin,Direct,Bilirubin,direct [Mass/volume] in Serum or Plasma,mg/dl,Complete Metabolic Profile
+Bilirubin,Indirect,Bilirubin,Indirect,mg/dl,Hepatic Function Panel
+Bilirubin,Indirect,Bilirubin,indirect [Mass/volume] in Serum or Plasma,mg/dl,Complete Metabolic Profile
+Bilirubin,Total,Bilirubin,Total [Mass/volume] in Serum or Plasma,mg/dl,Liver Panel
+Blood Urea Nitrogen (BUN),Blood Urea Nitrogen,mg/dl,Complete Metabolic Profile
+Blood Urea Nitrogen (BUN),BUN,mg/dl,Complete Metabolic Profile
+Vitamin D,Calcidiol [Mass/volume] in Serum or Plasma,ng/ml,Nutrition Panel
+Calcium,Calcium,mg/dl,Complete Metabolic Profile
+Calcium,Calcium [Mass/volume] in Serum or Plasma,mg/dl,Basic Metabolic Panel
+Calcium,Calcium,Total,mg/dl,Complete Metabolic Profile
+CO2,Carbon Dioxide,mmol/L,Electrolyte
+CO4,Carbon dioxide total [Moles/volume] in Serum or Plasma,mmol/L,Complete Metabolic Profile
+Chloride,Chloride,mmol/L,Basic Metabolic Panel
+Chloride,Chloride [Moles/volume] in Serum or Plasma,mmol/L,Electrolyte
+Cholesterol Total/HDL Ratio,Chol/HDL Ratio,mg/dl,Lipid Panel
+Chloresterol Total,Cholesterol,mg/dl,Complete Metabolic Profile
+Chloresterol Total,Cholesterol [Mass/volume] in Serium or Plasma,mg/dl,Lipid Panel
+Cholesterol,HDL Cholesterol in HDL [Mass/volume] in Serum or Plasma,mg/dl,Complete Metabolic Profile
+Cholesterol,LDL Cholesterol in LDL [Mass/volume] in Serum or Plasma,mg/dl,Complete Metabolic Profile
+Cholesterol,LDL/HDL Ratio Cholesterol in LDL/Cholesterol in HDL [Mass Ratio] in Serum or Plasma,mg/dl,Complete Metabolic Profile
+Cholesterol,LDL/HDL Ratio Cholesterol,LDL/HDL Ratio,mg/dl,Lipid Panel
+Cholesterol Total/HDL Ratio,Cholesterol.total/Cholesterol in HDL [Molar Ratio] in Serum or Plasma,mg/dl,Lipid Panel
+Creatine Kinase,CK,U/L,Nutrition Panel
+Chloride,Cl-Cl-Cl-Cl-Cl-Cl-,mmol/L,Complete Metabolic Profile
+CO3,CO2,mmol/L,Basic Metabolic Panel
+Vitamin B13,Cobalamin,pg/ml,Nutrition Panel
+Vitamin B12,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma,pg/ml,Nutrition Panel
+Color-Urine,Color of Urine,K/ul,Urinalysis
+Color-Urine,Color-Urine,K/ul,Urinalysis
+Bilirubin,Direct,Conjugated Bilirubin,mg/dl,Liver Panel
+Creatinine-Blood,Cr,mg/dl,Complete Metabolic Profile
+Creatine Kinase,Creatine Kinase,U/L,Nutrition Panel
+Creatine Kinase,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma,U/L,Nutrition Panel
+Creatinine-Blood,Creatinine [Mass/volume] in Serum or Plasma,mg/dl,Basic Metabolic Panel
+Creatinine-Urine,Creatinine [Mass/volume] in Urine,mg/dl,Microalbumin Random Urine
+Creatinine-Blood,Creatinine-Serum or Plasma,mg/dl,Electrolyte
+Creatinine-Urine,Creatinine-Urine,mg/dl,Microalbumin Random Urine
+Mean Cell Volume (MCV),Creatinine-Urine,fl,Complete Blood Count
+Mean Cell Volume (MCV),Creatinine-Urine,fl,CBC with DIFF
+Glomerular Filtration Rate,eGFR,mmol/L,Creatinine + eGFR
+Eosinophil Percent,Eosinophil %,%,CBC with DIFF
+Eosinophil Count,Eosinophils,K/ul,CBC with DIFF
+Eosinophil Count,Eosinophils [#/volume] in Blood by Automated Count,K/ul,Complete Blood Count
+Eosinophil Count,Eosinophils [#/volume] in Blood by Manual Count,K/ul,CBC with DIFF
+Eosinophil Percent,Eosinophils/100 Leukocycles in Blood by Automated Count,%,Complete Blood Count
+Red Cell Distribution Width (RDW),Erthrocyte distribution width [Ratio] by Automated Count,%,Complete Blood Count
+Mean Cell Hemoglobin Concentration (MCHC),Erythrocyte mean corpuscular hemoglobin [Mass/volume] by Automated Ct,g/dl,Complete Blood Count
+Red Blood Cells (RBC),Erythrocytes [#/volume] in Blood by Automated count,K/ul,Complete Blood Count
+Glucose-Estimated from HbA1C,Estimated Glucose from A1C,mg/dl,A1C
+Folate,Folate,ng/ml,Nutrition Panel
+Folate,Folate [Mass/volume] in Serum or Plasma,ng/ml,Nutrition Panel
+Folate,Folic Acid,ng/ml,Nutrition Panel
+Thyroxin (Free T4),Free T4,iIU/ml,Thyroid Panel
+Glomerular Filtration Rate,GFR,Estimated,mmol/L,Electrolyte
+Glomerular Filtration Rate,Glomerular Filtration Rate,Calculated,mmol/L,Complete Metabolic Profile
+Glomerular Filtration Rate,Glomerular Filtration Rate/1.73 sq M. predicted by Creatinine-based formula,mmol/L,Basic Metabolic Panel
+Glucose,Glucose,mg/dl,Complete Metabolic Profile
+Glucose,Glucose [Mass/volume] in Serum or Blood,mg/dl,Basic Metabolic Panel
+Glucose-Urine,Glucose [Mass/volume] in Urine by Test Strip,mg/dl,Urinalysis
+Glucose-Estimated from HbA1C,Glucose mean value in blood estimated from glycated hemoglobin,mg/dl,A1C
+Glucose-Urine,Glucose-Urine,mg/dl,Urinalysis
+Glucose-Estimated from HbA1C,Glucose,Estimated,mg/dl,A1C
+Immature Granulocyte Count,Granulocytes [#/volume] in Blood by Automated Count,K/ul,Complete Blood Count
+Immature Granulocyte Percent,Granulocytes/100 leukocytes in Blood by Automated Count,%,Complete Blood Count
+Hematocrit,HCT,%,CBC (NO DIFF)
+Cholesterol,HDL,HDL Cholesterol,mg/dl,Lipid Panel
+Hematocrit,Hematocrit,%,CBC with DIFF
+Hematocrit,Hematocrit [Volume Fraction] of Blood by Automated Count,%,Complete Blood Count
+Hemoglobin,Hemoglobin,g/dl,CBC (NO DIFF)
+Hemoglobin,Hemoglobin [Mass/volume] in Blood,g/dl,Complete Blood Count
+Hemoglobin-Urine,Hemoglobin [Presence] in Urine by Test Strip,mg/dl,Urinalysis
+Hemoglobin A1C,Hemoglobin A1c,%,A1C
+Hemoglobin A1C,Hemoglobin A1c/Hemoglobin,total in blood,%,A1C
+Hemoglobin-Urine,Hemoglobin-Urine,mg/dl,Urinalysis
+Hemoglobin,HGB,g/dl,CBC with DIFF
+Hemoglobin A1C,Hgb A1C,%,A1C
+Cholesterol,HDL,High Density Lipoprotein (or High Density Lipoprotein Cholesterol),mg/dl,Lipid Panel
+Immature Granulocyte Percent,Immature Gran %,%,CBC with DIFF
+Immature Granulocyte Count,Immature Gran Count,K/ul,CBC with DIFF
+Immature Granulocyte Count,Immature Granulocyte Count,K/ul,CBC with DIFF
+Immature Granulocyte Percent,Immature Granulocyte Percent,%,CBC with DIFF
+Potassium,K+K+K+K+K+,mmol/L,Complete Metabolic Profile
+Ketones-Urine,Ketones [Mass/volume] in Urine by Test Strip,mg/dl,Urinalysis
+Ketones-Urine,Ketones-Urine,mg/dl,Urinalysis
+Cholesterol,LDL,LDL Cholesterol,mg/dl,Lipid Panel
+Cholesterol,LDL/HDL Ratio,LDL/HDL Ratio,mg/dl,Lipid Panel
+Leukocyte Esterase-Urine,Leukocyte Esterase in Urine [Presence] by Test Strip,K/ul,Urinalysis
+Leukocyte Esterase-Urine,Leukocyte Esterase-Urine (LE),K/ul,Urinalysis
+White Blood Cells (WBC),Leukocytes [#/volume] in Blood by Automated count,K/ul,Complete Blood Count
+Cholesterol,LDL,Low Density Lipoprotein (or Low Density Lipoprotein Cholesterol),mg/dl,Lipid Panel
+Lymphocyte Percent,Lymphocyte %,%,CBC with DIFF
+Lymphocyte Count,Lymphocytes,K/ul,CBC with DIFF
+Lymphocyte Count,Lymphocytes [#/volume] in Blood by Automated Count,K/ul,Complete Blood Count
+Lymphocyte Count,Lymphocytes [#/volume] in Blood by Manual Count,K/ul,CBC with DIFF
+Lymphocyte Percent,Lymphocytes/100 Leukocycles in Blood by Automated Count,%,Complete Blood Count
+Magnesium,Magnesium,mg/dl,Complete Metabolic Profile
+Magnesium,Magnesium [Mass/volume] in Serum or Plasma,mg/dl,Complete Metabolic Profile
+Mean Cell Hemoglobin Concentration (MCHC),MCHC,g/dl,CBC (NO DIFF)
+Mean Cell Volume (MCV),MCV,fl,CBC (NO DIFF)
+Mean Cell Hemoglobin Concentration (MCHC),Mean Cell Hemoglobin Concentration (MCHC),g/dl,CBC with DIFF
+Platelet Mean Volume,Mean Platelet Volume,fl,CBC (NO DIFF)
+Magnesium,Mg++Mg++,mg/dl,Complete Metabolic Profile
+Microalbumin-Urine,Microalbumin,mg alb/gcr,Microalbumin Random Urine 
+Microalbumin-Urine,Microalbumin-Urine,mg alb/gcr,Microalbumin Random Urine 
+Microalbumin-Urine,Microalbumin/Creatinine [Mass ratio] in Urine,mg alb/gcr,Microalbumin Random Urine 
+Monocyte Percent,Monocyte %,%,CBC with DIFF
+Monocyte Count,Monocytes,K/ul,CBC with DIFF
+Monocyte Count,Monocytes [#/volume] in Blood by Automated Count,K/ul,Complete Blood Count
+Monocyte Count,Monocytes [#/volume] in Blood by Manual Count,K/ul,CBC with DIFF
+Monocyte Percent,Monocytes/100 Leukocycles in Blood by Automated Count,%,Complete Blood Count
+Sodium,Na+Na+Na+Na+Na+,mmol/L,Complete Metabolic Profile
+Pro-BNP,Natriuretic Peptide B prohormone [Mass/volume] in Serum or Plasma,pg/ml,Thyroid Panel
+Neutrophil Percent,Neutrophil %,%,CBC with DIFF
+Neutrophil Count,Neutrophils,K/ul,CBC with DIFF
+Neutrophil Count,Neutrophils [#/volume] in Blood by Automated Count,K/ul,Complete Blood Count
+Neutrophil Count,Neutrophils [#/volume] in Blood by Manual Count,K/ul,CBC with DIFF
+Neutrophil Percent,Neutrophils/100 Leukocycles in Blood by Automated Count,%,Complete Blood Count
+Nitrite-Urine,Nitrite [Presence] in Urine by Test Strip,K/ul,Urinalysis
+Nitrite-Urine,Nitrite-Urine,K/ul,Urinalysis
+Nucleated RBC Count,Nucleated Erythrocyte [#/volume] in Blood by Automated Count,K/ul,Complete Blood Count
+Nucleated RBC Percent,Nucleated Erythrocyte [Presence] in Blood by Automated Count,%,Complete Blood Count
+Nucleated RBC Count,Nucleated Erythrocyte Count,K/ul,CBC with DIFF
+Nucleated RBC Percent,Nucleated Erythrocyte Percent,%,CBC with DIFF
+Nucleated RBC Count,Nucleated RBC Count,K/ul,CBC with DIFF
+Nucleated RBC Percent,Nucleated RBC Percent,%,CBC with DIFF
+Basophil Percent,Percent Basophil,%,CBC with DIFF
+Eosinophil Percent,Percent Eosinophils,%,CBC with DIFF
+Lymphocyte Percent,Percent Lymphocytes,%,CBC with DIFF
+Monocyte Percent,Percent Monocytes,%,CBC with DIFF
+Neutrophil Percent,Percent Neutrophils,%,CBC with DIFF
+pH-Urine,pH of Urine by Test Strip,K/ul,Urinalysis
+pH-Urine,pH-Urine,K/ul,Urinalysis
+Platelets,Platelet Count,K/ul,CBC with DIFF
+Platelet Mean Volume,Platelet mean volume,fl,CBC with DIFF
+Platelet Mean Volume,Platelet mean volume [Entitic volume] in Blood by Automated Count,fl,Complete Blood Count
+Platelets,Platelets,K/ul,CBC (NO DIFF)
+Platelets,Platelets [#/volume] in Blood by Automated Count,K/ul,Complete Blood Count
+Potassium,Potassium,mmol/L,Basic Metabolic Panel
+Potassium,Potassium [Moles/volume] in Serum or Plasma,mmol/L,Electrolyte
+Pro-BNP,Pro-B-type Natriuretic Peptide,pg/ml,Thyroid Panel
+Pro-BNP,Pro-BNP,pg/ml,Thyroid Panel
+Prostate Specific Antigen,Prostate specific Ag[Mass/volume] in Serum or Plasma,ng/ml,A1C
+Prostate Specific Antigen,Prostate Specific Antigen,ng/ml,A1C
+Protein,Protein [Mass/volume] in Serum or Plasma,g/dl,Basic Metabolic Panel
+Protein-Urine,Protein [Mass/volume] in Urine by Test Strip,mg/dl,Urinalysis
+Protein-Urine,Protein-Urine,mg/dl,Urinalysis
+Protein,Protein,Total,g/dl,Complete Metabolic Profile
+Prostate Specific Antigen,PSA,mg/dl,A1C
+Red Blood Cells (RBC),RBC,K/ul,CBC with DIFF
+Red Cell Distribution Width (RDW),RBC Distribution Width,%,CBC (NO DIFF)
+Red Blood Cells (RBC),Red Blood Cell Count,K/ul,CBC (NO DIFF)
+Red Cell Distribution Width (RDW),Red Cell Distribution Width (RDW),%,CBC with DIFF
+Sodium,Sodium,mmol/L,Basic Metabolic Panel
+Sodium,Sodium [Moles/volume] in Serum or Plasma,mmol/L,Electrolyte
+Specific Gravity-Urine,Specific Gravity of Urine by Test Strip,K/ul,Urinalysis
+Specific Gravity-Urine,Specific Gravity-Urine,K/ul,Urinalysis
+Bilirubin,Total,T-Bili,mg/dl,Complete Metabolic Profile
+Thyroid Stimulating Hormone (TSH),Thyroid Stimulating Hormone,iIU/ml,Thyroid Panel
+Thyroid Stimulating Hormone (TSH),Thyrotropin [Units/volume] in Serum or Plasma,iIU/ml,Complete Metabolic Profile
+Thyroxin (Free T4),Thyroxine,iIU/ml,Thyroid Panel
+Thyroxin (Free T4),Thyroxine (T4) Free [Mass/volume] in Serum or Blood,iIU/ml,Complete Metabolic Profile
+Chloresterol,Total,Total Cholesterol (or Cholesterol,Total),mg/dl,Lipid Panel
+Cholesterol Total/HDL Ratio,Total Cholesterol/HDL Cholesterol Ratio,mg/dl,Lipid Panel
+Glucose,Total Glucose,mg/dl,Complete Metabolic Profile
+Protein,Total Protein,g/dl,Hepatic Function Panel
+Triglyceride,Trig,mg/dl,Lipid Panel
+Triglyceride,Triglyceride [Mass/volume] in Serum or Plasma,mg/dl,Complete Metabolic Profile
+Triglyceride,Triglycerides,mg/dl,Lipid Panel
+Thyroid Stimulating Hormone (TSH),TSH,iIU/ml,Thyroid Panel
+Bilirubin,Indirect,Unconjugated Bilirubin,mg/dl,Liver Panel
+Blood Urea Nitrogen (BUN),Urea Nitrogen [Mass/volume] in Serum or Plasma,mg/dl,Basic Metabolic Panel
+Urobilinogen-Urine,Urobilinogen [Units/volume] in Urine by Test Strip,mg/dl,Urinalysis
+Urobilinogen-Urine,Urobilinogen-Urine,mg/dl,Urinalysis
+Vitamin D,Vit D,ng/ml,Nutrition Panel
+Vitamin B14,Vitamin B12,pg/ml,Nutrition Panel
+Vitamin D,Vitamin D,ng/ml,Nutrition Panel
+White Blood Cells (WBC),WBC,K/ul,CBC with DIFF
+White Blood Cells (WBC),White Blood Cell Count,K/ul,CBC (NO DIFF)

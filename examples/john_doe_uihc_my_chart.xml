@@ -1,0 +1,2102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='STYLE.XSL'?>
+<ClinicalDocument xmlns="urn:hl7-org:v3">
+	<realmCode code="US" />
+	<typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3" />
+	<templateId root="1.2.840.114350.1.72.1.51693" />
+	<templateId root="2.16.840.1.113883.10.20.22.1.1" />
+	<templateId root="2.16.840.1.113883.10.20.22.1.2" />
+	<id assigningAuthorityName="EPC"
+		root="1.2.840.114350.1.13.193.2.7.8.688883.2617086" />
+	<code code="34133-9" codeSystem="2.16.840.1.113883.6.1"
+		codeSystemName="LOINC" displayName="Summarization of Episode Note" />
+	<title>Patient Health Summary</title>
+	<effectiveTime value="20150323095308-0500" />
+	<confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" />
+	<languageCode code="en-US" />
+	<setId assigningAuthorityName="EPC"
+		extension="4007c992-39dd-11e4-8cdd-1303846ef313" root="1.2.840.114350.1.13.193.2.7.1.1" />
+	<versionNumber value="6" />
+	<recordTarget>
+		<patientRole>
+			<id root="1.2.840.114350.1.13.193.2.7.3.688884.100" extension="UIH3244902" />
+			<addr use="HP">
+				<streetAddressLine>5555 Home Town DR NE</streetAddressLine>
+				<city>IOWA CITY</city>
+				<state>IA</state>
+				<postalCode>52240-7893</postalCode>
+				<country>USA</country>
+			</addr>
+			<telecom use="MC" value="tel:+1-443-564-2064" />
+			<telecom use="HP" value="tel:+1-319-512-2727" />
+			<telecom use="WP" value="tel:+1-319-384-7355" />
+			<telecom value="mailto://john@doe.com" />
+			<patient>
+				<name use="L">
+					<given>John</given>
+					<given>C</given>
+					<family>Doe</family>
+				</name>
+				<name use="P">
+					<given>John</given>
+					<given>C</given>
+					<family>Doe</family>
+				</name>
+				<administrativeGenderCode code="M"
+					codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGenderCode"
+					displayName="Male" />
+				<birthTime value="19740903" />
+				<maritalStatusCode code="Married" codeSystem="2.16.840.1.113883.5.2"
+					codeSystemName="MaritalStatusCode" displayName="Married" />
+				<religiousAffiliationCode code="NOPRF"
+					codeSystem="2.16.840.1.113883.5.1076" codeSystemName="ReligiousAffiliation" />
+				<raceCode code="Caucasian" codeSystem="2.16.840.1.113883.6.238"
+					codeSystemName="CDC Race and Ethnicity" displayName="White" />
+				<ethnicGroupCode code="1" codeSystem="2.16.840.1.113883.6.238"
+					codeSystemName="CDC Race and Ethnicity" displayName="Non-Hispanic" />
+				<languageCommunication>
+					<languageCode code="eng" />
+					<preferenceInd value="true" />
+				</languageCommunication>
+			</patient>
+			<providerOrganization>
+				<id root="1.2.840.114350.1.13.193.2.7.2.688879" extension="13500" />
+				<name>University of Iowa Hospitals and Clinics (UIHC)</name>
+				<telecom use="WP" value="tel:+1-319-356-2555" />
+				<addr>
+					<streetAddressLine>200 Hawkins Dr.</streetAddressLine>
+					<city>Iowa City</city>
+					<state>IA</state>
+					<postalCode>52242</postalCode>
+				</addr>
+			</providerOrganization>
+		</patientRole>
+	</recordTarget>
+	<author>
+		<time value="20150323095308" />
+		<assignedAuthor>
+			<id root="1.2.840.114350.1.1" extension="7.9" />
+			<addr nullFlavor="NA">
+				<streetAddressLine nullFlavor="UNK" />
+				<city nullFlavor="UNK" />
+			</addr>
+			<telecom nullFlavor="NA" />
+			<assignedAuthoringDevice>
+				<manufacturerModelName>Epic - Version 7.9</manufacturerModelName>
+				<softwareName>Epic - Version 7.9</softwareName>
+			</assignedAuthoringDevice>
+			<representedOrganization>
+				<id root="1.2.840.114350.1.13.193.2.7.2.688879" extension="13500" />
+				<name>University of Iowa Hospitals and Clinics (UIHC)</name>
+				<telecom use="WP" value="tel:+1-319-356-2555" />
+				<addr>
+					<streetAddressLine>200 Hawkins Dr.</streetAddressLine>
+					<city>Iowa City</city>
+					<state>IA</state>
+					<postalCode>52242</postalCode>
+				</addr>
+			</representedOrganization>
+		</assignedAuthor>
+	</author>
+	<custodian>
+		<assignedCustodian>
+			<representedCustodianOrganization>
+				<id root="1.2.840.114350.1.13.193.2.7.2.688879" extension="13500" />
+				<name>University of Iowa Hospitals and Clinics (UIHC)</name>
+				<telecom use="WP" value="tel:+1-319-356-2555" />
+				<addr>
+					<streetAddressLine>200 Hawkins Dr.</streetAddressLine>
+					<city>Iowa City</city>
+					<state>IA</state>
+					<postalCode>52242</postalCode>
+				</addr>
+			</representedCustodianOrganization>
+		</assignedCustodian>
+	</custodian>
+	<participant typeCode="IND">
+		<templateId root="2.16.840.1.113883.3.88.11.32.3" />
+		<templateId root="2.16.840.1.113883.3.88.11.83.3" />
+		<templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.4" />
+		<time value="20100510" />
+		<associatedEntity classCode="ECON">
+			<id nullFlavor="UNK" />
+			<code code="WIFE" codeSystem="2.16.840.1.113883.5.111"
+				codeSystemName="RoleCode" displayName="Wife" />
+			<addr>
+				<streetAddressLine>5555 Home Town DR NE</streetAddressLine>
+				<city>IOWA CITY</city>
+				<state>IA</state>
+				<postalCode>52240-7893</postalCode>
+				<country>USA</country>
+			</addr>
+			<telecom use="HP" value="tel:+1-443-797-7859" />
+			<telecom use="WP" value="tel:+1-319-335-7763" />
+			<associatedPerson>
+				<name use="P">
+					<given>Doe,Jane</given>
+				</name>
+			</associatedPerson>
+		</associatedEntity>
+	</participant>
+	<documentationOf typeCode="DOC">
+		<serviceEvent classCode="PCPR">
+			<effectiveTime>
+				<low value="19740903" />
+				<high value="20150323" />
+			</effectiveTime>
+			<performer typeCode="PRF">
+				<templateId root="2.16.840.1.113883.3.88.11.32.4" />
+				<templateId root="2.16.840.1.113883.3.88.11.83.4" />
+				<templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.3" />
+				<functionCode code="PCP" codeSystem="2.16.840.1.113883.5.88"
+					codeSystemName="ParticipationFunction" displayName="Primary Care Provider">
+					<originalText>Primary Care Provider</originalText>
+				</functionCode>
+				<time>
+					<low value="20140630" />
+					<high nullFlavor="PINF" />
+				</time>
+				<assignedEntity>
+					<id root="1.2.840.114350.1.13.193.2.7.2.836982" extension="87745" />
+					<addr use="WP">
+						<streetAddressLine>UIHC-INTERNAL MEDICINE</streetAddressLine>
+						<city>IOWA CITY</city>
+						<state>IA</state>
+						<postalCode>52242</postalCode>
+					</addr>
+					<telecom use="WP" value="tel:+1-319-356-1616" />
+					<assignedPerson>
+						<name>
+							<given>R.</given>
+							<given>R</given>
+							<family>Doctor</family>
+						</name>
+					</assignedPerson>
+				</assignedEntity>
+			</performer>
+		</serviceEvent>
+	</documentationOf>
+	<component>
+		<structuredBody>
+			<component>
+				<section>
+					<code code="X-CE-PFD" codeSystem="2.16.840.1.113883.6.1"
+						codeSystemName="LOINC"
+						displayName="Note from University of Iowa Hospitals and Clinics (UIHC)" />
+					<title>Note from University of Iowa Hospitals and Clinics (UIHC)
+					</title>
+					<text>
+						<list>
+							<item>
+								<paragraph>This document contains information that was shared
+									with John C Doe. It may not contain the entire record
+									from University of Iowa Hospitals and Clinics (UIHC).
+								</paragraph>
+							</item>
+						</list>
+					</text>
+				</section>
+			</component>
+			<component>
+				<section>
+					<templateId root="2.16.840.1.113883.10.20.22.2.6.1" />
+					<id root="51da709e-d16c-11e4-8190-1303846ef313" />
+					<code code="48765-2" codeSystem="2.16.840.1.113883.6.1"
+						codeSystemName="LOINC" displayName="Allergies, Adverse Reactions, Alerts" />
+					<title>Allergies</title>
+					<text>
+						<content ID="nof1">Not on file</content>
+					</text>
+					<entry>
+						<act classCode="ACT" moodCode="EVN" nullFlavor="ASKU">
+							<templateId root="2.16.840.1.113883.10.20.22.4.30" />
+							<id nullFlavor="NA" />
+							<code code="48765-2" codeSystem="2.16.840.1.113883.6.1" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low nullFlavor="NA" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN"
+									negationInd="false">
+									<templateId root="2.16.840.1.113883.10.20.22.4.7" />
+									<id nullFlavor="NA" />
+									<code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+									<text>
+										<reference value="#nof1" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low nullFlavor="NA" />
+										<high value="20150323" />
+									</effectiveTime>
+									<value code="420134006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="propensity to adverse reactions"
+										xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="CD" />
+									<entryRelationship inversionInd="true"
+										typeCode="SUBJ">
+										<observation classCode="OBS" moodCode="EVN">
+											<templateId root="2.16.840.1.113883.10.20.22.4.8" />
+											<code code="SEV" codeSystem="2.16.840.1.113883.5.4"
+												codeSystemName="ActCode" displayName="Severity" />
+											<statusCode code="completed" />
+											<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+												xsi:type="CD" nullFlavor="UNK" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+				</section>
+			</component>
+			<component>
+				<section>
+					<templateId root="2.16.840.1.113883.10.20.1.8" />
+					<templateId root="2.16.840.1.113883.3.88.11.83.112" />
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.19" />
+					<id root="51db6012-d16c-11e4-8190-1303846ef313" />
+					<code code="10160-0" codeSystem="2.16.840.1.113883.6.1"
+						codeSystemName="LOINC" displayName="HISTORY OF MEDICATION USE" />
+					<title>Current Medications</title>
+					<text>
+						<content ID="nof2">Not on file</content>
+					</text>
+					<entry>
+						<substanceAdministration classCode="SBADM"
+							moodCode="INT" nullFlavor="ASKU">
+							<templateId root="2.16.840.1.113883.10.20.22.4.16" />
+							<id nullFlavor="NA" />
+							<text mediaType="text/xml" />
+							<statusCode code="completed" />
+							<effectiveTime xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+								xsi:type="IVL_TS">
+								<low nullFlavor="UNK" />
+								<high nullFlavor="UNK" />
+							</effectiveTime>
+							<consumable typeCode="CSM">
+								<manufacturedProduct classCode="MANU">
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2" />
+									<templateId root="2.16.840.1.113883.10.20.1.53" />
+									<templateId root="2.16.840.1.113883.3.88.11.32.9" />
+									<templateId root="2.16.840.1.113883.3.88.11.83.8.2" />
+									<templateId root="2.16.840.1.113883.3.249.11.100.13" />
+									<templateId root="2.16.840.1.113883.10.20.22.4.23" />
+									<manufacturedMaterial>
+										<code codeSystem="2.16.840.1.113883.6.88" nullFlavor="NI">
+											<originalText>
+												<reference value="#nof2" />
+											</originalText>
+										</code>
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+						</substanceAdministration>
+					</entry>
+				</section>
+			</component>
+			<component>
+				<section>
+					<templateId root="2.16.840.1.113883.10.20.22.2.5.1" />
+					<id root="51dc9284-d16c-11e4-8190-1303846ef313" />
+					<code code="11450-4" codeSystem="2.16.840.1.113883.6.1"
+						codeSystemName="LOINC" displayName="PROBLEM LIST" />
+					<title>Active Problems</title>
+					<text>
+						<table>
+							<colgroup>
+								<col width="50%" />
+								<col width="50%" />
+							</colgroup>
+							<thead>
+								<tr>
+									<th>Problem</th>
+									<th>Date Noted</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr ID="problem6">
+									<td ID="conditionA7">Aspermia (unknown cause)</td>
+									<td>06/26/2014</td>
+								</tr>
+								<tr ID="problem5">
+									<td ID="conditionA8">OSA (obstructive sleep apnea)</td>
+									<td>06/26/2014</td>
+								</tr>
+								<tr ID="problem3">
+									<td ID="conditionA9">Prehypertension</td>
+									<td>06/26/2014</td>
+								</tr>
+								<tr ID="problem4">
+									<td ID="conditionA10">Shoulder impingement</td>
+									<td>06/26/2014</td>
+								</tr>
+							</tbody>
+						</table>
+					</text>
+					<entry>
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.3" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.768076" extension="5520056" />
+							<code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low value="20140626" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.4" />
+									<id root="1.2.840.114350.1.13.193.2.7.2.768076" extension="5520056" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#problem3name" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low value="20140626" />
+									</effectiveTime>
+									<value code="314956000" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Prehypertension"
+										xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="CD">
+										<originalText>
+											<reference value="#problem3name" />
+										</originalText>
+										<translation code="796.2" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9CM" displayName="Prehypertension" />
+										<translation code="R03.0" codeSystem="2.16.840.1.113883.6.90"
+											codeSystemName="ICD-10-CM" displayName="Prehypertension" />
+									</value>
+									<author>
+										<time value="20140626200101+0000" />
+										<assignedAuthor>
+											<id root="1.2.840.114350.1.13.193.2.7.2.697780" extension="00067912" />
+											<addr nullFlavor="UNK" />
+											<telecom nullFlavor="UNK" />
+											<assignedPerson>
+												<name>
+													<given>R.</given>
+													<given>R</given>
+													<family>Doctor</family>
+												</name>
+											</assignedPerson>
+											<representedOrganization>
+												<id root="1.2.840.114350.1.13.193.2.7.2.688879"
+													extension="13500" />
+												<name>University of Iowa Hospitals and Clinics (UIHC)</name>
+												<telecom use="WP" value="tel:+1-319-356-2555" />
+												<addr>
+													<streetAddressLine>200 Hawkins Dr.</streetAddressLine>
+													<city>Iowa City</city>
+													<state>IA</state>
+													<postalCode>52242</postalCode>
+												</addr>
+											</representedOrganization>
+										</assignedAuthor>
+									</author>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												displayName="Status" />
+											<statusCode code="completed" />
+											<effectiveTime>
+												<low value="20140626" />
+											</effectiveTime>
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.96"
+												displayName="Active" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+												xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry>
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.3" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.768076" extension="5520057" />
+							<code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low value="20140626" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.4" />
+									<id root="1.2.840.114350.1.13.193.2.7.2.768076" extension="5520057" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#problem4name" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low value="20140626" />
+									</effectiveTime>
+									<value code="239960007" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Shoulder impingement"
+										xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="CD">
+										<originalText>
+											<reference value="#problem4name" />
+										</originalText>
+										<translation code="726.2" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9CM" displayName="Shoulder impingement" />
+										<translation code="M75.40" codeSystem="2.16.840.1.113883.6.90"
+											codeSystemName="ICD-10-CM" displayName="Shoulder impingement" />
+									</value>
+									<author>
+										<time value="20140626200103+0000" />
+										<assignedAuthor>
+											<id root="1.2.840.114350.1.13.193.2.7.2.697780" extension="00067912" />
+											<addr nullFlavor="UNK" />
+											<telecom nullFlavor="UNK" />
+											<assignedPerson>
+												<name>
+													<given>R.</given>
+													<given>R</given>
+													<family>Doctor</family>
+												</name>
+											</assignedPerson>
+											<representedOrganization>
+												<id root="1.2.840.114350.1.13.193.2.7.2.688879"
+													extension="13500" />
+												<name>University of Iowa Hospitals and Clinics (UIHC)</name>
+												<telecom use="WP" value="tel:+1-319-356-2555" />
+												<addr>
+													<streetAddressLine>200 Hawkins Dr.</streetAddressLine>
+													<city>Iowa City</city>
+													<state>IA</state>
+													<postalCode>52242</postalCode>
+												</addr>
+											</representedOrganization>
+										</assignedAuthor>
+									</author>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												displayName="Status" />
+											<statusCode code="completed" />
+											<effectiveTime>
+												<low value="20140626" />
+											</effectiveTime>
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.96"
+												displayName="Active" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+												xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry>
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.3" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.768076" extension="5520060" />
+							<code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low value="20140626" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.4" />
+									<id root="1.2.840.114350.1.13.193.2.7.2.768076" extension="5520060" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#problem5name" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low value="20140626" />
+									</effectiveTime>
+									<value code="78275009" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="OSA (obstructive sleep apnea)"
+										xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="CD">
+										<originalText>
+											<reference value="#problem5name" />
+										</originalText>
+										<translation code="327.23" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9CM" displayName="OSA (obstructive sleep apnea)" />
+										<translation code="G47.33" codeSystem="2.16.840.1.113883.6.90"
+											codeSystemName="ICD-10-CM" displayName="OSA (obstructive sleep apnea)" />
+									</value>
+									<author>
+										<time value="20140626200141+0000" />
+										<assignedAuthor>
+											<id root="1.2.840.114350.1.13.193.2.7.2.697780" extension="00067912" />
+											<addr nullFlavor="UNK" />
+											<telecom nullFlavor="UNK" />
+											<assignedPerson>
+												<name>
+													<given>R.</given>
+													<given>R</given>
+													<family>Doctor</family>
+												</name>
+											</assignedPerson>
+											<representedOrganization>
+												<id root="1.2.840.114350.1.13.193.2.7.2.688879"
+													extension="13500" />
+												<name>University of Iowa Hospitals and Clinics (UIHC)</name>
+												<telecom use="WP" value="tel:+1-319-356-2555" />
+												<addr>
+													<streetAddressLine>200 Hawkins Dr.</streetAddressLine>
+													<city>Iowa City</city>
+													<state>IA</state>
+													<postalCode>52242</postalCode>
+												</addr>
+											</representedOrganization>
+										</assignedAuthor>
+									</author>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												displayName="Status" />
+											<statusCode code="completed" />
+											<effectiveTime>
+												<low value="20140626" />
+											</effectiveTime>
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.96"
+												displayName="Active" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+												xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+					<entry>
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.3" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.768076" extension="5520061" />
+							<code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+							<statusCode code="active" />
+							<effectiveTime>
+								<low value="20140626" />
+							</effectiveTime>
+							<entryRelationship inversionInd="false"
+								typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.4" />
+									<id root="1.2.840.114350.1.13.193.2.7.2.768076" extension="5520061" />
+									<code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Problem" />
+									<text>
+										<reference value="#problem6name" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low value="20140626" />
+									</effectiveTime>
+									<value code="425558002" codeSystem="2.16.840.1.113883.6.96"
+										codeSystemName="SNOMED CT" displayName="Aspermia (unknown cause)"
+										xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="CD">
+										<originalText>
+											<reference value="#problem6name" />
+										</originalText>
+										<translation code="606.0" codeSystem="2.16.840.1.113883.6.103"
+											codeSystemName="ICD-9CM" displayName="Aspermia (unknown cause)" />
+										<translation code="N46.01" codeSystem="2.16.840.1.113883.6.90"
+											codeSystemName="ICD-10-CM" displayName="Aspermia (unknown cause)" />
+									</value>
+									<author>
+										<time value="20140626200207+0000" />
+										<assignedAuthor>
+											<id root="1.2.840.114350.1.13.193.2.7.2.697780" extension="00067912" />
+											<addr nullFlavor="UNK" />
+											<telecom nullFlavor="UNK" />
+											<assignedPerson>
+												<name>
+													<given>R.</given>
+													<given>R</given>
+													<family>Doctor</family>
+												</name>
+											</assignedPerson>
+											<representedOrganization>
+												<id root="1.2.840.114350.1.13.193.2.7.2.688879"
+													extension="13500" />
+												<name>University of Iowa Hospitals and Clinics (UIHC)</name>
+												<telecom use="WP" value="tel:+1-319-356-2555" />
+												<addr>
+													<streetAddressLine>200 Hawkins Dr.</streetAddressLine>
+													<city>Iowa City</city>
+													<state>IA</state>
+													<postalCode>52242</postalCode>
+												</addr>
+											</representedOrganization>
+										</assignedAuthor>
+									</author>
+									<entryRelationship typeCode="REFR">
+										<observation classCode="OBS" moodCode="EVN">
+											<code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+												displayName="Status" />
+											<statusCode code="completed" />
+											<effectiveTime>
+												<low value="20140626" />
+											</effectiveTime>
+											<value code="55561003" codeSystem="2.16.840.1.113883.6.96"
+												displayName="Active" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+												xsi:type="CE" />
+										</observation>
+									</entryRelationship>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+				</section>
+			</component>
+			<component>
+				<section>
+					<templateId root="2.16.840.1.113883.10.20.1.6" />
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.23" />
+					<templateId root="2.16.840.1.113883.3.88.11.83.117" />
+					<code code="11369-6" codeSystem="2.16.840.1.113883.6.1"
+						codeSystemName="LOINC" displayName="HISTORY OF IMMUNIZATIONS" />
+					<title>Immunizations</title>
+					<text>
+						<table>
+							<colgroup>
+								<col width="50%" />
+								<col width="50%" />
+							</colgroup>
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Dates Given</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr ID="immunization11">
+									<td ID="name11">Tdap Vaccine</td>
+									<td>
+										<content>10/22/2014</content>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</text>
+					<entry>
+						<substanceAdministration classCode="SBADM"
+							moodCode="EVN" negationInd="false">
+							<templateId root="2.16.840.1.113883.10.20.22.4.52" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.768076" extension="5871751" />
+							<code code="IMMUNIZ" codeSystem="2.16.840.1.113883.5.4"
+								codeSystemName="ActCode" />
+							<text mediaType="text/xml">
+								<reference value="#immunization11" />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime value="20141022" />
+							<routeCode codeSystem="2.16.840.1.113883.3.26.1.1"
+								codeSystemName="NCI Thesaurus" displayName="Intramuscular" />
+							<consumable typeCode="CSM">
+								<manufacturedProduct classCode="MANU">
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2" />
+									<templateId root="2.16.840.1.113883.10.20.1.53" />
+									<templateId root="2.16.840.1.113883.3.88.11.32.9" />
+									<templateId root="2.16.840.1.113883.3.88.11.83.8.2" />
+									<templateId root="2.16.840.1.113883.3.249.11.100.13" />
+									<templateId root="2.16.840.1.113883.10.20.22.4.54" />
+									<manufacturedMaterial>
+										<code nullFlavor="UNK" />
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+						</substanceAdministration>
+					</entry>
+				</section>
+			</component>
+			<component>
+				<section>
+					<templateId root="2.16.840.1.113883.10.20.22.2.3.1" />
+					<id root="51e38512-d16c-11e4-8190-1303846ef313" />
+					<code code="30954-2" codeSystem="2.16.840.1.113883.6.1"
+						codeSystemName="LOINC" displayName="STUDIES SUMMARY" />
+					<title>Results</title>
+					<text>
+						<list styleCode="TOC">
+							<item ID="Result22">
+								<caption>LIPID PANEL (06/30/2014 7:25 AM CDT)</caption>
+								<table>
+									<colgroup>
+										<col width="25%" />
+										<col width="50%" />
+										<col width="25%" />
+									</colgroup>
+									<thead>
+										<tr>
+											<th>Component</th>
+											<th>Value</th>
+											<th>Range</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr ID="Result22Comp1">
+											<td ID="Result22Comp1Name">SPECIMEN TYPE</td>
+											<td>FAST</td>
+											<td />
+										</tr>
+										<tr ID="Result22Comp2">
+											<td ID="Result22Comp2Name">CHOLESTEROL</td>
+											<td>217</td>
+											<td>mg/dL</td>
+										</tr>
+										<tr ID="Result22Comp3">
+											<td ID="Result22Comp3Name">TRIGS</td>
+											<td>81</td>
+											<td>- &lt;150 mg/dL</td>
+										</tr>
+										<tr ID="Result22Comp4">
+											<td ID="Result22Comp4Name">HDL CHOLESTEROL</td>
+											<td>51</td>
+											<td>&gt;41 mg/dL</td>
+										</tr>
+										<tr ID="Result22Comp5">
+											<td ID="Result22Comp5Name">LDL - Calculated</td>
+											<td>150</td>
+											<td>- &lt;130 mg/dL</td>
+										</tr>
+										<tr ID="Result22Comp6">
+											<td ID="Result22Comp6Name">NON-HDL CHOLESTEROL CALC</td>
+											<td>166</td>
+											<td>mg/dL</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item>
+								<table>
+									<thead>
+										<tr>
+											<th>Result Note</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td styleCode="pre">
+												<paragraph>
+													<content>Notes Recorded by Doctor, R. R, MD on
+														6/30/2014 at 2:08 PM</content>
+													<content>Mr. Doe,</content>
+													<content>Thank you for remembering to complete your labs.
+														Your results explained below. </content>
+													<content>Electrolytes (sodium, potassium, chloride, CO2):
+														normal</content>
+													<content>Creatinine: measure of kidney function, normal
+													</content>
+													<content>A1C: screening test for diabetes, normal</content>
+													<content>Lipids: triglycerides are normal, HDL (good
+														cholesterol) is normal at 51, LDL (bad cholesterol) is
+														mildly elevated at 150. The LDL is not yet to a point that
+														we would advise a medication. Continue to work on weight
+														loss, increasing exercise. Avoid high cholesterol foods
+														like butter, fried foods, red meat.    </content>
+													<content>R. R Doctor, MD</content>
+												</paragraph>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item ID="Result23">
+								<caption>HEMOGLOBIN A1C (06/30/2014 7:25 AM CDT)</caption>
+								<table>
+									<colgroup>
+										<col width="25%" />
+										<col width="50%" />
+										<col width="25%" />
+									</colgroup>
+									<thead>
+										<tr>
+											<th>Component</th>
+											<th>Value</th>
+											<th>Range</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr ID="Result23Comp1">
+											<td ID="Result23Comp1Name">HEMOGLOBIN A1C - CORE LAB</td>
+											<td>4.8</td>
+											<td>4.8-6.0 %</td>
+										</tr>
+										<tr ID="Result23Comp2">
+											<td ID="Result23Comp2Name">EST AVG GLUCOSE</td>
+											<td>91</td>
+											<td>mg/dL</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item>
+								<table>
+									<thead>
+										<tr>
+											<th>Result Note</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td styleCode="pre">
+												<paragraph>
+													<content>Notes Recorded by Doctor, R. R, MD on
+														6/30/2014 at 2:08 PM</content>
+													<content>Mr. Doe,</content>
+													<content>Thank you for remembering to complete your labs.
+														Your results explained below. </content>
+													<content>Electrolytes (sodium, potassium, chloride, CO2):
+														normal</content>
+													<content>Creatinine: measure of kidney function, normal
+													</content>
+													<content>A1C: screening test for diabetes, normal</content>
+													<content>Lipids: triglycerides are normal, HDL (good
+														cholesterol) is normal at 51, LDL (bad cholesterol) is
+														mildly elevated at 150. The LDL is not yet to a point that
+														we would advise a medication. Continue to work on weight
+														loss, increasing exercise. Avoid high cholesterol foods
+														like butter, fried foods, red meat.    </content>
+													<content>R. R Doctor, MD</content>
+												</paragraph>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item ID="Result24">
+								<caption>SODIUM (06/30/2014 7:25 AM CDT)</caption>
+								<table>
+									<colgroup>
+										<col width="25%" />
+										<col width="50%" />
+										<col width="25%" />
+									</colgroup>
+									<thead>
+										<tr>
+											<th>Component</th>
+											<th>Value</th>
+											<th>Range</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr ID="Result24Comp1">
+											<td ID="Result24Comp1Name">SODIUM</td>
+											<td>138</td>
+											<td>135-145 mEq/L</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item>
+								<table>
+									<thead>
+										<tr>
+											<th>Result Note</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td styleCode="pre">
+												<paragraph>
+													<content>Notes Recorded by Doctor, R. R, MD on
+														6/30/2014 at 2:08 PM</content>
+													<content>Mr. Doe,</content>
+													<content>Thank you for remembering to complete your labs.
+														Your results explained below. </content>
+													<content>Electrolytes (sodium, potassium, chloride, CO2):
+														normal</content>
+													<content>Creatinine: measure of kidney function, normal
+													</content>
+													<content>A1C: screening test for diabetes, normal</content>
+													<content>Lipids: triglycerides are normal, HDL (good
+														cholesterol) is normal at 51, LDL (bad cholesterol) is
+														mildly elevated at 150. The LDL is not yet to a point that
+														we would advise a medication. Continue to work on weight
+														loss, increasing exercise. Avoid high cholesterol foods
+														like butter, fried foods, red meat.    </content>
+													<content>R. R Doctor, MD</content>
+												</paragraph>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item ID="Result25">
+								<caption>POTASSIUM (06/30/2014 7:25 AM CDT)</caption>
+								<table>
+									<colgroup>
+										<col width="25%" />
+										<col width="50%" />
+										<col width="25%" />
+									</colgroup>
+									<thead>
+										<tr>
+											<th>Component</th>
+											<th>Value</th>
+											<th>Range</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr ID="Result25Comp1">
+											<td ID="Result25Comp1Name">POTASSIUM</td>
+											<td>4.1</td>
+											<td>3.5-5.0 mEq/L</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item>
+								<table>
+									<thead>
+										<tr>
+											<th>Result Note</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td styleCode="pre">
+												<paragraph>
+													<content>Notes Recorded by Doctor, R. R, MD on
+														6/30/2014 at 2:08 PM</content>
+													<content>Mr. Doe,</content>
+													<content>Thank you for remembering to complete your labs.
+														Your results explained below. </content>
+													<content>Electrolytes (sodium, potassium, chloride, CO2):
+														normal</content>
+													<content>Creatinine: measure of kidney function, normal
+													</content>
+													<content>A1C: screening test for diabetes, normal</content>
+													<content>Lipids: triglycerides are normal, HDL (good
+														cholesterol) is normal at 51, LDL (bad cholesterol) is
+														mildly elevated at 150. The LDL is not yet to a point that
+														we would advise a medication. Continue to work on weight
+														loss, increasing exercise. Avoid high cholesterol foods
+														like butter, fried foods, red meat.    </content>
+													<content>R. R Doctor, MD</content>
+												</paragraph>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item ID="Result26">
+								<caption>CHLORIDE (06/30/2014 7:25 AM CDT)</caption>
+								<table>
+									<colgroup>
+										<col width="25%" />
+										<col width="50%" />
+										<col width="25%" />
+									</colgroup>
+									<thead>
+										<tr>
+											<th>Component</th>
+											<th>Value</th>
+											<th>Range</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr ID="Result26Comp1">
+											<td ID="Result26Comp1Name">CHLORIDE</td>
+											<td>101</td>
+											<td>95-107 mEq/L</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item>
+								<table>
+									<thead>
+										<tr>
+											<th>Result Note</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td styleCode="pre">
+												<paragraph>
+													<content>Notes Recorded by Doctor, R. R, MD on
+														6/30/2014 at 2:08 PM</content>
+													<content>Mr. Doe,</content>
+													<content>Thank you for remembering to complete your labs.
+														Your results explained below. </content>
+													<content>Electrolytes (sodium, potassium, chloride, CO2):
+														normal</content>
+													<content>Creatinine: measure of kidney function, normal
+													</content>
+													<content>A1C: screening test for diabetes, normal</content>
+													<content>Lipids: triglycerides are normal, HDL (good
+														cholesterol) is normal at 51, LDL (bad cholesterol) is
+														mildly elevated at 150. The LDL is not yet to a point that
+														we would advise a medication. Continue to work on weight
+														loss, increasing exercise. Avoid high cholesterol foods
+														like butter, fried foods, red meat.    </content>
+													<content>R. R Doctor, MD</content>
+												</paragraph>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item ID="Result27">
+								<caption>CO2 (06/30/2014 7:25 AM CDT)</caption>
+								<table>
+									<colgroup>
+										<col width="25%" />
+										<col width="50%" />
+										<col width="25%" />
+									</colgroup>
+									<thead>
+										<tr>
+											<th>Component</th>
+											<th>Value</th>
+											<th>Range</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr ID="Result27Comp1">
+											<td ID="Result27Comp1Name">CO2</td>
+											<td>27</td>
+											<td>24-32 mEq/L</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item>
+								<table>
+									<thead>
+										<tr>
+											<th>Result Note</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td styleCode="pre">
+												<paragraph>
+													<content>Notes Recorded by Doctor, R. R, MD on
+														6/30/2014 at 2:08 PM</content>
+													<content>Mr. Doe,</content>
+													<content>Thank you for remembering to complete your labs.
+														Your results explained below. </content>
+													<content>Electrolytes (sodium, potassium, chloride, CO2):
+														normal</content>
+													<content>Creatinine: measure of kidney function, normal
+													</content>
+													<content>A1C: screening test for diabetes, normal</content>
+													<content>Lipids: triglycerides are normal, HDL (good
+														cholesterol) is normal at 51, LDL (bad cholesterol) is
+														mildly elevated at 150. The LDL is not yet to a point that
+														we would advise a medication. Continue to work on weight
+														loss, increasing exercise. Avoid high cholesterol foods
+														like butter, fried foods, red meat.    </content>
+													<content>R. R Doctor, MD</content>
+												</paragraph>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item ID="Result28">
+								<caption>BLOOD UREA NITROGEN (06/30/2014 7:25 AM CDT)</caption>
+								<table>
+									<colgroup>
+										<col width="25%" />
+										<col width="50%" />
+										<col width="25%" />
+									</colgroup>
+									<thead>
+										<tr>
+											<th>Component</th>
+											<th>Value</th>
+											<th>Range</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr ID="Result28Comp1">
+											<td ID="Result28Comp1Name">BUN</td>
+											<td>16</td>
+											<td>10-20 mg/dL</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item>
+								<table>
+									<thead>
+										<tr>
+											<th>Result Note</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td styleCode="pre">
+												<paragraph>
+													<content>Notes Recorded by Doctor, R. R, MD on
+														6/30/2014 at 2:08 PM</content>
+													<content>Mr. Doe,</content>
+													<content>Thank you for remembering to complete your labs.
+														Your results explained below. </content>
+													<content>Electrolytes (sodium, potassium, chloride, CO2):
+														normal</content>
+													<content>Creatinine: measure of kidney function, normal
+													</content>
+													<content>A1C: screening test for diabetes, normal</content>
+													<content>Lipids: triglycerides are normal, HDL (good
+														cholesterol) is normal at 51, LDL (bad cholesterol) is
+														mildly elevated at 150. The LDL is not yet to a point that
+														we would advise a medication. Continue to work on weight
+														loss, increasing exercise. Avoid high cholesterol foods
+														like butter, fried foods, red meat.    </content>
+													<content>R. R Doctor, MD</content>
+												</paragraph>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item ID="Result29">
+								<caption>CREATININE (06/30/2014 7:25 AM CDT)</caption>
+								<table>
+									<colgroup>
+										<col width="25%" />
+										<col width="50%" />
+										<col width="25%" />
+									</colgroup>
+									<thead>
+										<tr>
+											<th>Component</th>
+											<th>Value</th>
+											<th>Range</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr ID="Result29Comp1">
+											<td ID="Result29Comp1Name">CREATININE</td>
+											<td>1.1</td>
+											<td>0.6-1.2 mg/dL</td>
+										</tr>
+										<tr ID="Result29Comp2">
+											<td ID="Result29Comp2Name">CALCULATED GFR</td>
+											<td>75</td>
+											<td>&gt;60 ML/MIN/1.73m**2</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item>
+								<table>
+									<thead>
+										<tr>
+											<th>Result Note</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td styleCode="pre">
+												<paragraph>
+													<content>Notes Recorded by Doctor, R. R, MD on
+														6/30/2014 at 2:08 PM</content>
+													<content>Mr. Doe,</content>
+													<content>Thank you for remembering to complete your labs.
+														Your results explained below. </content>
+													<content>Electrolytes (sodium, potassium, chloride, CO2):
+														normal</content>
+													<content>Creatinine: measure of kidney function, normal
+													</content>
+													<content>A1C: screening test for diabetes, normal</content>
+													<content>Lipids: triglycerides are normal, HDL (good
+														cholesterol) is normal at 51, LDL (bad cholesterol) is
+														mildly elevated at 150. The LDL is not yet to a point that
+														we would advise a medication. Continue to work on weight
+														loss, increasing exercise. Avoid high cholesterol foods
+														like butter, fried foods, red meat.    </content>
+													<content>R. R Doctor, MD</content>
+												</paragraph>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item ID="Result30">
+								<caption>ELECTROLYTE BALANCE (06/30/2014 7:25 AM CDT)</caption>
+								<table>
+									<colgroup>
+										<col width="25%" />
+										<col width="50%" />
+										<col width="25%" />
+									</colgroup>
+									<thead>
+										<tr>
+											<th>Component</th>
+											<th>Value</th>
+											<th>Range</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr ID="Result30Comp1">
+											<td ID="Result30Comp1Name">ANION GAP</td>
+											<td>10</td>
+											<td>8-18 mEq/L</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item>
+								<table>
+									<thead>
+										<tr>
+											<th>Result Note</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td styleCode="pre">
+												<paragraph>
+													<content>Notes Recorded by Doctor, R. R, MD on
+														6/30/2014 at 2:08 PM</content>
+													<content>Mr. Doe,</content>
+													<content>Thank you for remembering to complete your labs.
+														Your results explained below. </content>
+													<content>Electrolytes (sodium, potassium, chloride, CO2):
+														normal</content>
+													<content>Creatinine: measure of kidney function, normal
+													</content>
+													<content>A1C: screening test for diabetes, normal</content>
+													<content>Lipids: triglycerides are normal, HDL (good
+														cholesterol) is normal at 51, LDL (bad cholesterol) is
+														mildly elevated at 150. The LDL is not yet to a point that
+														we would advise a medication. Continue to work on weight
+														loss, increasing exercise. Avoid high cholesterol foods
+														like butter, fried foods, red meat.    </content>
+													<content>R. R Doctor, MD</content>
+												</paragraph>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+							<item ID="Result31">
+								<caption>LIPID PANEL (08/05/2010 8:33 AM CDT)</caption>
+								<table>
+									<colgroup>
+										<col width="25%" />
+										<col width="50%" />
+										<col width="25%" />
+									</colgroup>
+									<thead>
+										<tr>
+											<th>Component</th>
+											<th>Value</th>
+											<th>Range</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr ID="Result31Comp1">
+											<td ID="Result31Comp1Name">SPECIMEN TYPE</td>
+											<td>NOT SPEC</td>
+											<td />
+										</tr>
+										<tr ID="Result31Comp2">
+											<td ID="Result31Comp2Name">CHOLESTEROL</td>
+											<td>199</td>
+											<td>MG/DL</td>
+										</tr>
+										<tr ID="Result31Comp3">
+											<td ID="Result31Comp3Name">TRIGS</td>
+											<td>58</td>
+											<td>- &lt;150 MG/DL</td>
+										</tr>
+										<tr ID="Result31Comp4">
+											<td ID="Result31Comp4Name">HDL CHOLESTEROL</td>
+											<td>44</td>
+											<td>&gt;41 MG/DL</td>
+										</tr>
+										<tr ID="Result31Comp5">
+											<td ID="Result31Comp5Name">LDL - Calculated</td>
+											<td>143</td>
+											<td>- &lt;130 MG/DL</td>
+										</tr>
+										<tr ID="Result31Comp6">
+											<td ID="Result31Comp6Name">NON-HDL CHOLESTEROL CALC</td>
+											<td>155</td>
+											<td>mg/dL</td>
+										</tr>
+									</tbody>
+								</table>
+							</item>
+						</list>
+					</text>
+					<entry typeCode="DRIV">
+						<organizer classCode="BATTERY" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.1" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.798268" extension="204759989" />
+							<code code="684" codeSystem="1.2.840.114350.1.13.193.2.7.2.696580"
+								codeSystemName="Epic.EAP.ID" displayName="LIPID PANEL" />
+							<statusCode code="completed" />
+							<effectiveTime>
+								<low value="20140630072500" />
+							</effectiveTime>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759989.1" />
+									<code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+										nullFlavor="UNK">
+										<originalText>
+											<reference value="#Result22Comp1Name" />
+										</originalText>
+										<translation code="67437"
+											codeSystem="1.2.840.114350.1.13.193.2.7.2.768282"
+											codeSystemName="Epic.LRR.ID" displayName="SPECIMEN TYPE" />
+									</code>
+									<text>
+										<reference value="#Result22Comp1" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="ST">FAST</value>
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759989.2" />
+									<code code="X2093-3" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="CHOLESTEROL">
+										<originalText>
+											<reference value="#Result22Comp2Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result22Comp2" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="PQ" unit="mg/dL" value="217" />
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759989.3" />
+									<code code="X2571-8" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="TRIGS">
+										<originalText>
+											<reference value="#Result22Comp3Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result22Comp3" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="PQ" unit="mg/dL" value="81" />
+									<referenceRange>
+										<observationRange>
+											<text>- &lt;150</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759989.4" />
+									<code code="X2085-9" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="HDL CHOLESTEROL">
+										<originalText>
+											<reference value="#Result22Comp4Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result22Comp4" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="PQ" unit="mg/dL" value="51" />
+									<referenceRange>
+										<observationRange>
+											<text>&gt;41</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759989.5" />
+									<code code="X13457-7" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="LDL - Calculated">
+										<originalText>
+											<reference value="#Result22Comp5Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result22Comp5" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="PQ" unit="mg/dL" value="150" />
+									<referenceRange>
+										<observationRange>
+											<text>- &lt;130</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759989.6" />
+									<code code="X43396-1" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="NON-HDL CHOLESTEROL CALC">
+										<originalText>
+											<reference value="#Result22Comp6Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result22Comp6" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="PQ" unit="mg/dL" value="166" />
+								</observation>
+							</component>
+							<component typeCode="COMP">
+								<encounter classCode="ENC" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.49" />
+									<id root="1.2.840.114350.1.13.193.2.7.3.698084.8" extension="32674505" />
+									<code code="3" codeSystem="1.2.840.114350.1.13.193.2.7.4.698084.30"
+										codeSystemName="Epic.EncounterType" displayName="Hospital Encounter" />
+									<effectiveTime>
+										<low value="20100805081900-0500" />
+										<high value="20100805083000-0500" />
+									</effectiveTime>
+								</encounter>
+							</component>
+						</organizer>
+					</entry>
+					<entry typeCode="DRIV">
+						<organizer classCode="BATTERY" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.1" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.798268" extension="204759990" />
+							<code code="828" codeSystem="1.2.840.114350.1.13.193.2.7.2.696580"
+								codeSystemName="Epic.EAP.ID" displayName="HEMOGLOBIN A1C" />
+							<statusCode code="completed" />
+							<effectiveTime>
+								<low value="20140630072500" />
+							</effectiveTime>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759990.1" />
+									<code code="X4548-4" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="HEMOGLOBIN A1C - CORE LAB">
+										<originalText>
+											<reference value="#Result23Comp1Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result23Comp1" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="PQ" unit="%" value="4.8" />
+									<referenceRange>
+										<observationRange>
+											<text>4.8-6.0</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759990.2" />
+									<code code="X27353-2" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="EST AVG GLUCOSE">
+										<originalText>
+											<reference value="#Result23Comp2Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result23Comp2" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="PQ" unit="mg/dL" value="91" />
+								</observation>
+							</component>
+							<component typeCode="COMP">
+								<encounter classCode="ENC" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.49" />
+									<id root="1.2.840.114350.1.13.193.2.7.3.698084.8" extension="32674505" />
+									<code code="3" codeSystem="1.2.840.114350.1.13.193.2.7.4.698084.30"
+										codeSystemName="Epic.EncounterType" displayName="Hospital Encounter" />
+									<effectiveTime>
+										<low value="20100805081900-0500" />
+										<high value="20100805083000-0500" />
+									</effectiveTime>
+								</encounter>
+							</component>
+						</organizer>
+					</entry>
+					<entry typeCode="DRIV">
+						<organizer classCode="BATTERY" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.1" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.798268" extension="204759991" />
+							<code code="892" codeSystem="1.2.840.114350.1.13.193.2.7.2.696580"
+								codeSystemName="Epic.EAP.ID" displayName="SODIUM" />
+							<statusCode code="completed" />
+							<effectiveTime>
+								<low value="20140630072500" />
+							</effectiveTime>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759991.1" />
+									<code code="X2951-2" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="SODIUM">
+										<originalText>
+											<reference value="#Result24Comp1Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result24Comp1" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="ST">138 mEq/L</value>
+									<referenceRange>
+										<observationRange>
+											<text>135-145</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component typeCode="COMP">
+								<encounter classCode="ENC" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.49" />
+									<id root="1.2.840.114350.1.13.193.2.7.3.698084.8" extension="32674505" />
+									<code code="3" codeSystem="1.2.840.114350.1.13.193.2.7.4.698084.30"
+										codeSystemName="Epic.EncounterType" displayName="Hospital Encounter" />
+									<effectiveTime>
+										<low value="20100805081900-0500" />
+										<high value="20100805083000-0500" />
+									</effectiveTime>
+								</encounter>
+							</component>
+						</organizer>
+					</entry>
+					<entry typeCode="DRIV">
+						<organizer classCode="BATTERY" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.1" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.798268" extension="204759992" />
+							<code code="876" codeSystem="1.2.840.114350.1.13.193.2.7.2.696580"
+								codeSystemName="Epic.EAP.ID" displayName="POTASSIUM" />
+							<statusCode code="completed" />
+							<effectiveTime>
+								<low value="20140630072500" />
+							</effectiveTime>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759992.1" />
+									<code code="X2823-3" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="POTASSIUM">
+										<originalText>
+											<reference value="#Result25Comp1Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result25Comp1" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="ST">4.1 mEq/L</value>
+									<referenceRange>
+										<observationRange>
+											<text>3.5-5.0</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component typeCode="COMP">
+								<encounter classCode="ENC" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.49" />
+									<id root="1.2.840.114350.1.13.193.2.7.3.698084.8" extension="32674505" />
+									<code code="3" codeSystem="1.2.840.114350.1.13.193.2.7.4.698084.30"
+										codeSystemName="Epic.EncounterType" displayName="Hospital Encounter" />
+									<effectiveTime>
+										<low value="20100805081900-0500" />
+										<high value="20100805083000-0500" />
+									</effectiveTime>
+								</encounter>
+							</component>
+						</organizer>
+					</entry>
+					<entry typeCode="DRIV">
+						<organizer classCode="BATTERY" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.1" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.798268" extension="204759993" />
+							<code code="766" codeSystem="1.2.840.114350.1.13.193.2.7.2.696580"
+								codeSystemName="Epic.EAP.ID" displayName="CHLORIDE" />
+							<statusCode code="completed" />
+							<effectiveTime>
+								<low value="20140630072500" />
+							</effectiveTime>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759993.1" />
+									<code code="X2075-0" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="CHLORIDE">
+										<originalText>
+											<reference value="#Result26Comp1Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result26Comp1" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="ST">101 mEq/L</value>
+									<referenceRange>
+										<observationRange>
+											<text>95-107</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component typeCode="COMP">
+								<encounter classCode="ENC" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.49" />
+									<id root="1.2.840.114350.1.13.193.2.7.3.698084.8" extension="32674505" />
+									<code code="3" codeSystem="1.2.840.114350.1.13.193.2.7.4.698084.30"
+										codeSystemName="Epic.EncounterType" displayName="Hospital Encounter" />
+									<effectiveTime>
+										<low value="20100805081900-0500" />
+										<high value="20100805083000-0500" />
+									</effectiveTime>
+								</encounter>
+							</component>
+						</organizer>
+					</entry>
+					<entry typeCode="DRIV">
+						<organizer classCode="BATTERY" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.1" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.798268" extension="204759994" />
+							<code code="758" codeSystem="1.2.840.114350.1.13.193.2.7.2.696580"
+								codeSystemName="Epic.EAP.ID" displayName="CO2" />
+							<statusCode code="completed" />
+							<effectiveTime>
+								<low value="20140630072500" />
+							</effectiveTime>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759994.1" />
+									<code code="X2028-9" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="CO2">
+										<originalText>
+											<reference value="#Result27Comp1Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result27Comp1" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="ST">27 mEq/L</value>
+									<referenceRange>
+										<observationRange>
+											<text>24-32</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component typeCode="COMP">
+								<encounter classCode="ENC" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.49" />
+									<id root="1.2.840.114350.1.13.193.2.7.3.698084.8" extension="32674505" />
+									<code code="3" codeSystem="1.2.840.114350.1.13.193.2.7.4.698084.30"
+										codeSystemName="Epic.EncounterType" displayName="Hospital Encounter" />
+									<effectiveTime>
+										<low value="20100805081900-0500" />
+										<high value="20100805083000-0500" />
+									</effectiveTime>
+								</encounter>
+							</component>
+						</organizer>
+					</entry>
+					<entry typeCode="DRIV">
+						<organizer classCode="BATTERY" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.1" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.798268" extension="204759995" />
+							<code code="928" codeSystem="1.2.840.114350.1.13.193.2.7.2.696580"
+								codeSystemName="Epic.EAP.ID" displayName="BLOOD UREA NITROGEN" />
+							<statusCode code="completed" />
+							<effectiveTime>
+								<low value="20140630072500" />
+							</effectiveTime>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759995.1" />
+									<code code="X3094-0" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="BUN">
+										<originalText>
+											<reference value="#Result28Comp1Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result28Comp1" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="PQ" unit="mg/dL" value="16" />
+									<referenceRange>
+										<observationRange>
+											<text>10-20</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component typeCode="COMP">
+								<encounter classCode="ENC" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.49" />
+									<id root="1.2.840.114350.1.13.193.2.7.3.698084.8" extension="32674505" />
+									<code code="3" codeSystem="1.2.840.114350.1.13.193.2.7.4.698084.30"
+										codeSystemName="Epic.EncounterType" displayName="Hospital Encounter" />
+									<effectiveTime>
+										<low value="20100805081900-0500" />
+										<high value="20100805083000-0500" />
+									</effectiveTime>
+								</encounter>
+							</component>
+						</organizer>
+					</entry>
+					<entry typeCode="DRIV">
+						<organizer classCode="BATTERY" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.1" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.798268" extension="204759996" />
+							<code code="780" codeSystem="1.2.840.114350.1.13.193.2.7.2.696580"
+								codeSystemName="Epic.EAP.ID" displayName="CREATININE" />
+							<statusCode code="completed" />
+							<effectiveTime>
+								<low value="20140630072500" />
+							</effectiveTime>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759996.1" />
+									<code code="X2160-0" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="CREATININE">
+										<originalText>
+											<reference value="#Result29Comp1Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result29Comp1" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="PQ" unit="mg/dL" value="1.1" />
+									<referenceRange>
+										<observationRange>
+											<text>0.6-1.2</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759996.2" />
+									<code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+										nullFlavor="UNK">
+										<originalText>
+											<reference value="#Result29Comp2Name" />
+										</originalText>
+										<translation code="61058"
+											codeSystem="1.2.840.114350.1.13.193.2.7.2.768282"
+											codeSystemName="Epic.LRR.ID" displayName="CALCULATED GFR" />
+									</code>
+									<text>
+										<reference value="#Result29Comp2" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="ST">75 ML/MIN/1.73m**2</value>
+									<referenceRange>
+										<observationRange>
+											<text>&gt;60</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component typeCode="COMP">
+								<encounter classCode="ENC" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.49" />
+									<id root="1.2.840.114350.1.13.193.2.7.3.698084.8" extension="32674505" />
+									<code code="3" codeSystem="1.2.840.114350.1.13.193.2.7.4.698084.30"
+										codeSystemName="Epic.EncounterType" displayName="Hospital Encounter" />
+									<effectiveTime>
+										<low value="20100805081900-0500" />
+										<high value="20100805083000-0500" />
+									</effectiveTime>
+								</encounter>
+							</component>
+						</organizer>
+					</entry>
+					<entry typeCode="DRIV">
+						<organizer classCode="BATTERY" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.1" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.798268" extension="204759998" />
+							<code code="10208561" codeSystem="1.2.840.114350.1.13.193.2.7.2.696580"
+								codeSystemName="Epic.EAP.ID" displayName="ELECTROLYTE BALANCE" />
+							<statusCode code="completed" />
+							<effectiveTime>
+								<low value="20140630072500" />
+							</effectiveTime>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="204759998.1" />
+									<code code="X10466-1" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="ANION GAP">
+										<originalText>
+											<reference value="#Result30Comp1Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result30Comp1" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20140630072500" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="ST">10 mEq/L</value>
+									<referenceRange>
+										<observationRange>
+											<text>8-18</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component typeCode="COMP">
+								<encounter classCode="ENC" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.49" />
+									<id root="1.2.840.114350.1.13.193.2.7.3.698084.8" extension="32674505" />
+									<code code="3" codeSystem="1.2.840.114350.1.13.193.2.7.4.698084.30"
+										codeSystemName="Epic.EncounterType" displayName="Hospital Encounter" />
+									<effectiveTime>
+										<low value="20100805081900-0500" />
+										<high value="20100805083000-0500" />
+									</effectiveTime>
+								</encounter>
+							</component>
+						</organizer>
+					</entry>
+					<entry typeCode="DRIV">
+						<organizer classCode="BATTERY" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.1" />
+							<id root="1.2.840.114350.1.13.193.2.7.2.798268" extension="108929201" />
+							<code code="684" codeSystem="1.2.840.114350.1.13.193.2.7.2.696580"
+								codeSystemName="Epic.EAP.ID" displayName="LIPID PANEL" />
+							<statusCode code="completed" />
+							<effectiveTime>
+								<low value="20100805083300" />
+							</effectiveTime>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="108929201.1" />
+									<code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+										nullFlavor="UNK">
+										<originalText>
+											<reference value="#Result31Comp1Name" />
+										</originalText>
+										<translation code="67437"
+											codeSystem="1.2.840.114350.1.13.193.2.7.2.768282"
+											codeSystemName="Epic.LRR.ID" displayName="SPECIMEN TYPE" />
+									</code>
+									<text>
+										<reference value="#Result31Comp1" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20100805083300" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="ST">NOT SPEC</value>
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="108929201.2" />
+									<code code="X2093-3" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="CHOLESTEROL">
+										<originalText>
+											<reference value="#Result31Comp2Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result31Comp2" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20100805083300" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="ST">199 MG/DL</value>
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="108929201.3" />
+									<code code="X2571-8" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="TRIGS">
+										<originalText>
+											<reference value="#Result31Comp3Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result31Comp3" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20100805083300" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="ST">58 MG/DL</value>
+									<referenceRange>
+										<observationRange>
+											<text>- &lt;150</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="108929201.4" />
+									<code code="X2085-9" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="HDL CHOLESTEROL">
+										<originalText>
+											<reference value="#Result31Comp4Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result31Comp4" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20100805083300" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="ST">44 MG/DL</value>
+									<referenceRange>
+										<observationRange>
+											<text>&gt;41</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="108929201.5" />
+									<code code="X13457-7" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="LDL - Calculated">
+										<originalText>
+											<reference value="#Result31Comp5Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result31Comp5" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20100805083300" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="ST">143 MG/DL</value>
+									<referenceRange>
+										<observationRange>
+											<text>- &lt;130</text>
+										</observationRange>
+									</referenceRange>
+								</observation>
+							</component>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.2" />
+									<id root="1.2.840.114350.1.13.193.2.7.6.798268.2000"
+										extension="108929201.6" />
+									<code code="X43396-1" codeSystem="2.16.840.1.113883.6.1"
+										codeSystemName="LOINC" displayName="NON-HDL CHOLESTEROL CALC">
+										<originalText>
+											<reference value="#Result31Comp6Name" />
+										</originalText>
+									</code>
+									<text>
+										<reference value="#Result31Comp6" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime value="20100805083300" />
+									<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+										xsi:type="PQ" unit="mg/dL" value="155" />
+								</observation>
+							</component>
+							<component typeCode="COMP">
+								<encounter classCode="ENC" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.49" />
+									<id root="1.2.840.114350.1.13.193.2.7.3.698084.8" extension="32674505" />
+									<code code="3" codeSystem="1.2.840.114350.1.13.193.2.7.4.698084.30"
+										codeSystemName="Epic.EncounterType" displayName="Hospital Encounter" />
+									<effectiveTime>
+										<low value="20100805081900-0500" />
+										<high value="20100805083000-0500" />
+									</effectiveTime>
+								</encounter>
+							</component>
+						</organizer>
+					</entry>
+				</section>
+			</component>
+		</structuredBody>
+	</component>
+</ClinicalDocument>

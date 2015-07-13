@@ -1,0 +1,2818 @@
+{ "endDateInMillis" : 1342045042194,
+"records" : [{
+  "document": {
+    "date": "2014-06-03T05:00:00.000Z",
+    "author": {
+      "name": {
+        "prefix": null,
+        "given": [],
+        "family": null
+      },
+      "address": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null
+      },
+      "phone": {
+        "work": null
+      }
+    },
+    "documentation_of": [],
+    "location": {
+      "name": null,
+      "address": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null
+      },
+      "encounter_date": null
+    }
+  },
+  "allergies": [
+    {
+      "date_range": {
+        "start": "2014-05-13T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Assertion",
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "status": null,
+      "severity": null,
+      "reaction": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reaction_type": {
+        "name": "propensity to adverse reactions",
+        "code": "420134006",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED CT"
+      },
+      "allergen": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      }
+    },
+    {
+      "date_range": {
+        "start": null,
+        "end": null
+      },
+      "name": "Assertion",
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "status": null,
+      "severity": null,
+      "reaction": {
+        "name": "hives",
+        "code": null,
+        "code_system": null
+      },
+      "reaction_type": {
+        "name": "amoxicillin",
+        "code": "723",
+        "code_system": null,
+        "code_system_name": "RxNorm_Brand"
+      },
+      "allergen": {
+        "name": "amoxicillin",
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      }
+    }
+  ],
+  "care_plan": [],
+  "chief_complaint": {
+    "text": null
+  },
+  "demographics": {
+    "name": {
+      "prefix": null,
+      "given": [
+        "Jane"
+      ],
+      "family": "Doe"
+    },
+    "dob": "1987-01-20T06:00:00.000Z",
+    "gender": "female",
+    "marital_status": null,
+    "address": {
+      "street": [],
+      "city": null,
+      "state": null,
+      "zip": null,
+      "country": null
+    },
+    "phone": {
+      "home": "mailto:dtpham563@yahoo.com",
+      "work": null,
+      "mobile": null
+    },
+    "email": null,
+    "language": null,
+    "race": null,
+    "ethnicity": null,
+    "religion": null,
+    "birthplace": {
+      "state": null,
+      "zip": null,
+      "country": null
+    },
+    "guardian": {
+      "name": {
+        "given": [],
+        "family": null
+      },
+      "relationship": null,
+      "address": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null
+      },
+      "phone": {
+        "home": null
+      }
+    },
+    "provider": {
+      "organization": null,
+      "phone": null,
+      "address": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null
+      }
+    }
+  },
+  "encounters": [
+    {
+      "date": "2013-09-20T05:00:00.000Z",
+      "name": "ADMIN PAT ACTIVTIES (MASNONCT)",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "code_system_version": null,
+      "findings": [
+        {
+          "name": null,
+          "code": null,
+          "code_system": null
+        }
+      ],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2013-08-20T05:00:00.000Z",
+      "name": "ADMIN PAT ACTIVTIES (MASNONCT)",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "code_system_version": null,
+      "findings": [
+        {
+          "name": null,
+          "code": null,
+          "code_system": null
+        }
+      ],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2013-07-22T05:00:00.000Z",
+      "name": "ADMIN PAT ACTIVTIES (MASNONCT)",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "code_system_version": null,
+      "findings": [
+        {
+          "name": null,
+          "code": null,
+          "code_system": null
+        }
+      ],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2013-05-02T05:00:00.000Z",
+      "name": "GENERAL INTERNAL MEDICINE with associated notes C & P EXAMINATION NOTE",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "code_system_version": null,
+      "findings": [
+        {
+          "name": null,
+          "code": null,
+          "code_system": null
+        }
+      ],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2013-05-02T05:00:00.000Z",
+      "name": "GENERAL INTERNAL MEDICINE with associated notes NURSING NOTE",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "code_system_version": null,
+      "findings": [
+        {
+          "name": null,
+          "code": null,
+          "code_system": null
+        }
+      ],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2013-03-25T05:00:00.000Z",
+      "name": "ADMIN PAT ACTIVTIES (MASNONCT)",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "code_system_version": null,
+      "findings": [
+        {
+          "name": null,
+          "code": null,
+          "code_system": null
+        }
+      ],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2013-01-22T06:00:00.000Z",
+      "name": "PRIMARY CARE/MEDICINE with associated notes PRIMARY CARE OUTPATIENT NOTE,PHYSICAL MEDICINE REHAB ADMISSION EVALUATION NOTE,DISCHARGE PLAN,PHYSICIAN DISCHARGE NOTE",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "code_system_version": null,
+      "findings": [
+        {
+          "name": null,
+          "code": null,
+          "code_system": null
+        }
+      ],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2011-06-03T05:00:00.000Z",
+      "name": "PRIMARY CARE/MEDICINE with associated notes PRIMARY CARE NURSING OUTPATIENT NOTE",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "code_system_version": null,
+      "findings": [
+        {
+          "name": null,
+          "code": null,
+          "code_system": null
+        }
+      ],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    }
+  ],
+  "functional_statuses": [],
+  "immunizations": [
+    {
+      "date": "2009-12-08T06:00:00.000Z",
+      "product": {
+        "name": "Unknown",
+        "code": null,
+        "code_system": null,
+        "code_system_name": null,
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-12-08T06:00:00.000Z",
+      "product": {
+        "name": "H1N1 - Nasal Mist",
+        "code": null,
+        "code_system": null,
+        "code_system_name": null,
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-10-19T05:00:00.000Z",
+      "product": {
+        "name": "Influenza Vaccine",
+        "code": null,
+        "code_system": null,
+        "code_system_name": null,
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-10-19T05:00:00.000Z",
+      "product": {
+        "name": "Unknown",
+        "code": null,
+        "code_system": null,
+        "code_system_name": null,
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2008-11-24T06:00:00.000Z",
+      "product": {
+        "name": "Unknown",
+        "code": null,
+        "code_system": null,
+        "code_system_name": null,
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2008-11-24T06:00:00.000Z",
+      "product": {
+        "name": "Influenza Vaccine",
+        "code": null,
+        "code_system": null,
+        "code_system_name": null,
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    }
+  ],
+  "instructions": [],
+  "labs": [
+    {
+      "name": "---GYN ORDER/REPORT PROCEDURE---",
+      "code": "LAB1911",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "HEMOGLOBIN A1C",
+      "code": "LAB90",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": "HEMOGLOBIN A1C - CORE LAB",
+          "value": 5.6,
+          "unit": "%",
+          "code": "X4548-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "4.8-6.0 %",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": "EST AVG GLUCOSE",
+          "value": 114,
+          "unit": "mg/dL",
+          "code": "X27353-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "CBC (COMPLETE BLOOD COUNT)",
+      "code": "LAB294",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": "WBC COUNT",
+          "value": 6.9,
+          "unit": "K/MM3",
+          "code": "X6690-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "3.7-10.5 K/MM3",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": "RBC COUNT",
+          "value": 4.84,
+          "unit": "M/MM3",
+          "code": "X789-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "4.00-5.20 M/MM3",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": "HEMOGLOBIN",
+          "value": 14.1,
+          "unit": "g/dL",
+          "code": "X718-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "11.9-15.5 g/dL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": "HEMATOCRIT",
+          "value": 42,
+          "unit": "%",
+          "code": "X4544-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "35-47 %",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": "MCV (MEAN CORPUSVULAR VOLUME)",
+          "value": 86,
+          "unit": "FL",
+          "code": "X787-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "82-99 FL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": "MCH (MEAN CORPUSCULAR HEMOGLOBIN)",
+          "value": 29,
+          "unit": "PG",
+          "code": "X785-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "25-35 PG",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": "MCHC (MEAN CORPUSCULAR HEMOGLOBIN CONCENTRATION)",
+          "value": 34,
+          "unit": "%",
+          "code": "X786-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "32-36 %",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": "PLATELET COUNT",
+          "value": 215,
+          "unit": "K/MM3",
+          "code": "X777-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "150-400 K/MM3",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": null,
+          "value": 9.6,
+          "unit": "FL",
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "9.4-12.3 FL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": null,
+          "value": 40.2,
+          "unit": "FL",
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "36.4-46.3 FL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": "RBC DISTRIB WIDTH",
+          "value": 12.9,
+          "unit": "%",
+          "code": "X788-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "9.0-14.5 %",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-05-28T05:00:00.000Z",
+          "name": "NUCLEATED RBC",
+          "value": 0,
+          "unit": "100WBC",
+          "code": "X771-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": null,
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": "2014-01-28T06:00:00.000Z",
+          "name": "Creatine kinase.MB/Creatine kinase.total in Serum or Plasma by calculation",
+          "value": null,
+          "unit": null,
+          "code": "12189-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "0.0-2.5",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": null,
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": "2014-01-28T06:00:00.000Z",
+          "name": "Digoxin [Mass/volume] in Serum or Plasma",
+          "value": null,
+          "unit": null,
+          "code": "10535-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": ".5-2.1",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-01-28T06:00:00.000Z",
+          "name": "Time last dose of Dose",
+          "value": null,
+          "unit": null,
+          "code": "29637-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "-",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": null,
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": "2014-01-28T06:00:00.000Z",
+          "name": "Creatine kinase.MB [Mass/volume] in Serum or Plasma",
+          "value": null,
+          "unit": null,
+          "code": "13969-1",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "0-6.1",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": null,
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": "2014-01-28T06:00:00.000Z",
+          "name": "Creatine kinase [Enzymatic activity/volume] in Serum or Plasma",
+          "value": null,
+          "unit": null,
+          "code": "2157-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "40-200",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": null,
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": "2014-01-28T06:00:00.000Z",
+          "name": "Potassium [Moles/volume] in Serum or Plasma",
+          "value": null,
+          "unit": null,
+          "code": "2823-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "3.5-5.0",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "CBC (COMPLETE BLOOD COUNT)",
+      "code": "LAB294",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": "WBC COUNT",
+          "value": 7.2,
+          "unit": "K/MM3",
+          "code": "X6690-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "3.7-10.5 K/MM3",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": "RBC COUNT",
+          "value": 4.72,
+          "unit": "M/MM3",
+          "code": "X789-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "4.00-5.20 M/MM3",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": "HEMOGLOBIN",
+          "value": 13.5,
+          "unit": "g/dL",
+          "code": "X718-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "11.9-15.5 g/dL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": "HEMATOCRIT",
+          "value": 41,
+          "unit": "%",
+          "code": "X4544-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "35-47 %",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": "MCV (MEAN CORPUSVULAR VOLUME)",
+          "value": 86,
+          "unit": "FL",
+          "code": "X787-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "82-99 FL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": "MCH (MEAN CORPUSCULAR HEMOGLOBIN)",
+          "value": 29,
+          "unit": "PG",
+          "code": "X785-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "25-35 PG",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": "MCHC (MEAN CORPUSCULAR HEMOGLOBIN CONCENTRATION)",
+          "value": 33,
+          "unit": "%",
+          "code": "X786-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "32-36 %",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": "PLATELET COUNT",
+          "value": 220,
+          "unit": "K/MM3",
+          "code": "X777-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "150-400 K/MM3",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": null,
+          "value": 9.8,
+          "unit": "FL",
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "9.4-12.3 FL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": null,
+          "value": 39.1,
+          "unit": "FL",
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "36.4-46.3 FL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": "RBC DISTRIB WIDTH",
+          "value": 12.5,
+          "unit": "%",
+          "code": "X788-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "9.0-14.5 %",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": "NUCLEATED RBC",
+          "value": 0,
+          "unit": "100WBC",
+          "code": "X771-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "NON-HDL CHOLESTEROL CALC",
+      "code": "LAB7293",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": "NON-HDL CHOLESTEROL CALC",
+          "value": 51,
+          "unit": "mg/dL",
+          "code": "X43396-1",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "HIGH DENSITY LIPOPROTEIN CHOL",
+      "code": "LAB101",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": "HDL CHOLESTEROL",
+          "value": 47,
+          "unit": "mg/dL",
+          "code": "X2085-9",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": ">41 mg/dL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "CHOLESTEROL",
+      "code": "LAB60",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2013-05-22T05:00:00.000Z",
+          "name": "CHOLESTEROL",
+          "value": 98,
+          "unit": "mg/dL",
+          "code": "X2093-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "L SPINE AP & LATERAL",
+      "code": "IMG4087",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2012-05-02T05:00:00.000Z",
+          "name": "Unknown",
+          "value": null,
+          "unit": null,
+          "code": "261665006",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "GROUP B STREP CULTURE",
+      "code": "LAB2328",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2012-01-25T06:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2012-01-25T06:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "RBC ANTIBODY SCREEN",
+      "code": "LAB4402",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2011-11-16T06:00:00.000Z",
+          "name": "AB SCREEN INTERP (SOLID)",
+          "value": null,
+          "unit": null,
+          "code": "X890-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "GLUCOSE, 1 HOUR, GLUCOSE TOLERANCE TEST",
+      "code": "LAB169",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2011-11-16T06:00:00.000Z",
+          "name": "GTT 1 HOUR",
+          "value": 124,
+          "unit": "mg/dL",
+          "code": "X20438-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "HEMATOCRIT",
+      "code": "LAB289",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2011-11-16T06:00:00.000Z",
+          "name": "HEMATOCRIT",
+          "value": 34,
+          "unit": "%",
+          "code": "X4544-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "35 - 47 %",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "HEMATOCRIT",
+      "code": "LAB289",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2011-08-10T05:00:00.000Z",
+          "name": "HEMATOCRIT",
+          "value": 35,
+          "unit": "%",
+          "code": "X4544-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "35 - 47 %",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "GLUCOSE",
+      "code": "LAB82",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2011-08-10T05:00:00.000Z",
+          "name": "GLUCOSE",
+          "value": 82,
+          "unit": "MG/DL",
+          "code": "X2345-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "65 - 99 MG/DL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "URINE DIPSTICK, 10, POINT OF CARE",
+      "code": "POC5",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2011-08-10T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-08-10T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "Negative-Negative",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-08-10T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "Negative-Negative mg/dl",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-08-10T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "1.015-1.025",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-08-10T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "Negative-Negative",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-08-10T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "5.0-8.5",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-08-10T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "Negative-Negative mg/dl",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-08-10T05:00:00.000Z",
+          "name": null,
+          "value": 0.2,
+          "unit": "mg/dl",
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "0.2-1.0 mg/dl",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-08-10T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "Negative-Negative",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-08-10T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "Negative-Negative",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "RBC ANTIBODY SCREEN",
+      "code": "LAB4402",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "AB SCREEN INTERP (SOLID)",
+          "value": null,
+          "unit": null,
+          "code": "X890-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "RAPID PLASMIN REAGIN WITH REFLEX TITER",
+      "code": "LAB494",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "see fn",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "GLUCOSE",
+      "code": "LAB82",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "GLUCOSE",
+          "value": 99,
+          "unit": "MG/DL",
+          "code": "X2345-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "65 - 99 MG/DL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "RUBELLA ANTIBODY, IGG",
+      "code": "LAB4835",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "RUBELLA IgG ANTIBODY QNT",
+          "value": 60,
+          "unit": "IU/mL",
+          "code": "X8014-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "CBC (COMPLETE BLOOD COUNT)",
+      "code": "LAB294",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "WBC COUNT",
+          "value": 8.3,
+          "unit": "K/MM3",
+          "code": "X6690-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "3.7 - 10.5 K/MM3",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "RBC COUNT",
+          "value": 4.85,
+          "unit": "M/MM3",
+          "code": "X789-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "4.00 - 5.20 M/MM3",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "HEMOGLOBIN",
+          "value": 14.2,
+          "unit": "G/DL",
+          "code": "X718-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "11.9 - 15.5 G/DL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "HEMATOCRIT",
+          "value": 41,
+          "unit": "%",
+          "code": "X4544-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "35 - 47 %",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "MCV (MEAN CORPUSVULAR VOLUME)",
+          "value": 85,
+          "unit": "FL",
+          "code": "X787-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "82 - 99 FL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "MCH (MEAN CORPUSCULAR HEMOGLOBIN)",
+          "value": 29,
+          "unit": "PG",
+          "code": "X785-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "25 - 35 PG",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "MCHC (MEAN CORPUSCULAR HEMOGLOBIN CONCENTRATION)",
+          "value": 35,
+          "unit": "%",
+          "code": "X786-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "32 - 36 %",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "PLATELET COUNT",
+          "value": 192,
+          "unit": "K/MM3",
+          "code": "X777-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "150 - 400 K/MM3",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": null,
+          "value": 9.8,
+          "unit": "FL",
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "9.4 - 12.3 FL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": null,
+          "value": 39.7,
+          "unit": "FL",
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "36.4 - 46.3 FL",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "RBC DISTRIB WIDTH",
+          "value": 13,
+          "unit": "%",
+          "code": "X788-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "9.0 - 14.5 %",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "NUCLEATED RBC",
+          "value": 0,
+          "unit": "/100WB",
+          "code": "X771-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "HEMOGLOBIN A1C",
+      "code": "LAB90",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "HEMOGLOBIN A1C - CORE LAB",
+          "value": 5.7,
+          "unit": "%",
+          "code": "X4548-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "4.8 - 6.0 %",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": "EST AVG GLUCOSE",
+          "value": 117,
+          "unit": "MG/DL",
+          "code": "X27353-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "URINE CULTURE, ROUTINE AEROBIC",
+      "code": "LAB239",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "URINE DIPSTICK, 4 DIP, POINT OF CARE",
+      "code": "POC21",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "Negative-Negative mg/dl",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "Negative-Negative",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2011-07-27T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "Negative-Negative",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "THYROID STIMULATING HORMONE (TSH), WITH REFLEX FREE T-4",
+      "code": "LAB840",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT-4",
+      "results": [
+        {
+          "date": "2010-10-21T05:00:00.000Z",
+          "name": "TSH, REFLEX",
+          "value": 1.28,
+          "unit": "uIU/ML",
+          "code": "X11579-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "0.27 - 4.20 uIU/ML",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    }
+  ],
+  "medications": [
+    {
+      "date_range": {
+        "start": "2014-05-28T05:00:00.000Z",
+        "end": null
+      },
+      "text": null,
+      "product": {
+        "name": "Norethindrone-Ethin Estradiol 1-35 Mg-McG Po Tab",
+        "code": "749858",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": null,
+          "code": "294861",
+          "code_system": null,
+          "code_system_name": "NDDF (First DataBank)"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": "Oral",
+        "code": "C38288",
+        "code_system": null,
+        "code_system_name": "NCI Thesaurus"
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": null,
+        "end": null
+      },
+      "text": null,
+      "product": {
+        "name": "MULTIVITS W/MINERALS TAB/CAP (NO VIT K)",
+        "code": null,
+        "code_system": null,
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": null,
+        "end": null
+      },
+      "text": null,
+      "product": {
+        "name": "ACETAMINOPHEN 325MG TAB",
+        "code": null,
+        "code_system": null,
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": null,
+        "end": null
+      },
+      "text": null,
+      "product": {
+        "name": "THIAMINE HCL 100MG TAB",
+        "code": null,
+        "code_system": null,
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": null,
+        "end": null
+      },
+      "text": null,
+      "product": {
+        "name": "CALCIUM CARBONATE 650MG TAB",
+        "code": null,
+        "code_system": null,
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    }
+  ],
+  "problems": [
+    {
+      "date_range": {
+        "start": "2013-05-22T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Tinnitus",
+      "status": null,
+      "age": null,
+      "code": "60862001",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED CT",
+      "translation": {
+        "name": null,
+        "code": "388.30",
+        "code_system": null,
+        "code_system_name": "ICD-9CM"
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2013-05-22T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Health maintenance examination",
+      "status": null,
+      "age": null,
+      "code": "310366008",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED CT",
+      "translation": {
+        "name": null,
+        "code": "V70.0",
+        "code_system": null,
+        "code_system_name": "ICD-9CM"
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": null,
+        "end": null
+      },
+      "name": "Hyperlipidemia (ICD-9-CM 272.4)",
+      "status": null,
+      "age": null,
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": null,
+        "end": null
+      },
+      "name": "Diabetes Mellitus without mention of Complication, type II or unspecified type, (ICD-9-CM 250.02)",
+      "status": null,
+      "age": null,
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2013-05-22T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Tinnitus",
+      "status": null,
+      "age": null,
+      "code": "60862001",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED CT",
+      "translation": {
+        "name": null,
+        "code": "388.30",
+        "code_system": null,
+        "code_system_name": "ICD-9CM"
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2013-05-22T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Health maintenance examination",
+      "status": null,
+      "age": null,
+      "code": "310366008",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED CT",
+      "translation": {
+        "name": null,
+        "code": "V70.0",
+        "code_system": null,
+        "code_system_name": "ICD-9CM"
+      },
+      "comment": null
+    }
+  ],
+  "procedures": [
+    {
+      "date": "2014-02-04T06:00:00.000Z",
+      "name": "RADIOLOGIC EXAMINATION, ABDOMEN; ANTEROPOSTERIOR AND ADDITIONAL OBLIQUE AND CONE VIEWS",
+      "code": "74010",
+      "code_system": "2.16.840.1.113883.6.12",
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2014-02-04T06:00:00.000Z",
+      "name": "RADIOLOGIC EXAMINATION, CHEST, 2 VIEWS, FRONTAL AND LATERAL;",
+      "code": "71020",
+      "code_system": "2.16.840.1.113883.6.12",
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2012-02-17T06:00:00.000Z",
+      "name": null,
+      "code": null,
+      "code_system": null,
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2012-02-16T06:00:00.000Z",
+      "name": null,
+      "code": null,
+      "code_system": null,
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2011-08-10T05:00:00.000Z",
+      "name": "ECG IMPRESSION",
+      "code": "EKG109",
+      "code_system": "2.16.840.1.113883.6.12",
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    }
+  ],
+  "smoking_status": {
+    "date": null,
+    "name": null,
+    "code": null,
+    "code_system": null,
+    "code_system_name": null
+  },
+  "vitals": [
+    {
+      "date": "2012-07-03T05:00:00.000Z",
+      "results": [
+        {
+          "name": "Body weight",
+          "code": "27113001",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": null,
+          "value": 55.1,
+          "unit": "kg"
+        }
+      ]
+    },
+    {
+      "date": "2013-05-22T05:00:00.000Z",
+      "results": [
+        {
+          "name": "High density lipoprotein (HDL) cholesterol",
+          "code": "102737005",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": null,
+          "value": 1.215,
+          "unit": "mmol/L"
+        }
+      ]
+    }
+  ]
+}]}

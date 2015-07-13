@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.2.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+	<preConditions>
+		<dbms type="postgresql" />
+	</preConditions>
+         
+    <changeSet id="rememberMeTable" author="cbhudson" failOnError="false">
+    
+    	 <createTable tableName="persistent_logins" schemaName="public">
+    	 	<column name="username" type="varchar(64)" >
+    	 		<constraints nullable="false" />
+    	 	</column>
+    	 	<column name="series" type="varchar(64)" >
+    	 		<constraints primaryKey="true" />
+    	 	</column>
+    	 	<column name="token" type="varchar(64)" >
+    	 		<constraints nullable="false" />
+   	 		</column>
+    	 	<column name="last_used" type="TIMESTAMP" >
+    	 		<constraints nullable="false" />
+   	 		</column>
+    	 </createTable>
+    	 
+    </changeSet>
+    
+</databaseChangeLog>

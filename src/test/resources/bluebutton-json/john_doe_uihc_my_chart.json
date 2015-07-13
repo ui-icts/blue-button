@@ -1,0 +1,845 @@
+{"records" : [{
+  "document": {
+    "date": "2015-03-23T05:00:00.000Z",
+    "author": {
+      "name": {
+        "prefix": null,
+        "given": [],
+        "family": null
+      },
+      "address": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null
+      },
+      "phone": {
+        "work": null
+      }
+    },
+    "documentation_of": [
+      {
+        "name": {
+          "prefix": null,
+          "given": [
+            "R.",
+            "R"
+          ],
+          "family": "Doctor"
+        },
+        "phone": {
+          "work": "tel:+1-319-356-1616"
+        },
+        "address": {
+          "street": [
+            "UIHC-INTERNAL MEDICINE"
+          ],
+          "city": "IOWA CITY",
+          "state": "IA",
+          "zip": "52242",
+          "country": null
+        }
+      }
+    ],
+    "location": {
+      "name": null,
+      "address": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null
+      },
+      "encounter_date": null
+    }
+  },
+  "allergies": [
+    {
+      "date_range": {
+        "start": null,
+        "end": null
+      },
+      "name": null,
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": null,
+      "status": null,
+      "severity": null,
+      "reaction": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reaction_type": {
+        "name": "propensity to adverse reactions",
+        "code": "420134006",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED CT"
+      },
+      "allergen": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      }
+    }
+  ],
+  "care_plan": [],
+  "chief_complaint": {
+    "text": null
+  },
+  "demographics": {
+    "name": {
+      "prefix": null,
+      "given": [
+        "John",
+        "C"
+      ],
+      "family": "Doe"
+    },
+    "dob": "1974-09-03T05:00:00.000Z",
+    "gender": "male",
+    "marital_status": null,
+    "address": {
+      "street": [
+        "5555 Home Town DR NE"
+      ],
+      "city": "IOWA CITY",
+      "state": "IA",
+      "zip": "52240-7893",
+      "country": "USA"
+    },
+    "phone": {
+      "home": "tel:+1-443-564-2064",
+      "work": null,
+      "mobile": null
+    },
+    "email": null,
+    "language": "eng",
+    "race": "White",
+    "ethnicity": "Non-Hispanic",
+    "religion": null,
+    "birthplace": {
+      "state": null,
+      "zip": null,
+      "country": null
+    },
+    "guardian": {
+      "name": {
+        "given": [],
+        "family": null
+      },
+      "relationship": null,
+      "address": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null
+      },
+      "phone": {
+        "home": null
+      }
+    },
+    "provider": {
+      "organization": "University of Iowa Hospitals and Clinics (UIHC)",
+      "phone": "tel:+1-319-356-2555",
+      "address": {
+        "street": [
+          "200 Hawkins Dr."
+        ],
+        "city": "Iowa City",
+        "state": "IA",
+        "zip": "52242",
+        "country": null
+      }
+    }
+  },
+  "encounters": [],
+  "functional_statuses": [],
+  "immunizations": [],
+  "instructions": [],
+  "labs": [
+    {
+      "name": "LIPID PANEL",
+      "code": "684",
+      "code_system": "1.2.840.114350.1.13.193.2.7.2.696580",
+      "code_system_name": "Epic.EAP.ID",
+      "results": [
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": "CHOLESTEROL",
+          "value": 217,
+          "unit": "mg/dL",
+          "code": "X2093-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": "TRIGS",
+          "value": 81,
+          "unit": "mg/dL",
+          "code": "X2571-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "- <150",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": "HDL CHOLESTEROL",
+          "value": 51,
+          "unit": "mg/dL",
+          "code": "X2085-9",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": ">41",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": "LDL - Calculated",
+          "value": 150,
+          "unit": "mg/dL",
+          "code": "X13457-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "- <130",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": "NON-HDL CHOLESTEROL CALC",
+          "value": 166,
+          "unit": "mg/dL",
+          "code": "X43396-1",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": null,
+          "name": "Hospital Encounter",
+          "value": null,
+          "unit": null,
+          "code": "3",
+          "code_system": "1.2.840.114350.1.13.193.2.7.4.698084.30",
+          "code_system_name": "Epic.EncounterType",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "HEMOGLOBIN A1C",
+      "code": "828",
+      "code_system": "1.2.840.114350.1.13.193.2.7.2.696580",
+      "code_system_name": "Epic.EAP.ID",
+      "results": [
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": "HEMOGLOBIN A1C - CORE LAB",
+          "value": 4.8,
+          "unit": "%",
+          "code": "X4548-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "4.8-6.0",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": "EST AVG GLUCOSE",
+          "value": 91,
+          "unit": "mg/dL",
+          "code": "X27353-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": null,
+          "name": "Hospital Encounter",
+          "value": null,
+          "unit": null,
+          "code": "3",
+          "code_system": "1.2.840.114350.1.13.193.2.7.4.698084.30",
+          "code_system_name": "Epic.EncounterType",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "SODIUM",
+      "code": "892",
+      "code_system": "1.2.840.114350.1.13.193.2.7.2.696580",
+      "code_system_name": "Epic.EAP.ID",
+      "results": [
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": "SODIUM",
+          "value": null,
+          "unit": null,
+          "code": "X2951-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "135-145",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": null,
+          "name": "Hospital Encounter",
+          "value": null,
+          "unit": null,
+          "code": "3",
+          "code_system": "1.2.840.114350.1.13.193.2.7.4.698084.30",
+          "code_system_name": "Epic.EncounterType",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "POTASSIUM",
+      "code": "876",
+      "code_system": "1.2.840.114350.1.13.193.2.7.2.696580",
+      "code_system_name": "Epic.EAP.ID",
+      "results": [
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": "POTASSIUM",
+          "value": null,
+          "unit": null,
+          "code": "X2823-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "3.5-5.0",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": null,
+          "name": "Hospital Encounter",
+          "value": null,
+          "unit": null,
+          "code": "3",
+          "code_system": "1.2.840.114350.1.13.193.2.7.4.698084.30",
+          "code_system_name": "Epic.EncounterType",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "CHLORIDE",
+      "code": "766",
+      "code_system": "1.2.840.114350.1.13.193.2.7.2.696580",
+      "code_system_name": "Epic.EAP.ID",
+      "results": [
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": "CHLORIDE",
+          "value": null,
+          "unit": null,
+          "code": "X2075-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "95-107",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": null,
+          "name": "Hospital Encounter",
+          "value": null,
+          "unit": null,
+          "code": "3",
+          "code_system": "1.2.840.114350.1.13.193.2.7.4.698084.30",
+          "code_system_name": "Epic.EncounterType",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "CO2",
+      "code": "758",
+      "code_system": "1.2.840.114350.1.13.193.2.7.2.696580",
+      "code_system_name": "Epic.EAP.ID",
+      "results": [
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": "CO2",
+          "value": null,
+          "unit": null,
+          "code": "X2028-9",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "24-32",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": null,
+          "name": "Hospital Encounter",
+          "value": null,
+          "unit": null,
+          "code": "3",
+          "code_system": "1.2.840.114350.1.13.193.2.7.4.698084.30",
+          "code_system_name": "Epic.EncounterType",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "BLOOD UREA NITROGEN",
+      "code": "928",
+      "code_system": "1.2.840.114350.1.13.193.2.7.2.696580",
+      "code_system_name": "Epic.EAP.ID",
+      "results": [
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": "BUN",
+          "value": 16,
+          "unit": "mg/dL",
+          "code": "X3094-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "10-20",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": null,
+          "name": "Hospital Encounter",
+          "value": null,
+          "unit": null,
+          "code": "3",
+          "code_system": "1.2.840.114350.1.13.193.2.7.4.698084.30",
+          "code_system_name": "Epic.EncounterType",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "CREATININE",
+      "code": "780",
+      "code_system": "1.2.840.114350.1.13.193.2.7.2.696580",
+      "code_system_name": "Epic.EAP.ID",
+      "results": [
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": "CREATININE",
+          "value": 1.1,
+          "unit": "mg/dL",
+          "code": "X2160-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "0.6-1.2",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": ">60",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": null,
+          "name": "Hospital Encounter",
+          "value": null,
+          "unit": null,
+          "code": "3",
+          "code_system": "1.2.840.114350.1.13.193.2.7.4.698084.30",
+          "code_system_name": "Epic.EncounterType",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "ELECTROLYTE BALANCE",
+      "code": "10208561",
+      "code_system": "1.2.840.114350.1.13.193.2.7.2.696580",
+      "code_system_name": "Epic.EAP.ID",
+      "results": [
+        {
+          "date": "2014-06-30T05:00:00.000Z",
+          "name": "ANION GAP",
+          "value": null,
+          "unit": null,
+          "code": "X10466-1",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "8-18",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": null,
+          "name": "Hospital Encounter",
+          "value": null,
+          "unit": null,
+          "code": "3",
+          "code_system": "1.2.840.114350.1.13.193.2.7.4.698084.30",
+          "code_system_name": "Epic.EncounterType",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "LIPID PANEL",
+      "code": "684",
+      "code_system": "1.2.840.114350.1.13.193.2.7.2.696580",
+      "code_system_name": "Epic.EAP.ID",
+      "results": [
+        {
+          "date": "2010-08-05T05:00:00.000Z",
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2010-08-05T05:00:00.000Z",
+          "name": "CHOLESTEROL",
+          "value": null,
+          "unit": null,
+          "code": "X2093-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2010-08-05T05:00:00.000Z",
+          "name": "TRIGS",
+          "value": null,
+          "unit": null,
+          "code": "X2571-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "- <150",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2010-08-05T05:00:00.000Z",
+          "name": "HDL CHOLESTEROL",
+          "value": null,
+          "unit": null,
+          "code": "X2085-9",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": ">41",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2010-08-05T05:00:00.000Z",
+          "name": "LDL - Calculated",
+          "value": null,
+          "unit": null,
+          "code": "X13457-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "- <130",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2010-08-05T05:00:00.000Z",
+          "name": "NON-HDL CHOLESTEROL CALC",
+          "value": 155,
+          "unit": "mg/dL",
+          "code": "X43396-1",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": null,
+          "name": "Hospital Encounter",
+          "value": null,
+          "unit": null,
+          "code": "3",
+          "code_system": "1.2.840.114350.1.13.193.2.7.4.698084.30",
+          "code_system_name": "Epic.EncounterType",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    }
+  ],
+  "medications": [],
+  "problems": [
+    {
+      "date_range": {
+        "start": "2014-06-26T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Prehypertension",
+      "status": null,
+      "age": null,
+      "code": "314956000",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED CT",
+      "translation": {
+        "name": "Prehypertension",
+        "code": "796.2",
+        "code_system": "2.16.840.1.113883.6.103",
+        "code_system_name": "ICD-9CM"
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2014-06-26T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Shoulder impingement",
+      "status": null,
+      "age": null,
+      "code": "239960007",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED CT",
+      "translation": {
+        "name": "Shoulder impingement",
+        "code": "726.2",
+        "code_system": "2.16.840.1.113883.6.103",
+        "code_system_name": "ICD-9CM"
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2014-06-26T05:00:00.000Z",
+        "end": null
+      },
+      "name": "OSA (obstructive sleep apnea)",
+      "status": null,
+      "age": null,
+      "code": "78275009",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED CT",
+      "translation": {
+        "name": "OSA (obstructive sleep apnea)",
+        "code": "327.23",
+        "code_system": "2.16.840.1.113883.6.103",
+        "code_system_name": "ICD-9CM"
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2014-06-26T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Aspermia (unknown cause)",
+      "status": null,
+      "age": null,
+      "code": "425558002",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED CT",
+      "translation": {
+        "name": "Aspermia (unknown cause)",
+        "code": "606.0",
+        "code_system": "2.16.840.1.113883.6.103",
+        "code_system_name": "ICD-9CM"
+      },
+      "comment": null
+    }
+  ],
+  "procedures": [],
+  "smoking_status": {
+    "date": null,
+    "name": null,
+    "code": null,
+    "code_system": null,
+    "code_system_name": null
+  },
+  "vitals": []
+}]}

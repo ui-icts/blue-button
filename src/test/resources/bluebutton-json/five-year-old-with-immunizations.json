@@ -1,0 +1,1555 @@
+{"records" : [{
+  "document": {
+    "date": "2014-10-21T05:00:00.000Z",
+    "author": {
+      "name": {
+        "prefix": null,
+        "given": [
+          "Henry"
+        ],
+        "family": "Seven"
+      },
+      "address": {
+        "street": [
+          "1002 Healthcare Drive "
+        ],
+        "city": "Portland",
+        "state": "OR",
+        "zip": "99123",
+        "country": "US"
+      },
+      "phone": {
+        "work": "tel:555-555-1002"
+      }
+    },
+    "documentation_of": [
+      {
+        "name": {
+          "prefix": null,
+          "given": [
+            "Henry"
+          ],
+          "family": "Seven"
+        },
+        "phone": {
+          "work": "tel:+1-555-555-5000"
+        },
+        "address": {
+          "street": [
+            "1001 Village Avenue"
+          ],
+          "city": "Portland",
+          "state": "OR",
+          "zip": "99123",
+          "country": "US"
+        }
+      }
+    ],
+    "location": {
+      "name": null,
+      "address": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null
+      },
+      "encounter_date": null
+    }
+  },
+  "allergies": [
+    {
+      "date_range": {
+        "start": "2009-03-15T05:00:00.000Z",
+        "end": null
+      },
+      "name": null,
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": null,
+      "status": null,
+      "severity": "Fatal",
+      "reaction": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reaction_type": {
+        "name": "Food allergy (disorder)",
+        "code": "414285001",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED-CT"
+      },
+      "allergen": {
+        "name": "Eggs",
+        "code": "291P45F896",
+        "code_system": "2.16.840.1.113883.4.9",
+        "code_system_name": "UNII"
+      }
+    },
+    {
+      "date_range": {
+        "start": "2009-03-15T05:00:00.000Z",
+        "end": null
+      },
+      "name": null,
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": null,
+      "status": null,
+      "severity": "Severe",
+      "reaction": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reaction_type": {
+        "name": "Drug allergy (disorder)",
+        "code": "416098002",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED-CT"
+      },
+      "allergen": {
+        "name": "Amikacin Sulfate 50 MG/ML Injectable Solution",
+        "code": "905148",
+        "code_system": "2.16.840.1.113883.6.88",
+        "code_system_name": "RxNorm"
+      }
+    },
+    {
+      "date_range": {
+        "start": "2009-03-15T05:00:00.000Z",
+        "end": null
+      },
+      "name": null,
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": null,
+      "status": null,
+      "severity": "Moderate",
+      "reaction": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reaction_type": {
+        "name": "Drug allergy (disorder)",
+        "code": "416098002",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED-CT"
+      },
+      "allergen": {
+        "name": "Doxycycline 75 MG Enteric Coated Tablet",
+        "code": "406524",
+        "code_system": "2.16.840.1.113883.6.88",
+        "code_system_name": "RxNorm"
+      }
+    }
+  ],
+  "care_plan": [],
+  "chief_complaint": {
+    "text": null
+  },
+  "demographics": {
+    "name": {
+      "prefix": null,
+      "given": [
+        "Carol"
+      ],
+      "family": "Gilbert"
+    },
+    "dob": "2009-02-11T06:00:00.000Z",
+    "gender": "female",
+    "marital_status": "single",
+    "address": {
+      "street": [
+        "1558 Chenoweth Drive"
+      ],
+      "city": "Mc Minnville",
+      "state": "TN",
+      "zip": "37110",
+      "country": "US"
+    },
+    "phone": {
+      "home": "tel:(931)474-9191",
+      "work": null,
+      "mobile": null
+    },
+    "email": null,
+    "language": "spa",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "religion": "Hinduism",
+    "birthplace": {
+      "state": "ND",
+      "zip": "58224",
+      "country": "US"
+    },
+    "guardian": {
+      "name": {
+        "given": [
+          "Herbert"
+        ],
+        "family": "Chapman"
+      },
+      "relationship": "friend",
+      "address": {
+        "street": [
+          "4566 Adamsville Road"
+        ],
+        "city": "Mcallen",
+        "state": "TX",
+        "zip": "78501",
+        "country": "US"
+      },
+      "phone": {
+        "home": "tel:(956)623-9727"
+      }
+    },
+    "provider": {
+      "organization": "Community Health and Hospitals",
+      "phone": "tel: 555-555-5000",
+      "address": {
+        "street": [
+          "1001 Village Avenue"
+        ],
+        "city": "Portland",
+        "state": "OR",
+        "zip": "99123",
+        "country": "US"
+      }
+    }
+  },
+  "encounters": [
+    {
+      "date": "2009-03-15T05:00:00.000Z",
+      "name": "Encounter for newborn, infant and child health examinations",
+      "code": "Z00.1",
+      "code_system": "2.16.840.1.113883.6.90",
+      "code_system_name": "ICD-10-CM",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2009-04-17T05:00:00.000Z",
+      "name": "Encounter for newborn, infant and child health examinations",
+      "code": "Z00.1",
+      "code_system": "2.16.840.1.113883.6.90",
+      "code_system_name": "ICD-10-CM",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2009-06-19T05:00:00.000Z",
+      "name": "Encounter for newborn, infant and child health examinations",
+      "code": "Z00.1",
+      "code_system": "2.16.840.1.113883.6.90",
+      "code_system_name": "ICD-10-CM",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2009-08-21T05:00:00.000Z",
+      "name": "Encounter for newborn, infant and child health examinations",
+      "code": "Z00.1",
+      "code_system": "2.16.840.1.113883.6.90",
+      "code_system_name": "ICD-10-CM",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-02-15T06:00:00.000Z",
+      "name": "Encounter for newborn, infant and child health examinations",
+      "code": "Z00.1",
+      "code_system": "2.16.840.1.113883.6.90",
+      "code_system_name": "ICD-10-CM",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-05-15T05:00:00.000Z",
+      "name": "Encounter for newborn, infant and child health examinations",
+      "code": "Z00.1",
+      "code_system": "2.16.840.1.113883.6.90",
+      "code_system_name": "ICD-10-CM",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-08-16T05:00:00.000Z",
+      "name": "Encounter for newborn, infant and child health examinations",
+      "code": "Z00.1",
+      "code_system": "2.16.840.1.113883.6.90",
+      "code_system_name": "ICD-10-CM",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2011-02-22T06:00:00.000Z",
+      "name": "Encounter for newborn, infant and child health examinations",
+      "code": "Z00.1",
+      "code_system": "2.16.840.1.113883.6.90",
+      "code_system_name": "ICD-10-CM",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    }
+  ],
+  "functional_statuses": [],
+  "immunizations": [
+    {
+      "date": "2009-02-13T06:00:00.000Z",
+      "product": {
+        "name": "Hep B, adolescent or pediatric",
+        "code": "08",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-03-15T05:00:00.000Z",
+      "product": {
+        "name": "Hep B, adolescent or pediatric",
+        "code": "08",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-04-17T05:00:00.000Z",
+      "product": {
+        "name": "DTaP",
+        "code": "20",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-04-17T05:00:00.000Z",
+      "product": {
+        "name": "Hib-Hep B",
+        "code": "51",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": "Dtap/hib vaccine, im",
+          "code": "90721",
+          "code_system": "2.16.840.1.113883.6.12",
+          "code_system_name": "CPT"
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-04-17T05:00:00.000Z",
+      "product": {
+        "name": "IPV",
+        "code": "10",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": "Poliovirus, ipv, sc",
+          "code": "90713",
+          "code_system": "2.16.840.1.113883.6.12",
+          "code_system_name": "CPT"
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-04-17T05:00:00.000Z",
+      "product": {
+        "name": "pneumococcal conjugate PCV 7",
+        "code": "100",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-04-17T05:00:00.000Z",
+      "product": {
+        "name": "rotavirus, pentavalent",
+        "code": "116",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-06-19T05:00:00.000Z",
+      "product": {
+        "name": "DTaP",
+        "code": "20",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-06-19T05:00:00.000Z",
+      "product": {
+        "name": "Hib-Hep B",
+        "code": "51",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": "Dtap/hib vaccine, im",
+          "code": "90721",
+          "code_system": "2.16.840.1.113883.6.12",
+          "code_system_name": "CPT"
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-06-19T05:00:00.000Z",
+      "product": {
+        "name": "IPV",
+        "code": "10",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": "Poliovirus, ipv, sc",
+          "code": "90713",
+          "code_system": "2.16.840.1.113883.6.12",
+          "code_system_name": "CPT"
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-06-19T05:00:00.000Z",
+      "product": {
+        "name": "pneumococcal conjugate PCV 7",
+        "code": "100",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-06-19T05:00:00.000Z",
+      "product": {
+        "name": "rotavirus, pentavalent",
+        "code": "116",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-08-21T05:00:00.000Z",
+      "product": {
+        "name": "DTaP",
+        "code": "20",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-08-21T05:00:00.000Z",
+      "product": {
+        "name": "Hep B, adolescent or pediatric",
+        "code": "08",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-08-21T05:00:00.000Z",
+      "product": {
+        "name": "Influenza, high dose seasonal",
+        "code": "135",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2009-08-21T05:00:00.000Z",
+      "product": {
+        "name": "pneumococcal conjugate PCV 7",
+        "code": "100",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2010-02-15T06:00:00.000Z",
+      "product": {
+        "name": "Influenza, high dose seasonal",
+        "code": "135",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2010-02-15T06:00:00.000Z",
+      "product": {
+        "name": "pneumococcal conjugate PCV 7",
+        "code": "100",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2010-05-15T05:00:00.000Z",
+      "product": {
+        "name": "Hep A, ped/adol, 2 dose",
+        "code": "83",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2010-05-15T05:00:00.000Z",
+      "product": {
+        "name": "MMR",
+        "code": "03",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2010-05-15T05:00:00.000Z",
+      "product": {
+        "name": "zoster",
+        "code": "121",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2010-08-16T05:00:00.000Z",
+      "product": {
+        "name": "DTaP",
+        "code": "20",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2010-08-16T05:00:00.000Z",
+      "product": {
+        "name": "IPV",
+        "code": "10",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": "Poliovirus, ipv, sc",
+          "code": "90713",
+          "code_system": "2.16.840.1.113883.6.12",
+          "code_system_name": "CPT"
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2011-02-22T06:00:00.000Z",
+      "product": {
+        "name": "Hep A, ped/adol, 2 dose",
+        "code": "83",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    }
+  ],
+  "instructions": [],
+  "labs": [
+    {
+      "name": null,
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": null,
+          "name": null,
+          "value": null,
+          "unit": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null,
+          "reference_range": {
+            "text": "No data",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    }
+  ],
+  "medications": [
+    {
+      "date_range": {
+        "start": null,
+        "end": null
+      },
+      "text": "No data",
+      "product": {
+        "name": "No data",
+        "code": null,
+        "code_system": null,
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    }
+  ],
+  "problems": [
+    {
+      "date_range": {
+        "start": null,
+        "end": null
+      },
+      "name": null,
+      "status": null,
+      "age": null,
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "comment": null
+    }
+  ],
+  "procedures": [
+    {
+      "date": null,
+      "name": null,
+      "code": null,
+      "code_system": null,
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": null,
+      "name": null,
+      "code": null,
+      "code_system": null,
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": null,
+      "name": null,
+      "code": null,
+      "code_system": null,
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    }
+  ],
+  "smoking_status": {
+    "date": null,
+    "name": null,
+    "code": null,
+    "code_system": null,
+    "code_system_name": null
+  },
+  "vitals": [
+    {
+      "date": "2009-03-15T05:00:00.000Z",
+      "results": [
+        {
+          "name": "BMI",
+          "code": "39156-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 13.9,
+          "unit": "kg/m2"
+        }
+      ]
+    },
+    {
+      "date": "2009-04-17T05:00:00.000Z",
+      "results": [
+        {
+          "name": "BMI",
+          "code": "39156-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 14.5,
+          "unit": "kg/m2"
+        }
+      ]
+    },
+    {
+      "date": "2009-06-19T05:00:00.000Z",
+      "results": [
+        {
+          "name": "BMI",
+          "code": "39156-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 12.6,
+          "unit": "kg/m2"
+        }
+      ]
+    },
+    {
+      "date": "2009-08-21T05:00:00.000Z",
+      "results": [
+        {
+          "name": "BMI",
+          "code": "39156-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 15.7,
+          "unit": "kg/m2"
+        }
+      ]
+    },
+    {
+      "date": "2010-02-15T06:00:00.000Z",
+      "results": [
+        {
+          "name": "BMI",
+          "code": "39156-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 19.8,
+          "unit": "kg/m2"
+        }
+      ]
+    },
+    {
+      "date": "2010-05-15T05:00:00.000Z",
+      "results": [
+        {
+          "name": "BMI",
+          "code": "39156-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 18.7,
+          "unit": "kg/m2"
+        }
+      ]
+    },
+    {
+      "date": "2010-08-16T05:00:00.000Z",
+      "results": [
+        {
+          "name": "BMI",
+          "code": "39156-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 19.2,
+          "unit": "kg/m2"
+        }
+      ]
+    },
+    {
+      "date": "2011-02-22T06:00:00.000Z",
+      "results": [
+        {
+          "name": "BMI",
+          "code": "39156-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 16.1,
+          "unit": "kg/m2"
+        }
+      ]
+    }
+  ]
+}]}

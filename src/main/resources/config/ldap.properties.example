@@ -1,0 +1,4 @@
+ldap.url=
+ldap.bind.user=
+ldap.bind.password=
+ldap.root=

@@ -1,0 +1,5113 @@
+{"records" : [{
+  "document": {
+    "date": "2013-09-25T05:00:00.000Z",
+    "author": {
+      "name": {
+        "prefix": null,
+        "given": [
+          "David",
+          "E"
+        ],
+        "family": "Ford"
+      },
+      "address": {
+        "street": [
+          "99 Sycamore Street",
+          "Suite 3"
+        ],
+        "city": "Gainesville",
+        "state": "FL",
+        "zip": "32608",
+        "country": "US"
+      },
+      "phone": {
+        "work": "tel:+1-916-555-7654"
+      }
+    },
+    "documentation_of": [
+      {
+        "name": {
+          "prefix": null,
+          "given": [
+            "Wendy",
+            "M"
+          ],
+          "family": "Perez"
+        },
+        "phone": {
+          "work": "tel:+1-916-555-7657"
+        },
+        "address": {
+          "street": [],
+          "city": null,
+          "state": null,
+          "zip": null,
+          "country": null
+        }
+      },
+      {
+        "name": {
+          "prefix": null,
+          "given": [
+            "Gary"
+          ],
+          "family": "Madder"
+        },
+        "phone": {
+          "work": "tel:+1-916-555-7657"
+        },
+        "address": {
+          "street": [
+            "34 Sycamore Street",
+            "Suite 3"
+          ],
+          "city": "Madison",
+          "state": "CA",
+          "zip": "95653",
+          "country": "US"
+        }
+      },
+      {
+        "name": {
+          "prefix": null,
+          "given": [
+            "James",
+            "T"
+          ],
+          "family": "Monroe"
+        },
+        "phone": {
+          "work": "tel:+1-916-555-7657"
+        },
+        "address": {
+          "street": [
+            "11554 Weedside Lane"
+          ],
+          "city": "Madison",
+          "state": "CA",
+          "zip": "95653",
+          "country": "US"
+        }
+      },
+      {
+        "name": {
+          "prefix": null,
+          "given": [
+            "Depak",
+            "E"
+          ],
+          "family": "Shah"
+        },
+        "phone": {
+          "work": "tel:+1-916-555-7657"
+        },
+        "address": {
+          "street": [
+            "8620 Palmetto Drive"
+          ],
+          "city": "Madison",
+          "state": "CA",
+          "zip": "95653",
+          "country": "US"
+        }
+      },
+      {
+        "name": {
+          "prefix": null,
+          "given": [
+            "David",
+            "E"
+          ],
+          "family": "Ford"
+        },
+        "phone": {
+          "work": "tel:+1-916-555-7657"
+        },
+        "address": {
+          "street": [
+            "87 Bayshore Drive"
+          ],
+          "city": "Madison",
+          "state": "CA",
+          "zip": "95653",
+          "country": "US"
+        }
+      }
+    ],
+    "location": {
+      "name": null,
+      "address": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null
+      },
+      "encounter_date": null
+    }
+  },
+  "allergies": [
+    {
+      "date_range": {
+        "start": "2009-01-08T06:00:00.000Z",
+        "end": null
+      },
+      "name": "Assertion",
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "status": "Active",
+      "severity": null,
+      "reaction": {
+        "name": "Itchy eyes and nasal congestion",
+        "code": "NI",
+        "code_system": "2.16.840.1.113883.6.96"
+      },
+      "reaction_type": {
+        "name": "Allergy to substance",
+        "code": "419199007",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED CT"
+      },
+      "allergen": {
+        "name": "Ragweed",
+        "code": "Unknown",
+        "code_system": "2.16.840.1.113883.4.9",
+        "code_system_name": "UNII"
+      }
+    },
+    {
+      "date_range": {
+        "start": "2006-12-07T06:00:00.000Z",
+        "end": null
+      },
+      "name": "Assertion",
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "status": "Active",
+      "severity": null,
+      "reaction": {
+        "name": "Skin Rashes/Hives",
+        "code": "64144002",
+        "code_system": "2.16.840.1.113883.6.96"
+      },
+      "reaction_type": {
+        "name": "Allergy to substance",
+        "code": "419199007",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED CT"
+      },
+      "allergen": {
+        "name": "Latex",
+        "code": "Unknown",
+        "code_system": "2.16.840.1.113883.4.9",
+        "code_system_name": "UNII"
+      }
+    },
+    {
+      "date_range": {
+        "start": "2008-01-08T06:00:00.000Z",
+        "end": null
+      },
+      "name": "Assertion",
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "status": "Active",
+      "severity": null,
+      "reaction": {
+        "name": "Nausea/Vomiting/Diarrhea",
+        "code": "2919008",
+        "code_system": "2.16.840.1.113883.6.96"
+      },
+      "reaction_type": {
+        "name": "Drug intolerance",
+        "code": "59037007",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED CT"
+      },
+      "allergen": {
+        "name": "Aspirin 325 MG / butalbital 50 MG / Caffeine 40 MG / Codeine 30 MG Oral Capsule",
+        "code": "309471",
+        "code_system": "2.16.840.1.113883.6.88",
+        "code_system_name": "RxNorm"
+      }
+    },
+    {
+      "date_range": {
+        "start": "2006-12-07T06:00:00.000Z",
+        "end": null
+      },
+      "name": "Assertion",
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "status": "Active",
+      "severity": null,
+      "reaction": {
+        "name": "Nausea/Vomiting/Diarrhea",
+        "code": "2919008",
+        "code_system": "2.16.840.1.113883.6.96"
+      },
+      "reaction_type": {
+        "name": "Allergy to substance",
+        "code": "419199007",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED CT"
+      },
+      "allergen": {
+        "name": "Cheese",
+        "code": "Unknown",
+        "code_system": "2.16.840.1.113883.4.9",
+        "code_system_name": "UNII"
+      }
+    },
+    {
+      "date_range": {
+        "start": "2009-11-05T06:00:00.000Z",
+        "end": null
+      },
+      "name": "Assertion",
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "status": "Active",
+      "severity": null,
+      "reaction": {
+        "name": "Skin Rashes/Hives",
+        "code": "64144002",
+        "code_system": "2.16.840.1.113883.6.96"
+      },
+      "reaction_type": {
+        "name": "Allergy to substance",
+        "code": "419199007",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED CT"
+      },
+      "allergen": {
+        "name": "Birds",
+        "code": "Unknown",
+        "code_system": "2.16.840.1.113883.4.9",
+        "code_system_name": "UNII"
+      }
+    }
+  ],
+  "care_plan": [
+    {
+      "text": "",
+      "name": null,
+      "code": null,
+      "code_system": null,
+      "code_system_name": null
+    },
+    {
+      "text": "",
+      "name": "Diagnosis",
+      "code": "282291009",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED CT"
+    }
+  ],
+  "chief_complaint": {
+    "text": null
+  },
+  "demographics": {
+    "name": {
+      "prefix": null,
+      "given": [
+        "Sharon",
+        "A"
+      ],
+      "family": "Carlson"
+    },
+    "dob": "1938-12-12T06:00:00.000Z",
+    "gender": "female",
+    "marital_status": "married",
+    "address": {
+      "street": [
+        "3456 West Palm",
+        "Apt. #34"
+      ],
+      "city": "Madison",
+      "state": "CA",
+      "zip": "95653",
+      "country": "US"
+    },
+    "phone": {
+      "home": "tel:+1-916-555-3293",
+      "work": null,
+      "mobile": null
+    },
+    "email": null,
+    "language": "eng",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "religion": null,
+    "birthplace": {
+      "state": null,
+      "zip": null,
+      "country": null
+    },
+    "guardian": {
+      "name": {
+        "given": [],
+        "family": null
+      },
+      "relationship": null,
+      "address": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null
+      },
+      "phone": {
+        "home": null
+      }
+    },
+    "provider": {
+      "organization": "Madison Medical Center P. A.",
+      "phone": "tel:+1-916-555-7654",
+      "address": {
+        "street": [
+          "99 Sycamore Street",
+          "Suite 3"
+        ],
+        "city": "Gainesville",
+        "state": "FL",
+        "zip": "32608",
+        "country": "US"
+      }
+    }
+  },
+  "encounters": [
+    {
+      "date": null,
+      "name": "General",
+      "code": "GENRL",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": null,
+      "name": "General",
+      "code": "GENRL",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": null,
+      "name": "General",
+      "code": "GENRL",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": null,
+      "name": "General",
+      "code": "GENRL",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": null,
+      "name": "General",
+      "code": "GENRL",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [
+          "34 Sycamore Street, Suite 3"
+        ],
+        "city": "Gainesville",
+        "state": "FL",
+        "zip": "32608",
+        "country": "US",
+        "organization": "Provider's Office"
+      }
+    },
+    {
+      "date": null,
+      "name": "General",
+      "code": "GENRL",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": "Provider's Office"
+      }
+    },
+    {
+      "date": null,
+      "name": "General",
+      "code": "GENRL",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [
+          "34 Sycamore Street, Suite 3"
+        ],
+        "city": "Gainesville",
+        "state": "FL",
+        "zip": "32608",
+        "country": "US",
+        "organization": "Provider's Office"
+      }
+    },
+    {
+      "date": null,
+      "name": "General",
+      "code": "GENRL",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [
+          "34 Sycamore Street, Suite 3"
+        ],
+        "city": "Gainesville",
+        "state": "FL",
+        "zip": "32608",
+        "country": "US",
+        "organization": "Provider's Office"
+      }
+    },
+    {
+      "date": null,
+      "name": "General",
+      "code": "GENRL",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [
+          "34 Sycamore Street, Suite 3"
+        ],
+        "city": "Gainesville",
+        "state": "FL",
+        "zip": "32608",
+        "country": "US",
+        "organization": "Provider's Office"
+      }
+    },
+    {
+      "date": null,
+      "name": "General",
+      "code": "GENRL",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [
+          "34 Sycamore Street, Suite 3"
+        ],
+        "city": "Gainesville",
+        "state": "FL",
+        "zip": "32608",
+        "country": "US",
+        "organization": "Provider's Office"
+      }
+    },
+    {
+      "date": null,
+      "name": "General",
+      "code": "GENRL",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [
+          "34 Sycamore Street, Suite 3"
+        ],
+        "city": "Gainesville",
+        "state": "FL",
+        "zip": "32608",
+        "country": "US",
+        "organization": "Provider's Office"
+      }
+    },
+    {
+      "date": null,
+      "name": "General",
+      "code": "GENRL",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [
+          "34 Sycamore Street, Suite 3"
+        ],
+        "city": "Gainesville",
+        "state": "FL",
+        "zip": "32608",
+        "country": "US",
+        "organization": "Provider's Office"
+      }
+    },
+    {
+      "date": null,
+      "name": "General",
+      "code": "GENRL",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": "ActCode",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": "Provider's Office"
+      }
+    }
+  ],
+  "functional_statuses": [],
+  "immunizations": [
+    {
+      "date": "2006-06-28T05:00:00.000Z",
+      "product": {
+        "name": "Influenza",
+        "code": "88",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": "b714523",
+        "manufacturer_name": "Aventis Pasteur Inc"
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    }
+  ],
+  "instructions": [],
+  "labs": [
+    {
+      "name": "CBC w/ Differential & Platelet",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "White Blood Cell (WBC) Count",
+          "value": 6.8,
+          "unit": "THOUS/MCL",
+          "code": "6690-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(3.8-10.8)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "Red Blood Cell (RBC) Count",
+          "value": 4.5,
+          "unit": "MILL/MCL",
+          "code": "789-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(3.80-5.10)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "Hemoglobin",
+          "value": 13.7,
+          "unit": "G/DL",
+          "code": "718-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(11.7-15.5)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "Hematocrit",
+          "value": 41,
+          "unit": "%",
+          "code": "4544-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(35.0-45.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "MCV",
+          "value": 80,
+          "unit": "FL",
+          "code": "787-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(.0-100.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "MCH",
+          "value": 30,
+          "unit": "PG",
+          "code": "785-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(27.0-33.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "MCHC",
+          "value": 35.5,
+          "unit": "G/DL",
+          "code": "786-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(32.0-36.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "Polys",
+          "value": 52,
+          "unit": "%",
+          "code": "770-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "Lymphs",
+          "value": 32.6,
+          "unit": "%",
+          "code": "736-9",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "Monocytes",
+          "value": 8.3,
+          "unit": "%",
+          "code": "5905-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "Eos",
+          "value": 6.2,
+          "unit": "%",
+          "code": "713-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "Basos",
+          "value": 0.9,
+          "unit": "%",
+          "code": "706-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "Platelets",
+          "value": 349,
+          "unit": "THOUS/MCL",
+          "code": "777-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(140-400)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "Polys (Absolute)",
+          "value": 2852,
+          "unit": "CELLS/MCL",
+          "code": "751-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(1500-7800)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "Lymphs (Absolute)",
+          "value": 1901,
+          "unit": "CELLS/MCL",
+          "code": "731-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(850-3900)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "Monocytes(Absolute)",
+          "value": 601,
+          "unit": "CELLS/MCL",
+          "code": "742-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(200-950)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "Eos (Absolute Value)",
+          "value": 420,
+          "unit": "CELLS/MCL",
+          "code": "711-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(15-500)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "Baso(Absolute)",
+          "value": 45,
+          "unit": "CELLS/MCL",
+          "code": "704-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(0-200)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "RDW",
+          "value": 12.5,
+          "unit": "%",
+          "code": "788-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(11.0-15.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2008-01-03T06:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "CBC WITH DIFFERENTIAL/PLATELET",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "White Blood Cell (WBC) Count",
+          "value": 5.3,
+          "unit": "X_10-3/uL",
+          "code": "6690-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(4.0-10.5)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Red Blood Cell (RBC) Count",
+          "value": 3.86,
+          "unit": "X_10-6/uL",
+          "code": "789-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(3.80-5.10)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Hemoglobin",
+          "value": 11.5,
+          "unit": "g/dL",
+          "code": "718-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(11.5-15.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Hematocrit",
+          "value": 34.2,
+          "unit": "%",
+          "code": "4544-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(34.0-44.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "MCV",
+          "value": 86,
+          "unit": "fL",
+          "code": "787-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(80-98)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "MCH",
+          "value": 28.6,
+          "unit": "pg",
+          "code": "785-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(27.0-34.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "MCHC",
+          "value": 33.2,
+          "unit": "g/dL",
+          "code": "786-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(32.0-36.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Polys",
+          "value": 57,
+          "unit": "%",
+          "code": "770-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(40-74)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Lymphs",
+          "value": 29,
+          "unit": "%",
+          "code": "736-9",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(14-46)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Monocytes",
+          "value": 11,
+          "unit": "%",
+          "code": "5905-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(4-13)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Eos",
+          "value": 3,
+          "unit": "%",
+          "code": "713-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(0-7)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Basos",
+          "value": 0,
+          "unit": "%",
+          "code": "706-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(0-3)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Platelets",
+          "value": 258,
+          "unit": "X_10-3/uL",
+          "code": "777-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(140-415)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Hematology Comments:",
+          "value": null,
+          "unit": null,
+          "code": "18314-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Polys (Absolute)",
+          "value": 3,
+          "unit": "X_10-3/uL",
+          "code": "751-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(1.8-7.8)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Lymphs (Absolute)",
+          "value": 1.5,
+          "unit": "X_10-3/uL",
+          "code": "731-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(0.7-4.5)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Monocytes(Absolute)",
+          "value": 0.6,
+          "unit": "X_10-3/uL",
+          "code": "742-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(0.1-1.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Eos (Absolute Value)",
+          "value": 0.2,
+          "unit": "X_10-3/uL",
+          "code": "711-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(0.0-0.4)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Baso(Absolute)",
+          "value": 0,
+          "unit": "X_10-3/uL",
+          "code": "704-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(0.0-0.2)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "RDW",
+          "value": 14.8,
+          "unit": "%",
+          "code": "788-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(11.7-15.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "CBC WITH DIFFERENTIAL/PLATELET",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "HFP7+3AC",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Cholesterol, Total",
+          "value": 220,
+          "unit": "mg/dL",
+          "code": "2093-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(100-199)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "HFP7+3AC",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Protein, Total, Serum",
+          "value": 6.3,
+          "unit": "g/dL",
+          "code": "2885-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(6.0-8.5)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "HFP7+3AC",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Albumin, Serum",
+          "value": 3.7,
+          "unit": "g/dL",
+          "code": "1751-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(3.6-4.8)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "HFP7+3AC",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Bilirubin, Total",
+          "value": 0.8,
+          "unit": "mg/dL",
+          "code": "1975-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(0.1-1.2)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "HFP7+3AC",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Alkaline Phosphatase, Serum",
+          "value": 142,
+          "unit": "IU/L",
+          "code": "12805-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(25-165)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "HFP7+3AC",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "LDH",
+          "value": 108,
+          "unit": "IU/L",
+          "code": "2532-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(100-250)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "HFP7+3AC",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "AST (SGOT)",
+          "value": 27,
+          "unit": "IU/L",
+          "code": "1920-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(0-40)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "HFP7+3AC",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "Bilirubin, Direct",
+          "value": 0.31,
+          "unit": "mg/dL",
+          "code": "15152-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(0.00-0.40)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "HFP7+3AC",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "ALT (SGPT)",
+          "value": 23,
+          "unit": "IU/L",
+          "code": "1742-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(0-40)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "HFP7+3AC",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "GGT",
+          "value": 36,
+          "unit": "IU/L",
+          "code": "2324-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(0-60)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-11-02T05:00:00.000Z",
+          "name": "HFP7+3AC",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "THYROID PANEL WITH TSH",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "Thyroxine (T4)",
+          "value": 5.1,
+          "unit": "mcg/dL",
+          "code": "3026-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(4.5-12.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "THYROID PANEL WITH TSH",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "T3 Uptake",
+          "value": 31,
+          "unit": "%",
+          "code": "3050-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(24-39)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "THYROID PANEL WITH TSH",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "Free Thyroxine Index",
+          "value": 3.2,
+          "unit": "1",
+          "code": "3022-1",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(1.2-4.9)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "THYROID PANEL WITH TSH",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "TSH, High Sensitivity, Serum",
+          "value": 4.21,
+          "unit": "mcIU/mL",
+          "code": "11579-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(0.35-5.50)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "THYROID PANEL WITH TSH",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cl+K+Na",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "Potassium, Serum",
+          "value": 4.1,
+          "unit": "mmol/L",
+          "code": "2823-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(3.5-5.5)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "Cl+K+Na",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "Sodium, Serum",
+          "value": 139,
+          "unit": "mmol/L",
+          "code": "2951-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(135-148)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "Cl+K+Na",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "Chloride, Serum",
+          "value": 101,
+          "unit": "mmol/L",
+          "code": "2075-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(96-109)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "Cl+K+Na",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "RPR",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "RPR",
+          "value": null,
+          "unit": null,
+          "code": "5292-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(Non-Reactive)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-10-05T05:00:00.000Z",
+          "name": "RPR",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "CBC w/ Differential & Platelet",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "White Blood Cell (WBC) Count",
+          "value": 5.8,
+          "unit": "THOUS/MCL",
+          "code": "6690-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(3.8-10.8)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Red Blood Cell (RBC) Count",
+          "value": 4.2,
+          "unit": "MILL/MCL",
+          "code": "789-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(3.80-5.10)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Hemoglobin",
+          "value": 11.7,
+          "unit": "G/DL",
+          "code": "718-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(11.7-15.5)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Hematocrit",
+          "value": 36.2,
+          "unit": "%",
+          "code": "4544-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(35.0-45.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "MCV",
+          "value": 86.1,
+          "unit": "FL",
+          "code": "787-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(.0-100.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "MCH",
+          "value": 28,
+          "unit": "PG",
+          "code": "785-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(27.0-33.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "MCHC",
+          "value": 32.5,
+          "unit": "G/DL",
+          "code": "786-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(32.0-36.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Polys",
+          "value": 51.1,
+          "unit": "%",
+          "code": "770-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Lymphs",
+          "value": 31.8,
+          "unit": "%",
+          "code": "736-9",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Monocytes",
+          "value": 9.1,
+          "unit": "%",
+          "code": "5905-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Eos",
+          "value": 7.2,
+          "unit": "%",
+          "code": "713-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Basos",
+          "value": 0.8,
+          "unit": "%",
+          "code": "706-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Platelets",
+          "value": 354,
+          "unit": "THOUS/MCL",
+          "code": "777-3",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(140-400)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Polys (Absolute)",
+          "value": 2964,
+          "unit": "CELLS/MCL",
+          "code": "751-8",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(1500-7800)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Lymphs (Absolute)",
+          "value": 1844,
+          "unit": "CELLS/MCL",
+          "code": "731-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(850-3900)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Monocytes(Absolute)",
+          "value": 528,
+          "unit": "CELLS/MCL",
+          "code": "742-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(200-950)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Eos (Absolute Value)",
+          "value": 418,
+          "unit": "CELLS/MCL",
+          "code": "711-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(15-500)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Baso(Absolute)",
+          "value": 46,
+          "unit": "CELLS/MCL",
+          "code": "704-7",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(0-200)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "RDW",
+          "value": 13.4,
+          "unit": "%",
+          "code": "788-0",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(11.0-15.0)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "CBC w/ Differential & Platelet",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hematocrit",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Female",
+          "value": 40,
+          "unit": "1",
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(37-47)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Hematocrit",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Male",
+          "value": 0,
+          "unit": "1",
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(40-54)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Hematocrit",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Urinalysis",
+      "code": null,
+      "code_system": null,
+      "code_system_name": null,
+      "results": [
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Appearance",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(Clear-Mod Cloud)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Urinalysis",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Bilirubin",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(Negative-Small)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Urinalysis",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Blood",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(Negative)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Urinalysis",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Color",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(None-Yellow)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Urinalysis",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Glucose",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(Negative-250)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Urinalysis",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Specific Gravity",
+          "value": 1.005,
+          "unit": "1",
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(1.000-1.010)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Urinalysis",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Ketone",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(Negative-Trace)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Urinalysis",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Leukocytes",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(Negative-Trace)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Urinalysis",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Nitrites",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(Negative)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Urinalysis",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "pH Level",
+          "value": 6,
+          "unit": "1",
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(5.0-6.5)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Urinalysis",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Urobilinogen",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "(Negative)",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        },
+        {
+          "date": "2007-09-03T05:00:00.000Z",
+          "name": "Urinalysis",
+          "value": null,
+          "unit": null,
+          "code": "UNKNOWN",
+          "code_system": "2.16.840.1.113883.6.96",
+          "code_system_name": "SNOMED CT",
+          "reference_range": {
+            "text": null,
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    }
+  ],
+  "medications": [
+    {
+      "date_range": {
+        "start": "2010-02-23T06:00:00.000Z",
+        "end": null
+      },
+      "text": "2 Puffs q6hrs prn",
+      "product": {
+        "name": "Unknown",
+        "code": "Unknown",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "12 Hour Decongestant 120 MG CP12",
+          "code": "86679",
+          "code_system": "2.16.840.1.113883.6.253",
+          "code_system_name": "MediSpan DDID"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2012-01-13T06:00:00.000Z",
+        "end": null
+      },
+      "text": "4 once a day",
+      "product": {
+        "name": "Unknown",
+        "code": "Unknown",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "2nd Skin Blister Kit MISC",
+          "code": "138796",
+          "code_system": "2.16.840.1.113883.6.253",
+          "code_system_name": "MediSpan DDID"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2012-01-13T06:00:00.000Z",
+        "end": null
+      },
+      "text": "3 three times a day",
+      "product": {
+        "name": "Unknown",
+        "code": "Unknown",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "12 Hour Nasal Relief Spray 0.05 % SOLN",
+          "code": "31935",
+          "code_system": "2.16.840.1.113883.6.253",
+          "code_system_name": "MediSpan DDID"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2010-02-16T06:00:00.000Z",
+        "end": null
+      },
+      "text": "2 twice a day",
+      "product": {
+        "name": "Unknown",
+        "code": "Unknown",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "Prasad Schedule 4 Drug TBDR",
+          "code": "M00006",
+          "code_system": "2.16.840.1.113883.6.253",
+          "code_system_name": "MediSpan DDID"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2009-11-02T06:00:00.000Z",
+        "end": null
+      },
+      "text": "twice a day",
+      "product": {
+        "name": "Unknown",
+        "code": "Unknown",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "5-Hydroxy-L-Tryptophan POWD",
+          "code": "55385",
+          "code_system": "2.16.840.1.113883.6.253",
+          "code_system_name": "MediSpan DDID"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2008-01-08T06:00:00.000Z",
+        "end": null
+      },
+      "text": "twice a day",
+      "product": {
+        "name": "Unknown",
+        "code": "Unknown",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "Ginko Biloba 1 Gram CPSP",
+          "code": "M00001",
+          "code_system": "2.16.840.1.113883.6.253",
+          "code_system_name": "MediSpan DDID"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2008-01-08T06:00:00.000Z",
+        "end": null
+      },
+      "text": "1 every 4 to 6 hours",
+      "product": {
+        "name": "Promethazine Hydrochloride 25 MG Oral Tablet",
+        "code": "992447",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "Promethazine HCl 25 MG TABS",
+          "code": "17891",
+          "code_system": "2.16.840.1.113883.6.253",
+          "code_system_name": "MediSpan DDID"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2008-01-08T06:00:00.000Z",
+        "end": null
+      },
+      "text": "1 every 6 hours",
+      "product": {
+        "name": "Naproxen sodium 550 MG Oral Tablet",
+        "code": "849431",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "Naproxen Sodium 550 MG TABS",
+          "code": "14434",
+          "code_system": "2.16.840.1.113883.6.253",
+          "code_system_name": "MediSpan DDID"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2008-01-03T06:00:00.000Z",
+        "end": "2008-01-08T06:00:00.000Z"
+      },
+      "text": "as needed",
+      "product": {
+        "name": "Sumatriptan 25 MG Oral Tablet",
+        "code": "315223",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "Imitrex",
+          "code": "217713",
+          "code_system": "2.16.840.1.113883.6.88",
+          "code_system_name": "RxNorm"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2007-11-02T05:00:00.000Z",
+        "end": "2007-02-01T06:00:00.000Z"
+      },
+      "text": "1 every evening",
+      "product": {
+        "name": "Diazepam 5 MG Oral Tablet",
+        "code": "197591",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "Valium",
+          "code": "202472",
+          "code_system": "2.16.840.1.113883.6.88",
+          "code_system_name": "RxNorm"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2007-11-02T05:00:00.000Z",
+        "end": null
+      },
+      "text": "as needed",
+      "product": {
+        "name": "Sumatriptan 25 MG Oral Tablet",
+        "code": "315223",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "Imitrex",
+          "code": "217713",
+          "code_system": "2.16.840.1.113883.6.88",
+          "code_system_name": "RxNorm"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2007-10-05T05:00:00.000Z",
+        "end": "2007-11-02T05:00:00.000Z"
+      },
+      "text": "as needed",
+      "product": {
+        "name": "Sumatriptan 25 MG Oral Tablet",
+        "code": "315223",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "Imitrex",
+          "code": "217713",
+          "code_system": "2.16.840.1.113883.6.88",
+          "code_system_name": "RxNorm"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2007-10-05T05:00:00.000Z",
+        "end": null
+      },
+      "text": "once a day",
+      "product": {
+        "name": "Unknown",
+        "code": "Unknown",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "Stress Formula Plus Iron TABS",
+          "code": "45480",
+          "code_system": "2.16.840.1.113883.6.253",
+          "code_system_name": "MediSpan DDID"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2007-09-03T05:00:00.000Z",
+        "end": "2007-10-05T05:00:00.000Z"
+      },
+      "text": "as needed",
+      "product": {
+        "name": "Sumatriptan 25 MG Oral Tablet",
+        "code": "315223",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "Imitrex",
+          "code": "217713",
+          "code_system": "2.16.840.1.113883.6.88",
+          "code_system_name": "RxNorm"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2007-09-03T05:00:00.000Z",
+        "end": "2007-10-05T05:00:00.000Z"
+      },
+      "text": "as needed",
+      "product": {
+        "name": "Aspirin 325 MG / butalbital 50 MG / Caffeine 40 MG / Codeine 30 MG Oral Capsule",
+        "code": "309471",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "Fiorinal with Codeine",
+          "code": "217127",
+          "code_system": "2.16.840.1.113883.6.88",
+          "code_system_name": "RxNorm"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2007-02-01T06:00:00.000Z",
+        "end": "2008-01-08T06:00:00.000Z"
+      },
+      "text": "1 every evening",
+      "product": {
+        "name": "Diazepam 5 MG Oral Tablet",
+        "code": "197591",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": "Valium",
+          "code": "202472",
+          "code_system": "2.16.840.1.113883.6.88",
+          "code_system_name": "RxNorm"
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    }
+  ],
+  "problems": [
+    {
+      "date_range": {
+        "start": "2002-12-02T06:00:00.000Z",
+        "end": null
+      },
+      "name": "Problem",
+      "status": "Active",
+      "age": null,
+      "code": "55607006",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED CT",
+      "translation": {
+        "name": "COMN MIGRNE WO NTRC MGRN",
+        "code": "346.10",
+        "code_system": "2.16.840.1.113883.6.103",
+        "code_system_name": "ICD9CM"
+      },
+      "comment": ""
+    }
+  ],
+  "procedures": [
+    {
+      "date": null,
+      "name": "Hematocrit",
+      "code": "85014",
+      "code_system": "2.16.840.1.113883.6.12",
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [
+          "11554 Weedside Lane"
+        ],
+        "city": "Madison",
+        "state": "CA",
+        "zip": "95653",
+        "country": "US",
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": "Provider's Office",
+        "code": "PROFF",
+        "code_system": null
+      }
+    },
+    {
+      "date": null,
+      "name": "Urinalysis",
+      "code": "81000",
+      "code_system": "2.16.840.1.113883.6.12",
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [
+          "11554 Weedside Lane"
+        ],
+        "city": "Madison",
+        "state": "CA",
+        "zip": "95653",
+        "country": "US",
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": "Provider's Office",
+        "code": "PROFF",
+        "code_system": null
+      }
+    },
+    {
+      "date": null,
+      "name": "history of prior surgery   [For Hx of Tx, use H prefix]",
+      "code": "161615003",
+      "code_system": "2.16.840.1.113883.6.96",
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": null,
+      "name": "reported medical history",
+      "code": null,
+      "code_system": "2.16.840.1.113883.6.96",
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    }
+  ],
+  "smoking_status": {
+    "date": null,
+    "name": "Unknown if ever smoked",
+    "code": "266927001",
+    "code_system": "2.16.840.1.113883.6.96",
+    "code_system_name": "SNOMED CT"
+  },
+  "vitals": [
+    {
+      "date": "2007-11-02T05:00:00.000Z",
+      "results": [
+        {
+          "name": "Blood Pressure Systolic",
+          "code": "8480-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 133,
+          "unit": "mm[Hg]"
+        },
+        {
+          "name": "Blood Pressure Diastolic",
+          "code": "8462-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 76,
+          "unit": "mm[Hg]"
+        },
+        {
+          "name": "Heart Rate",
+          "code": "8867-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 86,
+          "unit": "/min"
+        },
+        {
+          "name": "Respiratory Rate",
+          "code": "9279-1",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 29,
+          "unit": "/min"
+        },
+        {
+          "name": "Body Temperature",
+          "code": "8310-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 98.6,
+          "unit": "[degF]"
+        },
+        {
+          "name": "Height",
+          "code": "8302-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 66,
+          "unit": "[in_us]"
+        },
+        {
+          "name": "Weight Measured",
+          "code": "3141-9",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 160,
+          "unit": "[lb_av]"
+        },
+        {
+          "name": "BMI (Body Mass Index)",
+          "code": "39156-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 25.8,
+          "unit": "kg/m2"
+        },
+        {
+          "name": "BSA (Body Surface Area)",
+          "code": "3140-1",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 1.82,
+          "unit": "m2"
+        }
+      ]
+    },
+    {
+      "date": "2007-10-05T05:00:00.000Z",
+      "results": [
+        {
+          "name": "Blood Pressure Systolic",
+          "code": "8480-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 131,
+          "unit": "mm[Hg]"
+        },
+        {
+          "name": "Blood Pressure Diastolic",
+          "code": "8462-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 75,
+          "unit": "mm[Hg]"
+        },
+        {
+          "name": "Heart Rate",
+          "code": "8867-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 82,
+          "unit": "/min"
+        },
+        {
+          "name": "Respiratory Rate",
+          "code": "9279-1",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 30,
+          "unit": "/min"
+        },
+        {
+          "name": "Body Temperature",
+          "code": "8310-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 98.6,
+          "unit": "[degF]"
+        },
+        {
+          "name": "Height",
+          "code": "8302-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 66,
+          "unit": "[in_us]"
+        },
+        {
+          "name": "Weight Measured",
+          "code": "3141-9",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 160,
+          "unit": "[lb_av]"
+        },
+        {
+          "name": "BMI (Body Mass Index)",
+          "code": "39156-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 25.8,
+          "unit": "kg/m2"
+        },
+        {
+          "name": "BSA (Body Surface Area)",
+          "code": "3140-1",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 1.82,
+          "unit": "m2"
+        }
+      ]
+    },
+    {
+      "date": "2007-09-03T05:00:00.000Z",
+      "results": [
+        {
+          "name": "Blood Pressure Systolic",
+          "code": "8480-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 130,
+          "unit": "mm[Hg]"
+        },
+        {
+          "name": "Blood Pressure Diastolic",
+          "code": "8462-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 76,
+          "unit": "mm[Hg]"
+        },
+        {
+          "name": "Heart Rate",
+          "code": "8867-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 82,
+          "unit": "/min"
+        },
+        {
+          "name": "Respiratory Rate",
+          "code": "9279-1",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 30,
+          "unit": "/min"
+        },
+        {
+          "name": "Body Temperature",
+          "code": "8310-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 98.6,
+          "unit": "[degF]"
+        },
+        {
+          "name": "Height",
+          "code": "8302-2",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 66,
+          "unit": "[in_us]"
+        },
+        {
+          "name": "Weight Measured",
+          "code": "3141-9",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 166,
+          "unit": "[lb_av]"
+        },
+        {
+          "name": "BMI (Body Mass Index)",
+          "code": "39156-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 26.8,
+          "unit": "kg/m2"
+        },
+        {
+          "name": "BSA (Body Surface Area)",
+          "code": "3140-1",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 1.85,
+          "unit": "m2"
+        }
+      ]
+    }
+  ]
+}]}

@@ -1,0 +1,1099 @@
+{"records" : [{
+  "document": {
+    "date": "2013-07-03T05:00:00.000Z",
+    "author": {
+      "name": {
+        "prefix": null,
+        "given": [
+          "Henry"
+        ],
+        "family": "Seven"
+      },
+      "address": {
+        "street": [
+          "1002 Healthcare Drive "
+        ],
+        "city": "Portland",
+        "state": "OR",
+        "zip": "99123",
+        "country": "US"
+      },
+      "phone": {
+        "work": "tel:555-555-1002"
+      }
+    },
+    "documentation_of": [
+      {
+        "name": {
+          "prefix": null,
+          "given": [
+            "Henry"
+          ],
+          "family": "Seven"
+        },
+        "phone": {
+          "work": "tel:+1-555-555-5000"
+        },
+        "address": {
+          "street": [
+            "1001 Village Avenue"
+          ],
+          "city": "Portland",
+          "state": "OR",
+          "zip": "99123",
+          "country": "US"
+        }
+      }
+    ],
+    "location": {
+      "name": null,
+      "address": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null
+      },
+      "encounter_date": null
+    }
+  },
+  "allergies": [
+    {
+      "date_range": {
+        "start": "2010-02-13T06:00:00.000Z",
+        "end": null
+      },
+      "name": null,
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": null,
+      "status": null,
+      "severity": null,
+      "reaction": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reaction_type": {
+        "name": "Drug allergy (disorder)",
+        "code": "416098002",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED-CT"
+      },
+      "allergen": {
+        "name": "Codeine",
+        "code": "N0000006691",
+        "code_system": "2.16.840.1.113883.3.26.1.5",
+        "code_system_name": "NDF-RT"
+      }
+    },
+    {
+      "date_range": {
+        "start": "2010-03-31T05:00:00.000Z",
+        "end": null
+      },
+      "name": null,
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": null,
+      "status": null,
+      "severity": null,
+      "reaction": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reaction_type": {
+        "name": "Drug allergy (disorder)",
+        "code": "416098002",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED-CT"
+      },
+      "allergen": {
+        "name": "Amikacin Sulfate 50 MG/ML Injectable Solution",
+        "code": "905148",
+        "code_system": "2.16.840.1.113883.6.88",
+        "code_system_name": "RxNorm"
+      }
+    },
+    {
+      "date_range": {
+        "start": "2010-05-05T05:00:00.000Z",
+        "end": null
+      },
+      "name": null,
+      "code": "ASSERTION",
+      "code_system": "2.16.840.1.113883.5.4",
+      "code_system_name": null,
+      "status": null,
+      "severity": null,
+      "reaction": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reaction_type": {
+        "name": "Food allergy (disorder)",
+        "code": "414285001",
+        "code_system": "2.16.840.1.113883.6.96",
+        "code_system_name": "SNOMED-CT"
+      },
+      "allergen": {
+        "name": "Eggs",
+        "code": "291P45F896",
+        "code_system": "2.16.840.1.113883.4.9",
+        "code_system_name": "UNII"
+      }
+    }
+  ],
+  "care_plan": [],
+  "chief_complaint": {
+    "text": null
+  },
+  "demographics": {
+    "name": {
+      "prefix": null,
+      "given": [
+        "Maureen"
+      ],
+      "family": "Woods"
+    },
+    "dob": "2004-11-02T06:00:00.000Z",
+    "gender": "female",
+    "marital_status": "single",
+    "address": {
+      "street": [
+        "1357 Amber Drive"
+      ],
+      "city": "Beaverton",
+      "state": "OR",
+      "zip": "97867",
+      "country": "US"
+    },
+    "phone": {
+      "home": "tel:(816)276-6909",
+      "work": null,
+      "mobile": null
+    },
+    "email": null,
+    "language": "en-US",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "religion": "Native American",
+    "birthplace": {
+      "state": "DC",
+      "zip": "20009",
+      "country": "USA"
+    },
+    "guardian": {
+      "name": {
+        "given": [
+          "Daniel"
+        ],
+        "family": "Spalato"
+      },
+      "relationship": "healthcare power of attorney",
+      "address": {
+        "street": [
+          "125 Dalmatian Road"
+        ],
+        "city": "Agram",
+        "state": "VA",
+        "zip": "22201",
+        "country": "US"
+      },
+      "phone": {
+        "home": "tel:(781)555-1212"
+      }
+    },
+    "provider": {
+      "organization": "Community Health and Hospitals",
+      "phone": "tel: 555-555-5000",
+      "address": {
+        "street": [
+          "1001 Village Avenue"
+        ],
+        "city": "Portland",
+        "state": "OR",
+        "zip": "99123",
+        "country": "US"
+      }
+    }
+  }},{
+  "encounters": [
+    {
+      "date": "2010-03-31T05:00:00.000Z",
+      "name": "Office consultation",
+      "code": "99241",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT",
+      "code_system_version": null,
+      "findings": [
+        {
+          "name": "Asthma",
+          "code": "195979001",
+          "code_system": "2.16.840.1.113883.6.96"
+        },
+        {
+          "name": "Asthma Daytime Symptoms Quantified",
+          "code": "370202007",
+          "code_system": "2.16.840.1.113883.6.96"
+        },
+        {
+          "name": "Asthma Nighttime Symptoms Quantified",
+          "code": "370205009",
+          "code_system": "2.16.840.1.113883.6.96"
+        }
+      ],
+      "translation": {
+        "name": "Asthma",
+        "code": "J45",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-05-06T05:00:00.000Z",
+      "name": "Office/outpatient visit, est",
+      "code": "99213",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": "Routine general medical examination at a health care facility",
+        "code": "V70.0",
+        "code_system": "2.16.840.1.113883.6.2",
+        "code_system_name": "ICD-9-CM"
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-09-03T05:00:00.000Z",
+      "name": "Office consultation",
+      "code": "99241",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT",
+      "code_system_version": null,
+      "findings": [],
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-11-07T05:00:00.000Z",
+      "name": "Emergency dept visit",
+      "code": "99281",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT",
+      "code_system_version": null,
+      "findings": [
+        {
+          "name": "Asthma Persistent",
+          "code": "427295004",
+          "code_system": "2.16.840.1.113883.6.96"
+        }
+      ],
+      "translation": {
+        "name": "Moderate persistent asthma with status asthmaticus",
+        "code": "J45.42",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    },
+    {
+      "date": "2010-12-03T06:00:00.000Z",
+      "name": "Office/outpatient visit, est",
+      "code": "99213",
+      "code_system": "2.16.840.1.113883.6.12",
+      "code_system_name": "CPT",
+      "code_system_version": null,
+      "findings": [
+        {
+          "name": "Pharyngitis",
+          "code": "363746003",
+          "code_system": "2.16.840.1.113883.6.96"
+        }
+      ],
+      "translation": {
+        "name": "Routine general medical examination at a health care facility",
+        "code": "V70.0",
+        "code_system": "2.16.840.1.113883.6.2",
+        "code_system_name": "ICD-9-CM"
+      },
+      "performer": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "location": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null
+      }
+    }
+  ],
+  "functional_statuses": [],
+  "immunizations": [
+    {
+      "date": "2010-12-03T06:00:00.000Z",
+      "product": {
+        "name": "Influenza, high dose seasonal",
+        "code": "135",
+        "code_system": "2.16.840.1.113883.12.292",
+        "code_system_name": "CVX",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        },
+        "lot_number": null,
+        "manufacturer_name": null
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "route": {
+        "name": "Intramuscular injection",
+        "code": "C28161",
+        "code_system": "2.16.840.1.113883.3.26.1.1",
+        "code_system_name": "NCI Thesaurus"
+      },
+      "instructions": null,
+      "education_type": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    }
+  ],
+  "instructions": [],
+  "labs": [
+    {
+      "name": "Microbiology",
+      "code": "269934003",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "results": [
+        {
+          "date": "2010-12-03T06:00:00.000Z",
+          "name": "S pyo Ag XXX Ql",
+          "value": null,
+          "unit": null,
+          "code": "31971-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "reference_range": {
+            "text": "NA",
+            "low_unit": null,
+            "low_value": null,
+            "high_unit": null,
+            "high_value": null
+          }
+        }
+      ]
+    }
+  ],
+  "medications": [
+    {
+      "date_range": {
+        "start": "2010-03-31T05:00:00.000Z",
+        "end": null
+      },
+      "text": null,
+      "product": {
+        "name": "salmeterol 0.05 MG/ACTUAT Inhalant Powder",
+        "code": "318142",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2010-03-31T05:00:00.000Z",
+        "end": null
+      },
+      "text": null,
+      "product": {
+        "name": "Albuterol 0.83 MG/ML Inhalant Solution",
+        "code": "630208",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2010-11-07T05:00:00.000Z",
+        "end": null
+      },
+      "text": null,
+      "product": {
+        "name": "Cromolyn Sodium 20 MG/ML Nasal Solution",
+        "code": "831303",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    },
+    {
+      "date_range": {
+        "start": "2010-12-03T06:00:00.000Z",
+        "end": null
+      },
+      "text": null,
+      "product": {
+        "name": "cefpodoxime 200 MG Oral Tablet",
+        "code": "309078",
+        "code_system": "2.16.840.1.113883.6.88",
+        "translation": {
+          "name": null,
+          "code": null,
+          "code_system": null,
+          "code_system_name": null
+        }
+      },
+      "dose_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "rate_quantity": {
+        "value": null,
+        "unit": null
+      },
+      "precondition": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "reason": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "route": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "schedule": {
+        "type": null,
+        "period_value": null,
+        "period_unit": null
+      },
+      "vehicle": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "administration": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "prescriber": {
+        "organization": null,
+        "person": null
+      }
+    }
+  ],
+  "problems": [
+    {
+      "date_range": {
+        "start": "2010-03-31T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Asthma unspecified",
+      "status": "Active",
+      "age": null,
+      "code": "195979001",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "translation": {
+        "name": "Asthma",
+        "code": "J45",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2010-03-31T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Asthma causes daytime symptoms 1 to 2 times per month",
+      "status": "Active",
+      "age": null,
+      "code": "370202007",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2010-03-31T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Asthma causes night symptoms 1 to 2 times per month",
+      "status": "Active",
+      "age": null,
+      "code": "370205009",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2010-09-07T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Asthma causes daytime symptoms 1 to 2 times per month",
+      "status": "Active",
+      "age": null,
+      "code": "370202007",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2010-09-07T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Asthma causes night symptoms 1 to 2 times per month",
+      "status": "Active",
+      "age": null,
+      "code": "370205009",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "translation": {
+        "name": null,
+        "code": null,
+        "code_system": null,
+        "code_system_name": null
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2010-11-07T05:00:00.000Z",
+        "end": null
+      },
+      "name": "Moderate persistent asthma",
+      "status": "Active",
+      "age": null,
+      "code": "427295004",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "translation": {
+        "name": "Moderate persistent asthma with status asthmaticus",
+        "code": "J45.42",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "comment": null
+    },
+    {
+      "date_range": {
+        "start": "2010-12-03T06:00:00.000Z",
+        "end": null
+      },
+      "name": "Acute pharyngitis",
+      "status": "Active",
+      "age": null,
+      "code": "363746003",
+      "code_system": "2.16.840.1.113883.6.96",
+      "code_system_name": "SNOMED-CT",
+      "translation": {
+        "name": "Acute pharyngitis",
+        "code": "J02",
+        "code_system": "2.16.840.1.113883.6.90",
+        "code_system_name": "ICD-10-CM"
+      },
+      "comment": null
+    }
+  ],
+  "procedures": [
+    {
+      "date": "2010-03-31T05:00:00.000Z",
+      "name": "Peak expiratory flow rate monitoring using diary",
+      "code": "401011001",
+      "code_system": "2.16.840.1.113883.6.96",
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2010-05-06T05:00:00.000Z",
+      "name": "Medical nutrition, indiv, in",
+      "code": "97802",
+      "code_system": "2.16.840.1.113883.6.12",
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2010-05-06T05:00:00.000Z",
+      "name": "Exercise class",
+      "code": "S9451",
+      "code_system": "2.16.840.1.113883.6.13",
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    },
+    {
+      "date": "2010-09-03T05:00:00.000Z",
+      "name": "Peak expiratory flow rate monitoring using diary",
+      "code": "401011001",
+      "code_system": "2.16.840.1.113883.6.96",
+      "specimen": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      },
+      "performer": {
+        "street": [],
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "organization": null,
+        "phone": null
+      },
+      "device": {
+        "name": null,
+        "code": null,
+        "code_system": null
+      }
+    }
+  ],
+  "smoking_status": {
+    "date": null,
+    "name": null,
+    "code": null,
+    "code_system": null,
+    "code_system_name": null
+  },
+  "vitals": [
+    {
+      "date": "2010-03-31T05:00:00.000Z",
+      "results": [
+        {
+          "name": "BP Diastolic",
+          "code": "8462-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 55,
+          "unit": "mm[Hg]"
+        },
+        {
+          "name": "BP Systolic",
+          "code": "8480-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 96,
+          "unit": "mm[Hg]"
+        }
+      ]
+    },
+    {
+      "date": "2010-05-06T05:00:00.000Z",
+      "results": [
+        {
+          "name": "BMI",
+          "code": "39156-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 16.3,
+          "unit": "kg/m2"
+        }
+      ]
+    },
+    {
+      "date": "2010-09-07T05:00:00.000Z",
+      "results": [
+        {
+          "name": "BP Diastolic",
+          "code": "8462-4",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 56,
+          "unit": "mm[Hg]"
+        },
+        {
+          "name": "BP Systolic",
+          "code": "8480-6",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 98,
+          "unit": "mm[Hg]"
+        }
+      ]
+    },
+    {
+      "date": "2010-12-03T06:00:00.000Z",
+      "results": [
+        {
+          "name": "BMI",
+          "code": "39156-5",
+          "code_system": "2.16.840.1.113883.6.1",
+          "code_system_name": "LOINC",
+          "value": 16.9,
+          "unit": "kg/m2"
+        }
+      ]
+    }
+  ],
+  "demographics": {
+    "name": {
+      "prefix": null,
+      "given": [
+        "Maureen"
+      ],
+      "family": "Woods"
+    },
+    "dob": "2004-11-02T06:00:00.000Z",
+    "gender": "female",
+    "marital_status": "single",
+    "address": {
+      "street": [
+        "1357 Amber Drive"
+      ],
+      "city": "Beaverton",
+      "state": "OR",
+      "zip": "97867",
+      "country": "US"
+    },
+    "phone": {
+      "home": "tel:(816)276-6909",
+      "work": null,
+      "mobile": null
+    },
+    "email": null,
+    "language": "en-US",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "religion": "Native American",
+    "birthplace": {
+      "state": "DC",
+      "zip": "20009",
+      "country": "USA"
+    },
+    "guardian": {
+      "name": {
+        "given": [
+          "Daniel"
+        ],
+        "family": "Spalato"
+      },
+      "relationship": "healthcare power of attorney",
+      "address": {
+        "street": [
+          "125 Dalmatian Road"
+        ],
+        "city": "Agram",
+        "state": "VA",
+        "zip": "22201",
+        "country": "US"
+      },
+      "phone": {
+        "home": "tel:(781)555-1212"
+      }
+    },
+    "provider": {
+      "organization": "Not Community Health and Hospitals",
+      "phone": "tel: 555-555-5000",
+      "address": {
+        "street": [
+          "1001 Village Avenue"
+        ],
+        "city": "Portland",
+        "state": "OR",
+        "zip": "99123",
+        "country": "US"
+      }
+    }
+  }}
+]}

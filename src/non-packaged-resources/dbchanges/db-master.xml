@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  #%L
+  blue-button Spring MVC Web App
+  %%
+  Copyright (C) 2014 - 2015 University of Iowa Institute for Clinical and Translational Science (ICTS)
+  %%
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+       http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  #L%
+  -->
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.2.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+	<include file="db-create-postgres.xml" />
+	<include file="db-changelog-1.xml" />
+	<include file="db-create-lab-test-ranges.xml" />
+	
+	
+	<changeSet author="cbhudson" id="createLoincCodeCategoryTable">
+	     <sql>
+	     CREATE TABLE bluebutton.loinc_code_category (
+       id INT NOT NULL
+     , loinc_code TEXT NOT NULL
+     , name TEXT NOT NULL
+     , root_category_name TEXT
+     , subroot_category_name TEXT
+     , PRIMARY KEY (id)
+	);
+	     </sql>
+	</changeSet>
+	
+	<changeSet author="cbhudson" id="createLabResultSynonynTable">
+	     <sql>
+	     CREATE TABLE bluebutton.lab_result_synonym (
+       lab_result_synonym_id INT NOT NULL
+     , official_name TEXT NOT NULL
+     , unofficial_name TEXT NOT NULL
+     , panel TEXT
+     , PRIMARY KEY (lab_result_synonym_id)
+	);
+	     </sql>
+	</changeSet>
+
+	<changeSet author= "cbhudson" id="addSourceToClincalDocumentTable">
+		<sql>
+		ALTER TABLE bluebutton.clinical_document ADD COLUMN source TEXT;
+		</sql>
+	</changeSet>
+	
+	<changeSet author= "cbhudson" id="addParsedJsonToClincalDocumentTable">
+		<sql>
+		ALTER TABLE bluebutton.clinical_document ADD COLUMN parsed_json BYTEA;
+		</sql>
+	</changeSet>
+	
+	<changeSet author= "cbhudson" id="addPJsonParserVersionNumverToClincalDocumentTable">
+		<sql>
+		ALTER TABLE bluebutton.clinical_document ADD COLUMN json_parser_version TEXT;
+		</sql>
+	</changeSet>
+
+	<changeSet author="cbhudson" id="insertLabResultSynonynsFinalFixed">
+		<sql>
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Microalbumin-Urine','Microalbumin/Creatinine [Mass ratio] in Urine','Microalbumin Random Urine ');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Microalbumin-Urine','Microalbumin-Urine','Microalbumin Random Urine ');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Microalbumin-Urine','Microalbumin','Microalbumin Random Urine ');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Creatinine-Urine','Creatinine [Mass/volume] in Urine','Microalbumin Random Urine');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Creatinine-Urine','Creatinine-Urine','Microalbumin Random Urine');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Hemoglobin A1C','A1C','A1C');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Hemoglobin A1C','Hemoglobin A1c/Hemoglobin, total in blood','A1C');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Hemoglobin A1C','Hemoglobin A1c ','A1C');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Hemoglobin A1C','Hgb A1C','A1C');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Glucose-Estimated from HbA1C','Glucose mean value in blood estimated from glycated hemoglobin','A1C');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Glucose-Estimated from HbA1C','Estimated Glucose from A1C ','A1C');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Glucose-Estimated from HbA1C','Glucose, Estimated','A1C');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Prostate Specific Antigen','PSA','A1C');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Prostate Specific Antigen','Prostate specific Ag[Mass/volume] in Serum or Plasma','A1C');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Prostate Specific Antigen','Prostate Specific Antigen','A1C');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'ALT','Alanine aminotransferase [Enzymatic activity/volume] in serum or plasma','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'ALT','ALT','Liver Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'ALT','Alanine aminotransferase  ','Hepatic Function Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'AST','Aspartate transaminase','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'AST','AST','Liver Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'AST','Asparate aminotransferase [Enzymatic activity/volume] in serum or plasma','Hepatic Function Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Chloride','Chloride [Moles/volume] in Serum or Plasma','Electrolyte');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Chloride','Chloride  ','Basic Metabolic Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Chloride','Cl-','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'CO2','Carbon Dioxide','Electrolyte');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'CO3','CO2','Basic Metabolic Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'CO4','Carbon dioxide, total [Moles/volume] in Serum or Plasma','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Creatinine-Blood','Creatinine-Serum or Plasma','Electrolyte');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Creatinine-Blood','Creatinine [Mass/volume] in Serum or Plasma','Basic Metabolic Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Creatinine-Blood','Cr','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Potassium','Potassium [Moles/volume] in Serum or Plasma','Electrolyte');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Potassium','Potassium  ','Basic Metabolic Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Potassium','K+','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Sodium','Sodium [Moles/volume] in Serum or Plasma','Electrolyte');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Sodium','Sodium  ','Basic Metabolic Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Sodium','Na+','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Glucose','Glucose [Mass/volume] in Serum or Blood','Basic Metabolic Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Glucose','Glucose','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Glucose','Total Glucose','');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Anion Gap','Anion Gap in Serum or Plasma','Electrolyte');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Anion Gap','Anion Gap  ','Basic Metabolic Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Anion Gap','Anion Gap, Calculated','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Glomerular Filtration Rate','GFR, Estimated','Electrolyte');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Glomerular Filtration Rate','Glomerular Filtration Rate/1.73 sq M. predicted by Creatinine-based formula','Basic Metabolic Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Glomerular Filtration Rate','Glomerular Filtration Rate, Calculated','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Glomerular Filtration Rate','eGFR','Creatinine + eGFR');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Calcium','Calcium [Mass/volume] in Serum or Plasma','Basic Metabolic Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Calcium','Calcium  ','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Calcium','Calcium, Total','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Blood Urea Nitrogen (BUN)','Urea Nitrogen [Mass/volume] in Serum or Plasma','Basic Metabolic Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Blood Urea Nitrogen (BUN)','BUN','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Blood Urea Nitrogen (BUN)','Blood Urea Nitrogen','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Bilirubin, Total','Bilirubin, Total [Mass/volume] in Serum or Plasma','Liver Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Bilirubin, Total','T-Bili','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Bilirubin, Total','Bilirubin  ','Hepatic Function Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Bilirubin, Direct','Bilirubin, direct [Mass/volume] in Serum or Plasma','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Bilirubin, Direct','Conjugated Bilirubin','Liver Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Bilirubin, Direct','Bilirubin Glucuronide','Hepatic Function Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Bilirubin, Indirect','Bilirubin, indirect [Mass/volume] in Serum or Plasma','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Bilirubin, Indirect','Unconjugated Bilirubin','Liver Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Bilirubin, Indirect','Bilirubin, Indirect  ','Hepatic Function Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Alkaline Phosphatase','Alkaline Phosphatase [Enzymatic activity/volume] in Serum or Plasma','Basic Metabolic Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Alkaline Phosphatase','Alk Phos','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Alkaline Phosphatase','Alkaline Phosphatase  ','Hepatic Function Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Albumin','Albumin [Mass/volume] in Serum or Plasma','Basic Metabolic Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Albumin','Albumin  ','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Albumin','Albumin Fraction','Hepatic Function Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Protein','Protein [Mass/volume] in Serum or Plasma','Basic Metabolic Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Protein','Protein, Total','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Protein','Total Protein','Hepatic Function Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Chloresterol Total','Cholesterol','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Chloresterol Total','Cholesterol [Mass/volume] in Serium or Plasma','Lipid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Chloresterol Total','Total Cholesterol (or Cholesterol, Total)','Lipid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Cholesterol HDL','Cholesterol in HDL [Mass/volume] in Serum or Plasma','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Cholesterol HDL','HDL Cholesterol','Lipid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Cholesterol HDL','High Density Lipoprotein (or High Density Lipoprotein Cholesterol)','Lipid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Cholesterol LDL','Cholesterol in LDL [Mass/volume] in Serum or Plasma','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Cholesterol LDL','LDL Cholesterol','Lipid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Cholesterol LDL','Low Density Lipoprotein (or Low Density Lipoprotein Cholesterol)','Lipid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Cholesterol LDL/HDL Ratio','Cholesterol in LDL/Cholesterol in HDL [Mass Ratio] in Serum or Plasma','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Cholesterol LDL/HDL Ratio','LDL/HDL Ratio','Lipid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Cholesterol LDL/HDL Ratio','Cholesterol, LDL/HDL Ratio','Lipid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Cholesterol Total/HDL Ratio','Cholesterol.total/Cholesterol in HDL [Molar Ratio] in Serum or Plasma','Lipid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Cholesterol Total/HDL Ratio','Total Cholesterol/HDL Cholesterol Ratio','Lipid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Cholesterol Total/HDL Ratio','Chol/HDL Ratio','Lipid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Triglyceride','Triglyceride [Mass/volume] in Serum or Plasma','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Triglyceride','Triglycerides','Lipid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Triglyceride','Trig','Lipid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'White Blood Cells (WBC)','Leukocytes [#/volume] in Blood by Automated count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'White Blood Cells (WBC)','WBC','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'White Blood Cells (WBC)','White Blood Cell Count','CBC (NO DIFF)');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Red Blood Cells (RBC)','Erythrocytes [#/volume] in Blood by Automated count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Red Blood Cells (RBC)','RBC','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Red Blood Cells (RBC)','Red Blood Cell Count','CBC (NO DIFF)');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Hemoglobin','Hemoglobin [Mass/volume] in Blood','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Hemoglobin','HGB','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Hemoglobin','Hemoglobin','CBC (NO DIFF)');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Hematocrit','Hematocrit [Volume Fraction] of Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Hematocrit','Hematocrit','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Hematocrit','HCT','CBC (NO DIFF)');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Mean Cell Volume (MCV)','Erythrocyte mean corpuscular volume (Entitic volume] by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Mean Cell Volume (MCV)','Mean Cell Volume','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Mean Cell Volume (MCV)','MCV','CBC (NO DIFF)');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Mean Cell Hemoglobin Concentration (MCHC)','Erythrocyte mean corpuscular hemoglobin [Mass/volume] by Automated Ct','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Mean Cell Hemoglobin Concentration (MCHC)','Mean Cell Hemoglobin Concentration (MCHC)','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Mean Cell Hemoglobin Concentration (MCHC)','MCHC','CBC (NO DIFF)');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Red Cell Distribution Width (RDW)','Erthrocyte distribution width [Ratio] by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Red Cell Distribution Width (RDW)','Red Cell Distribution Width (RDW)','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Red Cell Distribution Width (RDW)','RBC Distribution Width','CBC (NO DIFF)');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Platelets','Platelets [#/volume] in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Platelets','Platelet Count','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Platelets','Platelets','CBC (NO DIFF)');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Platelet Mean Volume','Platelet mean volume [Entitic volume] in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Platelet Mean Volume','Platelet mean volume','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Platelet Mean Volume','Mean Platelet Volume','CBC (NO DIFF)');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Neutrophil Percent','Neutrophils/100 Leukocycles in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Neutrophil Percent','Neutrophil %','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Neutrophil Percent','Percent Neutrophils','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Lymphocyte Percent','Lymphocytes/100 Leukocycles in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Lymphocyte Percent','Lymphocyte %','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Lymphocyte Percent','Percent Lymphocytes','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Monocyte Percent','Monocytes/100 Leukocycles in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Monocyte Percent','Monocyte %','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Monocyte Percent','Percent Monocytes','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Eosinophil Percent','Eosinophils/100 Leukocycles in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Eosinophil Percent','Eosinophil %','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Eosinophil Percent','Percent Eosinophils','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Basophil Percent','Basophils/100 Leukocycles in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Basophil Percent','Basophil %','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Basophil Percent','Percent Basophil','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Neutrophil Count','Neutrophils [#/volume] in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Neutrophil Count','Neutrophils [#/volume] in Blood by Manual Count','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Neutrophil Count','Neutrophils','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Lymphocyte Count','Lymphocytes [#/volume] in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Lymphocyte Count','Lymphocytes [#/volume] in Blood by Manual Count','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Lymphocyte Count','Lymphocytes','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Monocyte Count','Monocytes [#/volume] in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Monocyte Count','Monocytes [#/volume] in Blood by Manual Count','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Monocyte Count','Monocytes','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Eosinophil Count','Eosinophils [#/volume] in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Eosinophil Count','Eosinophils [#/volume] in Blood by Manual Count','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Eosinophil Count','Eosinophils','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Basophil Count','Basophils [#/volume] in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Basophil Count','Basophils [#/volume] in Blood by Manual Count','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Basophil Count','Basophils','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Immature Granulocyte Percent','Granulocytes/100 leukocytes in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Immature Granulocyte Percent','Immature Granulocyte Percent','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Immature Granulocyte Percent','Immature Gran %','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Immature Granulocyte Count','Granulocytes [#/volume] in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Immature Granulocyte Count','Immature Granulocyte Count','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Immature Granulocyte Count','Immature Gran Count','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Nucleated RBC Percent','Nucleated Erythrocyte [Presence] in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Nucleated RBC Percent','Nucleated RBC Percent','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Nucleated RBC Percent','Nucleated Erythrocyte Percent','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Nucleated RBC Count','Nucleated Erythrocyte [#/volume] in Blood by Automated Count','Complete Blood Count');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Nucleated RBC Count','Nucleated RBC Count','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Nucleated RBC Count','Nucleated Erythrocyte Count','CBC with DIFF');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Specific Gravity-Urine','Specific Gravity of Urine by Test Strip','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Specific Gravity-Urine','Specific Gravity-Urine','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Nitrite-Urine','Nitrite [Presence] in Urine by Test Strip','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Nitrite-Urine','Nitrite-Urine','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Leukocyte Esterase-Urine','Leukocyte Esterase in Urine [Presence] by Test Strip','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Leukocyte Esterase-Urine','Leukocyte Esterase-Urine (LE)','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'pH-Urine','pH of Urine by Test Strip','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'pH-Urine','pH-Urine','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Appearance-Urine','Appearance of Urine','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Appearance-Urine','Appearance-Urine','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Color-Urine','Color of Urine','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Color-Urine','Color-Urine','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Urobilinogen-Urine','Urobilinogen [Units/volume] in Urine by Test Strip','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Urobilinogen-Urine','Urobilinogen-Urine','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Hemoglobin-Urine','Hemoglobin [Presence] in Urine by Test Strip','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Hemoglobin-Urine','Hemoglobin-Urine','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Bilirubin-Urine','Bilirubin [Presence] in Urine by Test Strip','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Bilirubin-Urine','Bilirubin-Urine','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Ketones-Urine','Ketones [Mass/volume] in Urine by Test Strip','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Ketones-Urine','Ketones-Urine','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Glucose-Urine','Glucose [Mass/volume] in Urine by Test Strip','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Glucose-Urine','Glucose-Urine','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Protein-Urine','Protein [Mass/volume] in Urine by Test Strip','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Protein-Urine','Protein-Urine','Urinalysis');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Thyroid Stimulating Hormone (TSH)','Thyrotropin [Units/volume] in Serum or Plasma','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Thyroid Stimulating Hormone (TSH)','Thyroid Stimulating Hormone','Thyroid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Thyroid Stimulating Hormone (TSH)','TSH','Thyroid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Thyroxin (Free T4)','Thyroxine (T4) Free [Mass/volume] in Serum or Blood','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Thyroxin (Free T4)','Free T4','Thyroid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Thyroxin (Free T4)','Thyroxine  ','Thyroid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Pro-BNP','Natriuretic Peptide B prohormone [Mass/volume] in Serum or Plasma','Thyroid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Pro-BNP','Pro-BNP','Thyroid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Pro-BNP','Pro-B-type Natriuretic Peptide','Thyroid Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Magnesium','Magnesium [Mass/volume] in Serum or Plasma','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Magnesium','Magnesium','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Magnesium','Mg++','Complete Metabolic Profile');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Vitamin B12','Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma','Nutrition Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Vitamin B13','Cobalamin','Nutrition Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Vitamin B14','Vitamin B12','Nutrition Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Folate','Folate [Mass/volume] in Serum or Plasma','Nutrition Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Folate','Folic Acid','Nutrition Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Folate','Folate','Nutrition Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Vitamin D','Calcidiol [Mass/volume] in Serum or Plasma','Nutrition Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Vitamin D','Vitamin D','Nutrition Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Vitamin D','Vit D','Nutrition Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Creatine Kinase','Creatine kinase [Enzymatic activity/volume] in Serum or Plasma','Nutrition Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Creatine Kinase','Creatine Kinase','Nutrition Panel');
+			INSERT INTO bluebutton.lab_result_synonym(lab_result_synonym_id,official_name,unofficial_name,panel) VALUES (nextval('bluebutton.seqnum'),'Creatine Kinase','CK','Nutrition Panel');			
+		</sql>
+	</changeSet>
+	<include file="remember-me.xml" />
+	<changeSet author="rmjames" id="dropUnusedTables">
+	  <sql>
+	  	drop table bluebutton.region;
+	    drop table bluebutton.country;
+	    drop table bluebutton.system_setting;
+	    drop table bluebutton.security_response;
+	    drop table bluebutton.security_question;
+	    drop table bluebutton.credentials;
+	    ALTER TABLE bluebutton.person DROP COLUMN consent_message;
+	    drop table bluebutton.message;
+	  </sql>
+	</changeSet>
+</databaseChangeLog>
