@@ -39,21 +39,21 @@ public class VitalsTest {
 	public void getDateInMillisShouldReturnTimeInMillis() {
 		Vitals v = new Vitals();
 		v.setDate("1952-05-21T05:00:00.000Z");
-		assertEquals(new Long(-555861600000L), v.getDateInMillis());
+		assertEquals(new Long(-555879600000L), v.getDateInMillis());
 	}
 	
 	@Test
 	public void getDateInMillisShouldReturnTimeInMillNegativeNumber() {
 		Vitals v = new Vitals();
 		v.setDate("1989-05-02T05:00:00.000Z");
-		assertEquals(new Long(610106400000L),v.getDateInMillis());
+		assertEquals(new Long(610088400000L),v.getDateInMillis());
 	}
 	
 	@Test
 	public void getDateInMillisShouldReturnTimeInMillOddTimeReturn() {
 		Vitals v = new Vitals();
 		v.setDate("2009-02-11T06:00:00.000Z");
-		assertEquals(new Long(1234353600000L),v.getDateInMillis());
+		assertEquals(new Long(1234332000000L),v.getDateInMillis());
 	}
 	/*
 	 * get display date

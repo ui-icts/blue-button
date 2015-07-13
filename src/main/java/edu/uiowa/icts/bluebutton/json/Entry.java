@@ -146,7 +146,7 @@ public class Entry implements IDateInMillis{
 	
 	public Long getDateInMillis() {
 		if(this.date != null){
-			return DateRange.PARSER_FORMAT.parseDateTime(this.date).getMillis();
+			return new Long(DateRange.PARSER_FORMAT.parseLocalDate(this.date).toDateTimeAtStartOfDay().getMillis());
 		}
 		return this.date_range.getStartDateInMillis();
 	}

@@ -88,7 +88,7 @@ public class CombineBlueButtonRecordMVCTest extends AbstractControllerMVCTests  
     	    	.andExpect(jsonPath("$.vitalsGrid", hasSize(is(3)))) 
     	    	.andExpect(jsonPath("$.procedures", hasSize(is(3))))
     	    	.andExpect(jsonPath("$.allergies", hasSize(is(3))))
-    	    	.andExpect(jsonPath("$.timeRanges.maxTime", is(new Long(1291377600000L))))
+    	    	.andExpect(jsonPath("$.timeRanges.maxTime", is(new Long(1291356000000L))))
     	    	.andExpect(jsonPath("$.timeRanges.minTime", is(new Long(1266062400000L))))
     	    	.andExpect(jsonPath("$.metaData.allergies.severity", is("multiple")))
     	    	.andExpect(jsonPath("$.metaData.encounters.recentEncounters", is("did not have any medical encounters")))
@@ -113,7 +113,7 @@ public class CombineBlueButtonRecordMVCTest extends AbstractControllerMVCTests  
     	    	.andExpect(jsonPath("$.vitalsGrid", hasSize(is(3)))) 
     	    	.andExpect(jsonPath("$.procedures", hasSize(is(3))))
     	    	.andExpect(jsonPath("$.allergies", hasSize(is(3))))
-    	    	.andExpect(jsonPath("$.timeRanges.maxTime", is(new Long(1291377600000L))))
+    	    	.andExpect(jsonPath("$.timeRanges.maxTime", is(new Long(1291356000000L))))
     	    	.andExpect(jsonPath("$.timeRanges.minTime", is(new Long(1266062400000L))))
     	    	.andExpect(jsonPath("$.metaData.allergies.severity", is("multiple")))
     	    	.andExpect(jsonPath("$.metaData.encounters.recentEncounters", is("did not have any medical encounters")))
@@ -126,7 +126,7 @@ public class CombineBlueButtonRecordMVCTest extends AbstractControllerMVCTests  
     }
 	
 	@Test
-    public void indexShouldReturnJsonForJSONWithEverythingWithTwoRecordsWithMixedSoruces() throws Exception {
+    public void indexShouldReturnJsonForJSONWithEverythingWithTwoRecordsWithMixedSources() throws Exception {
     	File file = new File("src/test/resources/bluebutton-json/blue_button_sample_with_everything_with_two_records_with_two_sources.json");
     	mockMvc.perform(post("/blue-button/").content(FileUtils.readFileToString(file))
     	         .accept(MediaType.APPLICATION_JSON).contentType(MediaType.APPLICATION_JSON))
@@ -140,7 +140,7 @@ public class CombineBlueButtonRecordMVCTest extends AbstractControllerMVCTests  
     	    	.andExpect(jsonPath("$.labResultsGrid[0].subGrid[0].source", is("Not Community Health and Hospitals")))
     	    	.andExpect(jsonPath("$.procedures", hasSize(is(3))))
     	    	.andExpect(jsonPath("$.allergies", hasSize(is(3))))
-    	    	.andExpect(jsonPath("$.timeRanges.maxTime", is(new Long(1291377600000L))))
+    	    	.andExpect(jsonPath("$.timeRanges.maxTime", is(new Long(1291356000000L))))
     	    	.andExpect(jsonPath("$.timeRanges.minTime", is(new Long(1266062400000L))))
     	    	.andExpect(jsonPath("$.metaData.allergies.severity", is("multiple")))
     	    	.andExpect(jsonPath("$.metaData.encounters.recentEncounters", is("did not have any medical encounters")))

@@ -31,7 +31,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true) // ignore unused JSON data
 public class DateRange {
 
-	protected static DateTimeFormatter PARSER_FORMAT = DateTimeFormat.forPattern("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'").withOffsetParsed();
+	protected static DateTimeFormatter PARSER_FORMAT = DateTimeFormat.forPattern("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'").withOffsetParsed().withZoneUTC();
 	protected static DateTimeFormatter DISPLAY_FORMAT = DateTimeFormat.forPattern("yyyy-MM-dd");	
 	
 	private String start;
@@ -53,7 +53,7 @@ public class DateRange {
 	@JsonIgnore
 	public Long getStartDateInMillis(){
 		if(this.start != null){
-			return PARSER_FORMAT.parseDateTime(this.start).getMillis();
+			return new Long(PARSER_FORMAT.parseLocalDate(this.start).toDateTimeAtStartOfDay().getMillis());
 		}
 		else{return null;}
 	}
@@ -61,7 +61,7 @@ public class DateRange {
 	@JsonIgnore
 	public Long getEndDateInMillis(){
 		if(this.end != null){
-			return PARSER_FORMAT.parseDateTime(this.end).getMillis();
+			return new Long(PARSER_FORMAT.parseLocalDate(this.end).toDateTimeAtStartOfDay().getMillis());
 		}
 		else{return null;}
 	}
