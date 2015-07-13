@@ -66,7 +66,7 @@ public class CombineBlueButtonRecordMVCTest extends AbstractControllerMVCTests  
 		this.bluebuttonDaoService.getLabTestRangeService().importCSV(new FileInputStream(file2));
 
 		// freeze time
-        DateTime dt= format.parseDateTime("2015-02-04 -0600");
+        DateTime dt= format.parseDateTime("2015-02-04 +00:00");
         DateTimeUtils.setCurrentMillisFixed(dt.getMillis());
     }
     
