@@ -26,7 +26,7 @@ Start Browser, and go to [http://localhost:8080/](http://localhost:8080/):
 Lab result synonyms are loaded by liquibase with the aforementioned: mvn -p BuildDatabase 
 
 ### Loinc Code Categories
-Import [LOINC Multiaxial Hierarchy File](https://loinc.org/downloads) at /loinccodecategory/import 
+Import [LOINC Multiaxial Hierarchy File](https://loinc.org/downloads) at /loinccodecategory/import  
 
 ### Lab Test Ranges (parent table)
 Import CSV files at /labtest/import
