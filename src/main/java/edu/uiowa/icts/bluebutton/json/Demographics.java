@@ -22,8 +22,6 @@ package edu.uiowa.icts.bluebutton.json;
 
 import org.joda.time.LocalDate;
 import org.joda.time.Years;
-import org.joda.time.format.DateTimeFormat;
-import org.joda.time.format.DateTimeFormatter;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -31,7 +29,6 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true) // ignore unused JSON data
 public class Demographics {
 	
-	private static DateTimeFormatter format = DateTimeFormat.forPattern("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
 	private String gender; 
 	private Name name;
 	private String dob;
@@ -103,7 +100,7 @@ public class Demographics {
 	@JsonIgnore
 	public Double getAge() {
 		if(this.dob != null ){
-			return new Double(Years.yearsBetween(format.parseLocalDate(this.dob), new LocalDate()).getYears());
+			return new Double(Years.yearsBetween(DateRange.PARSER_FORMAT.parseLocalDate(this.dob), new LocalDate()).getYears());
 		}
 		else{return new Double(-1);}
 	}

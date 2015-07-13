@@ -26,20 +26,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.apache.commons.collections.map.LinkedMap;
 import org.apache.commons.lang.StringUtils;
-import org.joda.time.format.DateTimeFormat;
-import org.joda.time.format.DateTimeFormatter;
-import org.json.JSONArray;
-import org.json.JSONObject;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true) // ignore unused JSON data
 public class Encounter extends AbstractResult implements IBlueButtonObject{
-	private static DateTimeFormatter format = DateTimeFormat.forPattern("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
-	private static DateTimeFormatter displayFormat = DateTimeFormat.forPattern("yyyy-MM-dd");
 
 	private Entry translation= new Entry();
 	private Location location = new Location();

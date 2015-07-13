@@ -31,8 +31,8 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true) // ignore unused JSON data
 public class DateRange {
 
-	private static DateTimeFormatter format = DateTimeFormat.forPattern("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
-	private static DateTimeFormatter displayFormat = DateTimeFormat.forPattern("yyyy-MM-dd");	
+	protected static DateTimeFormatter PARSER_FORMAT = DateTimeFormat.forPattern("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'").withOffsetParsed();
+	protected static DateTimeFormatter DISPLAY_FORMAT = DateTimeFormat.forPattern("yyyy-MM-dd");	
 	
 	private String start;
 	private String end;
@@ -53,7 +53,7 @@ public class DateRange {
 	@JsonIgnore
 	public Long getStartDateInMillis(){
 		if(this.start != null){
-			return format.parseDateTime(this.start).getMillis();
+			return PARSER_FORMAT.parseDateTime(this.start).getMillis();
 		}
 		else{return null;}
 	}
@@ -61,7 +61,7 @@ public class DateRange {
 	@JsonIgnore
 	public Long getEndDateInMillis(){
 		if(this.end != null){
-			return format.parseDateTime(this.end).getMillis();
+			return PARSER_FORMAT.parseDateTime(this.end).getMillis();
 		}
 		else{return null;}
 	}
@@ -69,7 +69,7 @@ public class DateRange {
 	@JsonIgnore
 	public String getStartDateDisplay(){
 		if(this.start != null){
-			return ""+displayFormat.print(format.parseDateTime(this.start)); 
+			return ""+DISPLAY_FORMAT.print(PARSER_FORMAT.parseDateTime(this.start)); 
 		}
 		else{return null;}
 	}
@@ -77,7 +77,7 @@ public class DateRange {
 	@JsonIgnore
 	public String getEndDateDisplay(){
 		if(this.end != null){
-			return ""+displayFormat.print(format.parseDateTime(this.end)); 
+			return ""+DISPLAY_FORMAT.print(PARSER_FORMAT.parseDateTime(this.end)); 
 		}
 		else{return null;}
 	}
@@ -85,7 +85,7 @@ public class DateRange {
 	public boolean isActiveIntheLastYear() {
 		if (this.end == null && this.start != null){
 			DateTime now = new DateTime();
-			DateTime startDateTime = format.parseDateTime(this.start);
+			DateTime startDateTime = PARSER_FORMAT.parseDateTime(this.start);
 			Period period = new Period(startDateTime, now);
 			if (period.getYears() > 0){
 				return false;

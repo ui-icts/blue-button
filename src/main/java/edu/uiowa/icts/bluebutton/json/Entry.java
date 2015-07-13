@@ -22,19 +22,11 @@ package edu.uiowa.icts.bluebutton.json;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.joda.time.format.DateTimeFormat;
-import org.joda.time.format.DateTimeFormatter;
-import org.json.JSONObject;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true) // ignore unused JSON data
-public class Entry implements IDateInMillis{
-
-	public static DateTimeFormatter FORMAT = DateTimeFormat.forPattern("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
-	private static DateTimeFormatter displayFormat = DateTimeFormat.forPattern("yyyy-MM-dd");
-	
+public class Entry implements IDateInMillis{	
 	protected String name;
 	protected String code;
 	protected String code_system;
@@ -154,7 +146,7 @@ public class Entry implements IDateInMillis{
 	
 	public Long getDateInMillis() {
 		if(this.date != null){
-			return FORMAT.parseDateTime(this.date).getMillis();
+			return DateRange.PARSER_FORMAT.parseDateTime(this.date).getMillis();
 		}
 		return this.date_range.getStartDateInMillis();
 	}
@@ -170,7 +162,7 @@ public class Entry implements IDateInMillis{
 	
 	public String getDisplayDate() {
 		if(this.date != null){
-			return ""+displayFormat.print(FORMAT.parseDateTime(this.date));
+			return ""+DateRange.DISPLAY_FORMAT.print(DateRange.PARSER_FORMAT.parseDateTime(this.date));
 		}
 		else{
 			return null;

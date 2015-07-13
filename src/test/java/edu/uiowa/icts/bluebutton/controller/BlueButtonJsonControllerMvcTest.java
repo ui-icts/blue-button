@@ -80,7 +80,7 @@ import edu.uiowa.icts.bluebutton.json.StatsInformation;
  */
 public class BlueButtonJsonControllerMvcTest extends AbstractControllerMVCTests {
 	
-	private static DateTimeFormatter format = DateTimeFormat.forPattern("yyyy-MM-dd Z");
+	private static DateTimeFormatter format = DateTimeFormat.forPattern("yyyy-MM-dd");
     
     @Before
     public void setup() throws FileNotFoundException, IOException {
@@ -95,7 +95,7 @@ public class BlueButtonJsonControllerMvcTest extends AbstractControllerMVCTests 
 		this.bluebuttonDaoService.getLabTestRangeService().importCSV(new FileInputStream(file2));
 
 		// freeze time
-        DateTime dt= format.parseDateTime("2015-02-04 -0600");
+        DateTime dt= format.parseDateTime("2015-02-04");
         DateTimeUtils.setCurrentMillisFixed(dt.getMillis());
         
         int id =0;

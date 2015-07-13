@@ -51,7 +51,7 @@ import edu.uiowa.icts.bluebutton.dao.BluebuttonDaoService;
 
 public class CombineBlueButtonRecordMVCTest extends AbstractControllerMVCTests  {
   
-	private static DateTimeFormatter format = DateTimeFormat.forPattern("yyyy-MM-dd Z");
+	private static DateTimeFormatter format = DateTimeFormat.forPattern("yyyy-MM-dd");
 
     
     @Before
@@ -66,7 +66,7 @@ public class CombineBlueButtonRecordMVCTest extends AbstractControllerMVCTests  
 		this.bluebuttonDaoService.getLabTestRangeService().importCSV(new FileInputStream(file2));
 
 		// freeze time
-        DateTime dt= format.parseDateTime("2015-02-04 +00:00");
+        DateTime dt= format.parseDateTime("2015-02-04");
         DateTimeUtils.setCurrentMillisFixed(dt.getMillis());
     }
     

@@ -39,7 +39,7 @@ public class FindSearchPropertiesTest {
 		List<Allergy> aList = new ArrayList<Allergy>();
 		for (int i = 1; i < 4; i++) {
 			Allergy a = new Allergy();
-			a.setDate(new DateTime(2015,1,i,0,0).toString(Entry.FORMAT));
+			a.setDate(new DateTime(2015,1,i,0,0).toString(DateRange.PARSER_FORMAT));
 			a.setAllergen(e);
 			aList.add(a);
 		}

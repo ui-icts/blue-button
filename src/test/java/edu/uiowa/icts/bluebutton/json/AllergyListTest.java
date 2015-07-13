@@ -39,7 +39,7 @@ public class AllergyListTest {
 		List<Allergy> aList = new ArrayList<Allergy>();
 		for (int i = 1; i < 4; i++) {
 			Allergy a = new Allergy();
-			a.setDate(new DateTime(2015,1,i,0,0).toString(Entry.FORMAT));
+			a.setDate(new DateTime(2015,1,i,0,0).toString(DateRange.PARSER_FORMAT));
 			a.setAllergen(e);
 			aList.add(a);
 		}
@@ -55,7 +55,7 @@ public class AllergyListTest {
 		Allergy a = aList.get(0);
 		assertEquals("allergy0", a.getId());
 		assertEquals("Pollen", a.getAllergen().getName());
-		assertEquals(new DateTime(2015,1,3,0,0).toString(Entry.FORMAT), a.getDate());
+		assertEquals(new DateTime(2015,1,3,0,0).toString(DateRange.PARSER_FORMAT), a.getDate());
 		
 		List<Allergy> subGrid = a.getSubGrid();
 		
@@ -69,13 +69,13 @@ public class AllergyListTest {
 		assertEquals("allergy2", subA.getId());
 		assertEquals("allergy0", subA.getParent());
 		assertEquals("Pollen", subA.getAllergen().getName());
-		assertEquals(new DateTime(2015,1,2,0,0).toString(Entry.FORMAT), subA.getDate());
+		assertEquals(new DateTime(2015,1,2,0,0).toString(DateRange.PARSER_FORMAT), subA.getDate());
 		
 		subA = subGrid.get(2);
 		assertEquals("allergy3", subA.getId());
 		assertEquals("allergy0", subA.getParent());
 		assertEquals("Pollen", subA.getAllergen().getName());
-		assertEquals(new DateTime(2015,1,1,0,0).toString(Entry.FORMAT), subA.getDate());
+		assertEquals(new DateTime(2015,1,1,0,0).toString(DateRange.PARSER_FORMAT), subA.getDate());
 		
 	}
 	
