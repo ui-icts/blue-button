@@ -53,7 +53,7 @@ public class DateRange {
 	@JsonIgnore
 	public Long getStartDateInMillis(){
 		if(this.start != null){
-			return new Long(PARSER_FORMAT.parseLocalDate(this.start).toDateTimeAtStartOfDay().getMillis());
+			return new Long(PARSER_FORMAT.parseDateTime(this.start).withHourOfDay(0).withMinuteOfHour(0).withSecondOfMinute(0).withMillisOfSecond(0).getMillis());
 		}
 		else{return null;}
 	}
@@ -61,7 +61,7 @@ public class DateRange {
 	@JsonIgnore
 	public Long getEndDateInMillis(){
 		if(this.end != null){
-			return new Long(PARSER_FORMAT.parseLocalDate(this.end).toDateTimeAtStartOfDay().getMillis());
+			return new Long(PARSER_FORMAT.parseDateTime(this.end).withHourOfDay(0).withMinuteOfHour(0).withSecondOfMinute(0).withMillisOfSecond(0).getMillis());
 		}
 		else{return null;}
 	}

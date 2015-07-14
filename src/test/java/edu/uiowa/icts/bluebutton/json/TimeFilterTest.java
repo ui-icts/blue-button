@@ -43,7 +43,7 @@ public class TimeFilterTest {
 		list.add(p2);
 		list.add(p3);
 		
-		TimeFilter tf = new TimeFilter(list,1425189600000L,1425448800000L);
+		TimeFilter tf = new TimeFilter(list,1425168000000L,1425448800000L);
 		List<IDateInMillis> jsonList = tf.getFillteredList();
 		assertEquals(2, jsonList.size());	
 	}
@@ -62,7 +62,7 @@ public class TimeFilterTest {
 		list.add(p2);
 		list.add(p3);
 		
-		TimeFilter tf = new TimeFilter(list,1425016800000L,1425189600000L);
+		TimeFilter tf = new TimeFilter(list,1425016800000L,1425168000000L);
 		List<IDateInMillis> jsonList = tf.getFillteredList();
 		assertEquals(2, jsonList.size());	
 	}
@@ -77,7 +77,7 @@ public class TimeFilterTest {
 		list.add(p2);
 		list.add(p3);
 		
-		TimeFilter tf = new TimeFilter(list,1425016800000L,1425189600000L);
+		TimeFilter tf = new TimeFilter(list,1425016800000L,1425168000000L);
 		List<IDateInMillis> jsonList = tf.getFillteredList();
 		assertEquals(3, jsonList.size());	
 	}

@@ -35,7 +35,7 @@ public class EntryTest {
 	public void encountersShouldReturnDateInMillis() {
 		Entry e = new Entry();
 		e.setDate("2013-09-20T00:00:00.000Z");
-		assertEquals(new Long(1379653200000L), e.getDateInMillis());
+		assertEquals(new Long(1379635200000L), e.getDateInMillis());
 	}
 	
 }

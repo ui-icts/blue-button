@@ -288,7 +288,7 @@ public class BlueButtonRecordViewTest  extends AbstractSpringTestCase {
 		
 		//Test timeRange calculator
 		DateMinMaxCalculator timeRanges = bbrv.getTimeRanges();
-		assertEquals(new Long(1401876000000L), timeRanges.getMaxTime());
+		assertEquals(new Long(1401840000000L), timeRanges.getMaxTime());
 		assertEquals(new Long(1175508000000L), timeRanges.getMinTime());
 		
 		//Test allergy meta data 
@@ -411,7 +411,7 @@ public class BlueButtonRecordViewTest  extends AbstractSpringTestCase {
 		
 		Procedure p = pList.get(0);
 		assertEquals("2012-02-17", p.getDisplayDate());
-		assertEquals(new Long(1329480000000L), p.getDateInMillis());
+		assertEquals(new Long(1329436800000L), p.getDateInMillis());
 		List<String> keywords = p.getKeywords();
 		assertEquals("2012-02-17", keywords.get(0));
 		
