@@ -77,21 +77,21 @@ public class LabResultsTest {
 	public void getDateInMillisShouldReturnTimeInMillis() {
 		LabResult l = new LabResult();
 		l.setDate("1952-05-21T05:00:00.000Z");
-		assertEquals(new Long(-555879600000L),l.getDateInMillis());
+		assertEquals(new Long(-555897600000L),l.getDateInMillis());
 	}
 	
 	@Test
 	public void getDateInMillisShouldReturnTimeInMillNegativeNumber() {
 		LabResult l = new LabResult();
 		l.setDate("1989-05-02T05:00:00.000Z");
-		assertEquals(new Long(610088400000L),l.getDateInMillis());
+		assertEquals(new Long(610070400000L),l.getDateInMillis());
 	}
 	
 	@Test
 	public void getDateInMillisShouldReturnTimeInMillOddTimeReturn() {
 		LabResult l = new LabResult();
 		l.setDate("2009-02-11T06:00:00.000Z");
-		assertEquals(new Long(1234332000000L),l.getDateInMillis());
+		assertEquals(new Long(1234310400000L),l.getDateInMillis());
 	}
 	
 	@Test

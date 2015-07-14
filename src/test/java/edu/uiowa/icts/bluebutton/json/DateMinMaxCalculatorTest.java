@@ -68,8 +68,8 @@ public class DateMinMaxCalculatorTest {
 		List<IDateInMillis> eList = new ArrayList<IDateInMillis>();
 		eList.add(e); eList.add(e2); eList.add(e3);
 		DateMinMaxCalculator list =  new DateMinMaxCalculator(eList);
-		assertEquals(new Long(1424325600000L), list.getMaxTime());
-		assertEquals(new Long(1424152800000L), list.getMinTime());
+		assertEquals(new Long(1424304000000L), list.getMaxTime());
+		assertEquals(new Long(1424131200000L), list.getMinTime());
 	}
 	
 	@Test
@@ -84,8 +84,8 @@ public class DateMinMaxCalculatorTest {
 		List<IDateInMillis> eList = new ArrayList<IDateInMillis>();
 		eList.add(e); eList.add(e2); eList.add(e3); eList.add(e4);
 		DateMinMaxCalculator list =  new DateMinMaxCalculator(eList);
-		assertEquals(new Long(1424325600000L), list.getMaxTime());
-		assertEquals(new Long(1424152800000L), list.getMinTime());
+		assertEquals(new Long(1424304000000L), list.getMaxTime());
+		assertEquals(new Long(1424131200000L), list.getMinTime());
 	}
 	
 	@Test
@@ -103,8 +103,8 @@ public class DateMinMaxCalculatorTest {
 		List<IDateInMillis> eList = new ArrayList<IDateInMillis>();
 		eList.add(e); eList.add(e2); eList.add(e3); eList.add(e4);
 		DateMinMaxCalculator list =  new DateMinMaxCalculator(eList);
-		assertEquals(new Long(1424325600000L), list.getMaxTime());
-		assertEquals(new Long(1424152800000L), list.getMinTime());
+		assertEquals(new Long(1424304000000L), list.getMaxTime());
+		assertEquals(new Long(1424131200000L), list.getMinTime());
 	}
 	
 	@Test
@@ -121,8 +121,8 @@ public class DateMinMaxCalculatorTest {
 		List<IDateInMillis> eList = new ArrayList<IDateInMillis>();
 		eList.add(e); eList.add(e2); eList.add(e3); eList.add(e4);
 		DateMinMaxCalculator list =  new DateMinMaxCalculator(eList);
-		assertEquals(new Long(1424325600000L), list.getMaxTime());
-		assertEquals(new Long(1424325600000L), list.getMinTime());
+		assertEquals(new Long(1424304000000L), list.getMaxTime());
+		assertEquals(new Long(1424304000000L), list.getMinTime());
 	}
 	
 	@Test
@@ -139,8 +139,8 @@ public class DateMinMaxCalculatorTest {
 		List<IDateInMillis> eList = new ArrayList<IDateInMillis>();
 		eList.add(e); eList.add(e2); eList.add(e3); eList.add(e4);
 		DateMinMaxCalculator list =  new DateMinMaxCalculator(eList);
-		assertEquals(new Long(1424325600000L), list.getMaxTime());
-		assertEquals(new Long(1424152800000L), list.getMinTime());
+		assertEquals(new Long(1424304000000L), list.getMaxTime());
+		assertEquals(new Long(1424131200000L), list.getMinTime());
 	}
 	@Test
 	public void shouldReturnJSONWithMaxTimeWithEntriesWithOnlyStartDate() {
@@ -150,8 +150,8 @@ public class DateMinMaxCalculatorTest {
 		List<IDateInMillis> eList = new ArrayList<IDateInMillis>();
 		eList.add(e3);
 		DateMinMaxCalculator list =  new DateMinMaxCalculator(eList);
-		assertEquals(new Long(1424325600000L), list.getMaxTime());
-		assertEquals(new Long(1424325600000L), list.getMinTime());
+		assertEquals(new Long(1424304000000L), list.getMaxTime());
+		assertEquals(new Long(1424304000000L), list.getMinTime());
 	}
 	
 	@Test
@@ -162,8 +162,8 @@ public class DateMinMaxCalculatorTest {
 		List<IDateInMillis> eList = new ArrayList<IDateInMillis>();
 		eList.add(e3);
 		DateMinMaxCalculator list =  new DateMinMaxCalculator(eList);
-		assertEquals(new Long(1424325600000L), list.getMaxTime());
-		assertEquals(new Long(1424325600000L), list.getMinTime());
+		assertEquals(new Long(1424304000000L), list.getMaxTime());
+		assertEquals(new Long(1424304000000L), list.getMinTime());
 	}
 	
 	@Test
@@ -179,7 +179,7 @@ public class DateMinMaxCalculatorTest {
 		eList.add(e); eList.add(e2); eList.add(e3); 
 		DateMinMaxCalculator list =  new DateMinMaxCalculator(eList);
 
-		assertEquals(new Long(1424325600000L), list.getMaxTime());
-		assertEquals(new Long(1424152800000L), list.getMinTime());
+		assertEquals(new Long(1424304000000L), list.getMaxTime());
+		assertEquals(new Long(1424131200000L), list.getMinTime());
 	}
 }

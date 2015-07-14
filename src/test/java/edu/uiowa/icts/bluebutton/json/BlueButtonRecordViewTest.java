@@ -107,8 +107,8 @@ public class BlueButtonRecordViewTest  extends AbstractSpringTestCase {
 		bbr.setEncounters(encounters);
 		
 		BlueButtonRecordView bbrv = new BlueButtonRecordView(bbr, new HashMap<String, LoincCode>());
-		assertEquals(new Long(1424325600000L), bbrv.getTimeRanges().getMaxTime());
-		assertEquals(new Long(1424152800000L), bbrv.getTimeRanges().getMinTime());
+		assertEquals(new Long(1424304000000L), bbrv.getTimeRanges().getMaxTime());
+		assertEquals(new Long(1424131200000L), bbrv.getTimeRanges().getMinTime());
 	}
 	
 	
@@ -134,8 +134,8 @@ public class BlueButtonRecordViewTest  extends AbstractSpringTestCase {
 		
 		//Test timeRange calculator
 		DateMinMaxCalculator dateRange = bbrv.getTimeRanges();
-		assertEquals(new Long(1291377600000L), dateRange.getMaxTime());
-		assertEquals(new Long(1266062400000L), dateRange.getMinTime());
+		assertEquals(new Long(1291334400000L), dateRange.getMaxTime());
+		assertEquals(new Long(1266019200000L), dateRange.getMinTime());
 		
 		/*
 		 * test lab results grid, all of these have LOINC codes!		
@@ -149,7 +149,7 @@ public class BlueButtonRecordViewTest  extends AbstractSpringTestCase {
 		assertEquals(new String("BMI"), vList.get(0).getName());
 		assertEquals(new Double(16.9),  vList.get(0).getValue());
 		assertEquals("16.9kg/m2",  vList.get(0).getDisplayValue());
-		assertEquals(new Long("1291377600000"),  vList.get(0).getDateInMillis());
+		assertEquals(new Long("1291334400000"),  vList.get(0).getDateInMillis());
 		assertEquals("2010-12-03",vList.get(0).getDate());
 		assertEquals("39156-5",vList.get(0).getLoincCode());
 		assertNotNull(vList.get(0).getSubGrid());
@@ -167,7 +167,7 @@ public class BlueButtonRecordViewTest  extends AbstractSpringTestCase {
 		assertEquals("BP Diastolic", vr.getName());
 		assertEquals(new Double(56), vr.getValue());
 		assertEquals("56mm[Hg]", vr.getDisplayValue());
-		assertEquals(new Long("1283853600000"), vr.getDateInMillis());
+		assertEquals(new Long("1283817600000"), vr.getDateInMillis());
 		assertEquals("2010-09-07", vr.getDate());
 		assertEquals("8462-4", vr.getLoincCode());
 		assertNotNull(vr.getSubGrid());
@@ -177,7 +177,7 @@ public class BlueButtonRecordViewTest  extends AbstractSpringTestCase {
 		assertEquals("BP Systolic", vr2.getName());
 		assertEquals(new Double(98), vr2.getValue());
 		assertEquals("98mm[Hg]", vr2.getDisplayValue());
-		assertEquals(new Long("1283853600000"), vr2.getDateInMillis());
+		assertEquals(new Long("1283817600000"), vr2.getDateInMillis());
 		assertEquals("2010-09-07", vr2.getDate());
 		assertEquals("8480-6",vr2.getLoincCode());
 		assertNotNull(vr2.getSubGrid());
@@ -289,7 +289,7 @@ public class BlueButtonRecordViewTest  extends AbstractSpringTestCase {
 		//Test timeRange calculator
 		DateMinMaxCalculator timeRanges = bbrv.getTimeRanges();
 		assertEquals(new Long(1401840000000L), timeRanges.getMaxTime());
-		assertEquals(new Long(1175508000000L), timeRanges.getMinTime());
+		assertEquals(new Long(1175472000000L), timeRanges.getMinTime());
 		
 		//Test allergy meta data 
 		MetaData metaData =bbrv.getMetaData();
@@ -417,11 +417,11 @@ public class BlueButtonRecordViewTest  extends AbstractSpringTestCase {
 		
 		p = pList.get(1);
 		assertEquals("2012-02-16", p.getDisplayDate());
-		assertEquals(new Long(1329393600000L), p.getDateInMillis());
+		assertEquals(new Long(1329350400000L), p.getDateInMillis());
 		
 		p = pList.get(2);
 		assertEquals("2011-08-10", p.getDisplayDate());
-		assertEquals(new Long(1312970400000L), p.getDateInMillis());
+		assertEquals(new Long(1312934400000L), p.getDateInMillis());
 		assertEquals("ECG IMPRESSION",p.getName());
 		
 		Demographics demo = bbrv.getDemographics();
