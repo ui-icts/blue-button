@@ -22,7 +22,7 @@ To access the application run:
 Start Browser, and go to [http://localhost:8080/](http://localhost:8080/):
 
 ## Load Supplemental Data
-### Lab Result Name Synonyms
+### Lab Result Name Synonyms provided by J. Stacey Klutts, MD, PhD
 Lab result synonyms are loaded by liquibase with the aforementioned: mvn -p BuildDatabase 
 
 ### Loinc Code Categories
