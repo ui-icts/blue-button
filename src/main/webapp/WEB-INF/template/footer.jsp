@@ -48,7 +48,7 @@
 		</ul>
 		<a target="_blank" title="link opens in new tab/window" href="http://www.icts.uiowa.edu/">Institute for Clinical and Translational Science</a> | <a target="_blank" title="link opens in new tab/window" href="http://www.uiowa.edu">University of Iowa</a>
 		<br /> 
-		Supported in part by NIH grant U54 TR001013
+		Supported in part by NIH grant U54 TR001356
 	</div>
 </nav>
 
