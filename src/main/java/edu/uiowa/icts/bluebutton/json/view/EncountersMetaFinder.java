@@ -23,8 +23,11 @@ package edu.uiowa.icts.bluebutton.json.view;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.TreeSet;
+
 import org.apache.commons.lang.StringUtils;
 import org.joda.time.DateTime;
+
 import edu.uiowa.icts.bluebutton.json.Encounter;
 public class EncountersMetaFinder {
 
@@ -46,7 +49,7 @@ public class EncountersMetaFinder {
 	}
 
 	public String getOrganizations() {
-		Set<String> orgSet = new HashSet<String>();
+		TreeSet<String> orgSet = new TreeSet<String>();
 		for(Encounter e : this.list){
 			if(e.getLocation() != null && e.getLocation().getOrganization() != null){
 				orgSet.add(e.getLocation().getOrganization());

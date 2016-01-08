@@ -116,7 +116,7 @@ public class EncountersMetaFinderTest {
 		e2.setLocation(l2);
 		list.add(e2);
 		EncountersMetaFinder emf = new EncountersMetaFinder(list);
-		assertEquals("Provider's Office, Provider Office", emf.getOrganizations());
+		assertEquals("Provider Office, Provider's Office", emf.getOrganizations());
 	}
 	
 	@Test
